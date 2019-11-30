@@ -1,3 +1,4 @@
+/* Custom CSS was */
 
 /* Custom Status Fix */
 .theme-dark .root-1gCeng, .theme-dark .footer-3rDWdC {
@@ -254,4 +255,44 @@
 }
 .scroller-zPkAnE {
     background-color: transparent;
+}
+
+/* Switches */
+.themeDefault-24hCdX {
+    background-color: rgba(255,255,255,0.3);
+}
+.themeDefault-24hCdX.valueChecked-m-4IJZ {
+    background-color: var(--main-color) !important;
+}
+
+/* Checkboxes */
+.item-26Dhrx[style*="background-color"] {
+    background-color: var(--main-color) !important;
+    border-color: var(--main-color) !important;
+}
+.theme-dark .checked-3_4uQ9[style*="border-color"] {
+    border-color: var(--main-color) !important;
+}
+
+/* Overlay */
+.selected-mKYnfr.option-n0icdO {
+    background-color: var(--main-color);
+    border-color: var(--main-color);
+}
+.option-n0icdO:hover {
+    background-color: var(--hover-color);
+}
+.wrapper-3jrx9n {
+    border: 2px solid var(--main-color);
+}
+.userPopout-3XzG_A .headerSpotify-zpWxgT .content-3JfFJh a {
+    color: hsla(0,0%,100%,.8);
+}
+
+/* Set status offline menu */
+.statusItem-2uzPIV:nth-child(5):hover .statusIconText-3b4TkH > div {
+    display: none;
+}
+.menu-Sp6bN1 .statusItem-2uzPIV:nth-child(5):hover {
+    background: var(--offline-color);
 }

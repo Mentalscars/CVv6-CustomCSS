@@ -1,0 +1,257 @@
+
+/* Custom Status Fix */
+.theme-dark .root-1gCeng, .theme-dark .footer-3rDWdC {
+    background: rgba(0,0,0,0.3);
+}
+.input-cIJ7To:focus, .theme-dark .lookFilled-1h1y05.select-1Pkeg4:hover.selectOpen-hQuR6b, .theme-dark .lookFilled-1h1y05.selectOpen-hQuR6b {
+	border-color: var(--main-color);
+}
+.theme-dark .lookFilled-1h1y05.select-1Pkeg4:focus {
+	border-color: transparent;
+}
+
+/* Create DM button color */
+.clickable-3rdHwn .icon-22AiRD {
+    color: var(--main-color);
+    transition: all .3s ease-in-out;
+}
+.clickable-3rdHwn:hover .icon-22AiRD {
+    color: var(--hover-color);
+    transition: all .3s ease-in-out;
+}
+
+/* Emoji Box */
+.emojiPicker-3m1S-j .categories-1feg4n {
+  background-color: rgba(0,0,0,0.3);
+}
+.infoBar-U6oBFk {
+  background-color: transparent;
+}
+.embedFull-2tM8-- {
+    border-left: 4px solid var(--main-color);
+    background: var(--background-overlay);
+}
+
+/* Reaction Color fix */
+.reaction-1ELvT8.reactionMe-23mbRf {
+    background-color: var(--main-color);
+}
+.reactionMe-23mbRf .reactionCount-2ddRoS {
+    color: rgba(255,255,255,0.5);
+}
+.reactionMe-23mbRf:hover .reactionCount-2ddRoS {
+    color: rgb(255,255,255);
+}
+
+/* Pinned Messages */
+.theme-dark .messagesPopoutWrap-1MQ1bW {
+    background-color: rgba(0,0,0,0.6);
+    border-color: var(--main-color);
+}
+.theme-dark .header-ykumBX, .theme-dark .messagesPopout-24nkyi, .theme-dark .messageGroupWrapper-o-Zw7G {
+    background-color: rgba(0,0,0,0.6);
+    border-color: rgba(255,255,255,0.1);
+}
+.theme-dark .messageGroupWrapper-o-Zw7G:hover {
+    border-color: var(--main-color);
+}
+.theme-dark .messageGroupWrapper-o-Zw7G:hover .actionButtons-1sUUug {
+    box-shadow: none;
+    background-color: transparent;
+}
+.theme-dark .jumpButton-3DTcS_ {
+    background-color: var(--main-color);
+}
+
+/* Game Activity */
+.theme-dark .notDetected-33MY4s {
+    background-color: rgba(0,0,0,0.4);
+}
+.lookLink-9FtZy-.colorLink-35jkBc {
+    color: var(--main-color);
+}
+.lookLink-9FtZy-.colorLink-35jkBc:hover .contents-18-Yxp {
+    background-image: linear-gradient(0deg,transparent,transparent 1px,var(--main-color) 0,var(--main-color) 2px,transparent 0);
+}
+.theme-dark .addGamePopout-2RY8Ju, .css-181m2lf-menu {
+    background-color: rgba(0,0,0,0.8);
+}
+.theme-dark .css-181m2lf-menu > div > div:hover {
+    background-color: var(--hover-color);
+}
+.theme-dark .button-2CgfFz, .theme-dark .button-2CgfFz:hover, .theme-dark .card-FDVird:before { /* also affects game activity list */
+    border: 0.1em solid var(--main-color);
+    background-color: var(--background-overlay);
+}
+
+/* Verified game tick */
+.flowerStarContainer-3zDVtj > svg > path {
+    fill: var(--main-color);
+}
+
+/* Message Deletion */
+.theme-dark .message-2qRu38{
+    background-color: rgba(0,0,0,0.6);
+    border: 0.1em solid var(--main-color);
+}
+
+/* Custom Color Picker */
+.theme-dark .colorPickerCustom-2CWBn2 {
+    background-color: rgba(0,0,0,0.6);
+    border: 0.1em solid var(--main-color);
+}
+
+/* Region Selector */
+.theme-dark .regionSelectModal-12e-57, .theme-dark .regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3 {
+    background-color: rgba(0,0,0,0.6);
+    border: 0.1em solid var(--main-color);
+}
+.regionSelectModal-12e-57 {
+    width: 704px;
+}
+
+/* Nitro Gift Box Thing */
+.table-39R0Oe {
+    background-color: rgba(0,0,0,0.6);
+    border: 0.1em solid var(--main-color);
+}
+
+/* Upload Modal*/
+.theme-dark .uploadModal-2ifh8j, .inner-zqa7da{
+    background-color: rgba(0,0,0,0.6);
+    border: 0.1em solid var(--main-color);
+}
+.theme-dark .footer-3mqk7D {
+    background-color: rgba(0,0,0,0.6);
+}
+
+/* Test video */
+.theme-dark .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC {
+    background-color: rgba(255,255,255,0.01);
+    border: 0.1em solid var(--main-color);
+}
+.userSettingsVoice-iwdUCU .media-engine-video {
+    background-color: transparent;
+}
+
+/* Test Audio */
+.container-3PXSwK, .userSettingsVoice-iwdUCU .sliderBar-3DezvM.speaking-2bFhO4 {
+    background: var(--main-color) !important;
+}
+.theme-dark .progress-1IcQ3A {
+    background-color: rgba(0,0,0,0.5);
+}
+.notches-1sAcEM {
+    display: none;
+}
+
+/* Billing page */
+.theme-dark .paymentPane-3bwJ6A, .theme-dark .paginator-166-09, .theme-dark .hoverablePayment-Yc6mK7.payment-xT17Mq {
+    background-color: transparent !important;
+    border: none
+}
+.theme-dark .bottomDivider-1K9Gao {
+    border-bottom: 0.05em solid var(--main-color) !important;
+}
+.theme-dark .hoverablePayment-Yc6mK7:hover, .theme-dark .expandedInfo-3kfShd, .theme-dark .payment-xT17Mq, .theme-dark .codeRedemptionRedirect-1wVR4b {
+    background-color: rgba(0,0,0,0.6) !important;
+    border: 0.1em solid var(--main-color);
+}
+
+/* Gift Inventory */
+.scroller-5bBood, .theme-dark .card-7JP0BX{
+    background: transparent;
+}
+.theme-dark .header-1RC2Wb {
+    background-color: rgba(0,0,0,0.4);
+    border: 0.1em solid var(--main-color);
+}
+
+/* Subscriptions page*/
+.detailsBlock-FoDTGA {
+    background-color: rgba(0,0,0,0.4);
+}
+.theme-dark .tier1Banner-1B_WXY {
+    background-image: none;
+    background-color: rgba(0,0,0,0.4);
+}
+
+/* Server Boost - Menu Dropdown */
+.theme-dark .perksModal-fSYqOq, .theme-dark .tierMarkerBackground-3q29am{
+    background-color: transparent;
+}
+.theme-dark .ctaBar-2UsjF2, .theme-dark .perk-2WeBWW, .theme-dark .tierBody-16Chc9, .theme-dark .tierHeaderLocked-1s2JJz, .theme-dark .barBackground-2EEiLw {
+    background-color: rgba(0,0,0,0.7);
+}
+.tierMarker-5HkGJ_[style*="linear-gradient(to right, rgb(32, 34, 37), rgb(32, 34, 37));"] {
+    background: rgba(0,0,0,0.7) !important;
+}
+.theme-dark .barForeground-3KglC8 {
+    background-color: var(--main-color);
+}
+
+/* Server Boost - Server Settings*/
+.theme-dark .tierHeaderLocked-1a2opw, .theme-dark .background-3xPPFc {
+    background-color: rgba(0,0,0,0.6);
+}
+.theme-dark .tierBody-x9kBBp {
+    background-color: rgba(0,0,0,0.4);
+}
+.theme-dark .foreground-2EIns2 {
+    color: rgba(244,127,255,0.9);
+}
+.theme-dark .tierInProgress-3mBoXq {
+    background-color: rgba(0,0,0,0.6);
+    border: 0.1em solid rgb(244,127,255);
+}
+
+/* Server Boost - User Settings*/
+.guildHeader-3nh5RK, .subscribeTooltipWrapper-32-Ce8, .container-1gR2ZK {
+    background-color: rgba(0,0,0,0.6);
+}
+.guildSubscriptionSlots-JPXXvN {
+    background-color: rgba(0,0,0,0.4);
+}
+.cardWrapper-2Min21 {
+    background: rgba(0,0,0,0.6);
+}
+.subscribeTooltipWrapper-32-Ce8:after {
+    border-bottom-color: rgba(0,0,0,0.6);
+}
+
+/* Keybinds Menu */
+.theme-dark .keyboardShortcutsModal-3piNz7 {
+    background-color: rgba(0,0,0,0.6);
+}
+
+/* New Server Modal */
+.theme-light .wrapper-2ZbzR9 {
+    background: transparent;
+}
+.avatarUploaderInner-3UNxY3 {
+    background-color: var(--main-color);
+}
+.theme-light .sampleLink-KPFu3I, .regionSelect-3lf4eE button {
+    color: var(--main-color);
+}
+.theme-dark .regionSelect-3lf4eE:hover .regionSelectInner-24f4Ce {
+    border-color: var(--main-color);
+}
+.theme-dark .regionSelect-3lf4eE:hover button {
+    background-color: var(--main-color);
+    border-color: var(--main-color);
+}
+.appMount-3lHmkl .modal-yWgWj-, .theme-dark .theme-light .slide-2pHaq5, .theme-dark .theme-light .action-1lSjCi, .theme-dark .theme-light .footer-3rDWdC {
+    background: rgba(0,0,0,0.6);
+}
+
+/* Quickswitcher */
+.quickswitcher-3JagVE{
+    background-color: rgba(0,0,0,0.6);
+}
+.input-2VB9rf { 
+    background-color: rgba(255,255,255,0.08);
+}
+.scroller-zPkAnE {
+    background-color: transparent;
+}

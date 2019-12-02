@@ -1,8 +1,23 @@
-/* Custom CSS was */
+/* The following CSS was made in part by Leozard, LeafyLuigi*/
 
-/* Custom Status Fix */
+/* Server dropdown menu server boost */
+.theme-dark .perksModal-fSYqOq, .theme-dark .tierMarkerBackground-3q29am{
+    background-color: transparent;
+}
+.theme-dark .ctaBar-2UsjF2, .theme-dark .perk-2WeBWW, .theme-dark .tierBody-16Chc9, .theme-dark .tierHeaderLocked-1s2JJz, .theme-dark .barBackground-2EEiLw {
+    background-color: var(--backdrop-overlay);
+}
+.tierMarker-5HkGJ_[style*="linear-gradient(to right, rgb(32, 34, 37), rgb(32, 34, 37));"] {
+    background: var(--backdrop-overlay) !important;
+}
+.theme-dark .barForeground-3KglC8 {
+    background-color: var(--main-color);
+}
+
+/* Custom Status */
 .theme-dark .root-1gCeng, .theme-dark .footer-3rDWdC {
-    background: rgba(0,0,0,0.3);
+    background: var(--background-overlay);
+    border: 0.1em solid var(--main-color);
 }
 .input-cIJ7To:focus, .theme-dark .lookFilled-1h1y05.select-1Pkeg4:hover.selectOpen-hQuR6b, .theme-dark .lookFilled-1h1y05.selectOpen-hQuR6b {
 	border-color: var(--main-color);
@@ -23,7 +38,7 @@
 
 /* Emoji Box */
 .emojiPicker-3m1S-j .categories-1feg4n {
-  background-color: rgba(0,0,0,0.3);
+  background-color: var(--background-overlay);
 }
 .infoBar-U6oBFk {
   background-color: transparent;
@@ -46,11 +61,11 @@
 
 /* Pinned Messages */
 .theme-dark .messagesPopoutWrap-1MQ1bW {
-    background-color: rgba(0,0,0,0.6);
+    background-color: var(--background-overlay);
     border-color: var(--main-color);
 }
 .theme-dark .header-ykumBX, .theme-dark .messagesPopout-24nkyi, .theme-dark .messageGroupWrapper-o-Zw7G {
-    background-color: rgba(0,0,0,0.6);
+    background-color: var(--background-overlay);
     border-color: rgba(255,255,255,0.1);
 }
 .theme-dark .messageGroupWrapper-o-Zw7G:hover {
@@ -64,9 +79,9 @@
     background-color: var(--main-color);
 }
 
-/* Game Activity */
+/* Game activity */
 .theme-dark .notDetected-33MY4s {
-    background-color: rgba(0,0,0,0.4);
+    background-color: var(--background-overlay);
 }
 .lookLink-9FtZy-.colorLink-35jkBc {
     color: var(--main-color);
@@ -75,7 +90,7 @@
     background-image: linear-gradient(0deg,transparent,transparent 1px,var(--main-color) 0,var(--main-color) 2px,transparent 0);
 }
 .theme-dark .addGamePopout-2RY8Ju, .css-181m2lf-menu {
-    background-color: rgba(0,0,0,0.8);
+    background-color: var(--backdrop-overlay);
 }
 .theme-dark .css-181m2lf-menu > div > div:hover {
     background-color: var(--hover-color);
@@ -92,38 +107,53 @@
 
 /* Message Deletion */
 .theme-dark .message-2qRu38{
-    background-color: rgba(0,0,0,0.6);
+    background-color: var(--background-overlay);
     border: 0.1em solid var(--main-color);
 }
 
 /* Custom Color Picker */
 .theme-dark .colorPickerCustom-2CWBn2 {
-    background-color: rgba(0,0,0,0.6);
+    background-color: var(--background-overlay);
     border: 0.1em solid var(--main-color);
 }
 
 /* Region Selector */
 .theme-dark .regionSelectModal-12e-57, .theme-dark .regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3 {
-    background-color: rgba(0,0,0,0.6);
+    background-color: var(--background-overlay);
     border: 0.1em solid var(--main-color);
 }
 .regionSelectModal-12e-57 {
     width: 704px;
 }
 
-/* Nitro Gift Box Thing */
+/* Nitro Gift box thing */
 .table-39R0Oe {
-    background-color: rgba(0,0,0,0.6);
+    background-color: var(--background-overlay);
     border: 0.1em solid var(--main-color);
 }
 
 /* Upload Modal*/
 .theme-dark .uploadModal-2ifh8j, .inner-zqa7da{
-    background-color: rgba(0,0,0,0.6);
+    background-color: var(--background-overlay);
     border: 0.1em solid var(--main-color);
 }
 .theme-dark .footer-3mqk7D {
-    background-color: rgba(0,0,0,0.6);
+    background-color: var(--background-overlay);
+}
+
+/* Server Boost in Server Settings*/
+.theme-dark .tierHeaderLocked-1a2opw, .theme-dark .background-3xPPFc {
+    background-color: var(--background-overlay);
+}
+.theme-dark .tierBody-x9kBBp {
+    background-color: var(--background-overlay);
+}
+.theme-dark .foreground-2EIns2 {
+    color: rgba(244,127,255,0.9);
+}
+.theme-dark .tierInProgress-3mBoXq {
+    background-color: var(--background-overlay);
+    border: 0.1em solid rgb(244,127,255);
 }
 
 /* Test video */
@@ -140,7 +170,7 @@
     background: var(--main-color) !important;
 }
 .theme-dark .progress-1IcQ3A {
-    background-color: rgba(0,0,0,0.5);
+    background-color: var(--background-overlay);
 }
 .notches-1sAcEM {
     display: none;
@@ -155,7 +185,7 @@
     border-bottom: 0.05em solid var(--main-color) !important;
 }
 .theme-dark .hoverablePayment-Yc6mK7:hover, .theme-dark .expandedInfo-3kfShd, .theme-dark .payment-xT17Mq, .theme-dark .codeRedemptionRedirect-1wVR4b {
-    background-color: rgba(0,0,0,0.6) !important;
+    background-color: var(--background-overlay) !important;
     border: 0.1em solid var(--main-color);
 }
 
@@ -164,65 +194,36 @@
     background: transparent;
 }
 .theme-dark .header-1RC2Wb {
-    background-color: rgba(0,0,0,0.4);
+    background-color: var(--background-overlay);
     border: 0.1em solid var(--main-color);
 }
 
 /* Subscriptions page*/
 .detailsBlock-FoDTGA {
-    background-color: rgba(0,0,0,0.4);
+    background-color: var(--background-overlay);
 }
 .theme-dark .tier1Banner-1B_WXY {
     background-image: none;
-    background-color: rgba(0,0,0,0.4);
+    background-color: var(--background-overlay);
 }
 
-/* Server Boost - Menu Dropdown */
-.theme-dark .perksModal-fSYqOq, .theme-dark .tierMarkerBackground-3q29am{
-    background-color: transparent;
-}
-.theme-dark .ctaBar-2UsjF2, .theme-dark .perk-2WeBWW, .theme-dark .tierBody-16Chc9, .theme-dark .tierHeaderLocked-1s2JJz, .theme-dark .barBackground-2EEiLw {
-    background-color: rgba(0,0,0,0.7);
-}
-.tierMarker-5HkGJ_[style*="linear-gradient(to right, rgb(32, 34, 37), rgb(32, 34, 37));"] {
-    background: rgba(0,0,0,0.7) !important;
-}
-.theme-dark .barForeground-3KglC8 {
-    background-color: var(--main-color);
-}
-
-/* Server Boost - Server Settings*/
-.theme-dark .tierHeaderLocked-1a2opw, .theme-dark .background-3xPPFc {
-    background-color: rgba(0,0,0,0.6);
-}
-.theme-dark .tierBody-x9kBBp {
-    background-color: rgba(0,0,0,0.4);
-}
-.theme-dark .foreground-2EIns2 {
-    color: rgba(244,127,255,0.9);
-}
-.theme-dark .tierInProgress-3mBoXq {
-    background-color: rgba(0,0,0,0.6);
-    border: 0.1em solid rgb(244,127,255);
-}
-
-/* Server Boost - User Settings*/
+/* Server Boost in User Settings*/
 .guildHeader-3nh5RK, .subscribeTooltipWrapper-32-Ce8, .container-1gR2ZK {
-    background-color: rgba(0,0,0,0.6);
+    background-color: var(--background-overlay);
 }
 .guildSubscriptionSlots-JPXXvN {
-    background-color: rgba(0,0,0,0.4);
+    background-color: var(--background-overlay);
 }
 .cardWrapper-2Min21 {
-    background: rgba(0,0,0,0.6);
+    background: var(--background-overlay);
 }
 .subscribeTooltipWrapper-32-Ce8:after {
-    border-bottom-color: rgba(0,0,0,0.6);
+    border-bottom-color: var(--background-overlay);
 }
 
-/* Keybinds Menu */
+/* Keybinds menu */
 .theme-dark .keyboardShortcutsModal-3piNz7 {
-    background-color: rgba(0,0,0,0.6);
+    background-color: var(--background-overlay);
 }
 
 /* New Server Modal */
@@ -243,12 +244,12 @@
     border-color: var(--main-color);
 }
 .appMount-3lHmkl .modal-yWgWj-, .theme-dark .theme-light .slide-2pHaq5, .theme-dark .theme-light .action-1lSjCi, .theme-dark .theme-light .footer-3rDWdC {
-    background: rgba(0,0,0,0.6);
+    background: var(--background-overlay);
 }
 
 /* Quickswitcher */
 .quickswitcher-3JagVE{
-    background-color: rgba(0,0,0,0.6);
+    background-color: var(--background-overlay);
 }
 .input-2VB9rf { 
     background-color: rgba(255,255,255,0.08);
@@ -295,4 +296,37 @@
 }
 .menu-Sp6bN1 .statusItem-2uzPIV:nth-child(5):hover {
     background: var(--offline-color);
+}
+
+/* Notifications Settings */
+.theme-dark .override-2YgiXd .checked-3_4uQ9[style*="border-color"] {
+    background-color: transparent !important;
+}
+.theme-dark .override-2YgiXd:hover {
+    border-color: var(--main-color);
+}
+
+/* Screenshare Modal */
+.theme-dark .tiles-2aXG_k {
+    background-color: var(--background-overlay);
+}
+.selectorButtonSelected-1j4DmC {
+    background-color: var(--main-color);
+}
+.appMount-3lHmkl .modal-yWgWj-, .imageSelected-4Kl81J {
+    border: 2px solid var(--main-color);
+}
+
+/* Invite Modal */
+.container-2XeR5Z {
+    background-color: var(--background-overlay);
+}
+.inviteRow-2L02ae:hover {
+    background-color: rgba(255,255,255,0.4);
+}
+
+/* Easter Egg */
+.regionSelectModalOption-2DSIZ3:nth-child(9) .regionSelectFlag-3uwFtG:hover {
+    -webkit-animation: cv-spin 19.01s linear infinite;
+    animation: cv-spin 19.01s linear infinite;
 }

@@ -1,0 +1,37 @@
+/* Cosmetic things. These are not as useful*/
+/* Hide all blocked messages*/
+.da-messageGroupBlocked {
+    display: none;
+}
+
+/* Gets rid of both Server Discovery and Add Server Button*/
+.circleButtonMask-2VNJsN .wrapper-25eVIn, .pill-3YxEhL .wrapper-sa6paO .da-pill .da-wrapper {
+    display: none;
+}
+
+/* Remove Call and Video Call buttons */
+.container-3gCOGc .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9:nth-child(1), .container-3gCOGc .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9:nth-child(2){
+    display: none;
+}
+
+/* Remove "Library" and "Store" */
+.channel-2QD9_O[href="/library"], .channel-2QD9_O[href="/store"] {
+    display: none;
+}
+
+/* Remove gradient from Spotify/Streaming/Xbox */
+.userPopout-3XzG_A .header-2BwW8b, .root-SR8cQa>.topSectionSpotify-1lI0-P, .root-SR8cQa>.topSectionStreaming-1Tpf5X, .root-SR8cQa>.topSectionXbox-3fWLjS{
+    background-size: cover, 0 !important;
+}
+
+/* Spinning add reactions button */
+.container-1YxwTf .reactionBtn-2na4rd:hover {
+    -webkit-animation: cv-spin 2.5s linear infinite;
+    animation: cv-spin 2.5s linear infinite;
+}
+
+/* Easter Egg */
+.regionSelectModalOption-2DSIZ3:nth-child(9) .regionSelectFlag-3uwFtG:hover {
+    -webkit-animation: cv-spin 19.01s linear infinite;
+    animation: cv-spin 19.01s linear infinite;
+}

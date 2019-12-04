@@ -328,17 +328,11 @@
 }
 
 /* Reactions List  */
-.theme-dark .reactors-Blmlhw {
-    background-color: var(--background-overlay);
-}
-.theme-dark .sidebar-1-SQro {
-    background-color: var(--backdrop-overlay);
+.theme-dark .reactors-Blmlhw , .theme-dark .sidebar-1-SQro {
+    background-color: transparent;
 }
 .theme-dark .reactionSelected-1pqISm {
-    background-color: var(--main-color);
-}
-.theme-dark .reactionSelected-1pqISm:hover{
-    background-color: var(--hover-color);
+    background-color: var(--main-color)
 }
 
 /* Easter Egg */

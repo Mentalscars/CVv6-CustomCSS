@@ -327,6 +327,20 @@
     background-color: rgba(255,255,255,0.4);
 }
 
+/* Reactions List  */
+.theme-dark .reactors-Blmlhw {
+    background-color: var(--background-overlay);
+}
+.theme-dark .sidebar-1-SQro {
+    background-color: var(--backdrop-overlay);
+}
+.theme-dark .reactionSelected-1pqISm {
+    background-color: var(--main-color);
+}
+.theme-dark .reactionSelected-1pqISm:hover{
+    background-color: var(--hover-color);
+}
+
 /* Easter Egg */
 .regionSelectModalOption-2DSIZ3:nth-child(9) .regionSelectFlag-3uwFtG:hover {
     -webkit-animation: cv-spin 19.01s linear infinite;

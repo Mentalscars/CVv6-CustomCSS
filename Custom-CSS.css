@@ -335,6 +335,15 @@
     background-color: var(--main-color)
 }
 
+/* Invite from web browser modal */
+.theme-dark .contentWrapper-3WC1ID {
+    background: transparent;
+    background-color: var(--background-overlay)
+}
+.pill-1dHPfk {
+    background-color: transparent;
+}
+
 /* Easter Egg */
 .regionSelectModalOption-2DSIZ3:nth-child(9) .regionSelectFlag-3uwFtG:hover {
     -webkit-animation: cv-spin 19.01s linear infinite;

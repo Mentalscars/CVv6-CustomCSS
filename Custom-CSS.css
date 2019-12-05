@@ -344,11 +344,16 @@ Hovering in Server Boost Selection in User Settings
 
 /* Invite from web browser modal */
 .theme-dark .contentWrapper-3WC1ID {
-    background: transparent;
-    background-color: var(--background-overlay)
+    background: var(--background-overlay)
 }
 .pill-1dHPfk {
     background-color: transparent;
+}
+.lookLink-9FtZy-.colorBrand-3pXr91{
+    color: var(--main-color);
+}
+.lookLink-9FtZy-.colorBrand-3pXr91:hover .contents-18-Yxp {
+    background-image: linear-gradient(0deg,transparent,transparent 1px,var(--main-color) 0,var(--main-color) 2px,transparent 0);
 }
 
 /* Easter Egg */

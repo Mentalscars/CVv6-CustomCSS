@@ -1,5 +1,12 @@
 /* The following CSS was made in part by Leozard, LeafyLuigi*/
 
+/*
+Things unable to be done (for now):
+Channel and Mention list background in Upload Modal
+Hovering in Server Boost Selection in User Settings
+*/
+
+
 /* Server dropdown menu server boost */
 .theme-dark .perksModal-fSYqOq, .theme-dark .tierMarkerBackground-3q29am{
     background-color: transparent;

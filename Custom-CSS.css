@@ -4,6 +4,8 @@
 Things unable to be done (for now):
 Channel and Mention list background in Upload Modal
 Hovering in Server Boost Selection in User Settings
+Hovering over someone who is currently live modal; background
+Popout Live modal; might not be supported by BBD yet
 */
 
 
@@ -322,8 +324,14 @@ Hovering in Server Boost Selection in User Settings
 .selectorButtonSelected-1j4DmC {
     background-color: var(--main-color);
 }
-.appMount-3lHmkl .modal-yWgWj-, .imageSelected-4Kl81J {
+.inner-1ilYF7, .imageSelected-4Kl81J {
     border: 2px solid var(--main-color);
+}
+.callAvatarBorder-uWp8Ga.video-3SrWSI.selected-2tLJQ6.notSpeaking-a3bIkW.notSoundsharing-2sYlLk {
+    box-shadow: inset 0 0 0 2px var(--main-color);
+}
+.callAvatarBorder-uWp8Ga.video-3SrWSI.selected-2tLJQ6.notSpeaking-a3bIkW.notSoundsharing-2sYlLk:hover   {
+    box-shadow: inset 0 0 0 2px var(--hover-color);
 }
 
 /* Invite Modal */
@@ -332,6 +340,9 @@ Hovering in Server Boost Selection in User Settings
 }
 .inviteRow-2L02ae:hover {
     background-color: rgba(255,255,255,0.4);
+}
+.theme-dark .header-3ZP1MY, .theme-light .header-3ZP1MY {
+    color: var(--main-color);
 }
 
 /* Reactions List  */

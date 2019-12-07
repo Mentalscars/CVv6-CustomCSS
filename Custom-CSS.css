@@ -136,6 +136,9 @@ Popout Live modal; might not be supported by BBD yet
 .regionSelectModal-12e-57 {
     width: 704px;
 }
+.regionSelectModal-12e-57 .regionSelectModalHeader-21khC1 {
+    color: var(--main-color);
+}
 
 /* Nitro Gift box thing */
 .table-39R0Oe {
@@ -324,7 +327,7 @@ Popout Live modal; might not be supported by BBD yet
 .selectorButtonSelected-1j4DmC {
     background-color: var(--main-color);
 }
-.inner-1ilYF7, .imageSelected-4Kl81J {
+.content-1_NQ-_, .imageSelected-4Kl81J {
     border: 2px solid var(--main-color);
 }
 .callAvatarBorder-uWp8Ga.video-3SrWSI.selected-2tLJQ6.notSpeaking-a3bIkW.notSoundsharing-2sYlLk {
@@ -340,6 +343,9 @@ Popout Live modal; might not be supported by BBD yet
 }
 .inviteRow-2L02ae:hover {
     background-color: rgba(255,255,255,0.4);
+}
+.theme-dark .slideBody-2nMrnU, .theme-light .slideBody-2nMrnU, .slideBody-35BNbg {
+   border: 2px solid var(--main-color);
 }
 .theme-dark .header-3ZP1MY, .theme-light .header-3ZP1MY {
     color: var(--main-color);

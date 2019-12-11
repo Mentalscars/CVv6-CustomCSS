@@ -365,8 +365,12 @@ To use this, put the following line at the top of your custom CSS:
     overflow-y: hidden;
 	border: 2px solid transparent;
 }
+.chat-3bRxxu .channelTextArea-rNsIhG {
+	margin-top: 20px
+}
 .scrollableContainer-38zsVD:focus-within {
 	border: 2px solid var(--main-color);
+	transition: all .15s ease-in-out;
 }
 .webkit-26NYEN .buttons-205you {
     border: none;

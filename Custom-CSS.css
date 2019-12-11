@@ -9,7 +9,6 @@ Popout Live modal; might not be supported by BBD yet
 Spotify invite modal; LL doesn't use Spotify. LEO PLZ FIX
 */
 
-
 /* Server dropdown menu server boost */
 .theme-dark .perksModal-fSYqOq, .theme-dark .tierMarkerBackground-3q29am{
     background-color: transparent;
@@ -385,11 +384,15 @@ Spotify invite modal; LL doesn't use Spotify. LEO PLZ FIX
     margin-right: -6px;
 }
 .webkit-26NYEN .buttons-205you {
-    border: none;
     margin-right: 0px;
 }
 .webkit-26NYEN::-webkit-scrollbar {
     display: none;
+}
+
+/* Misc chat boxes missing border */
+.appMount-3lHmkl .modal-yWgWj- {
+    border: 2px solid var(--main-color);
 }
 
 /* Easter Egg */

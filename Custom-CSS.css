@@ -377,12 +377,17 @@ To use this, put the following line at the top of your custom CSS:
     margin-right: 0px;
 }
 
-/* Workaround to haev borders on misc modals while not breaking new server modal */
+/* Workaround to have borders on misc modals while not breaking new server modal */
 .theme-dark .appMount-3lHmkl .modal-yWgWj- {
 	border: 2px solid var(--main-color);
 }
 .theme-dark .appMount-3lHmkl .theme-light .modal-yWgWj- {
 	border: none;
+}
+
+/* hey did you know you can fuck with the upload file thing? */
+.uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .bgScale-1otPtc {
+    background-color: var(--main-color);
 }
 
 /* Easter Egg */

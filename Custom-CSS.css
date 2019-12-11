@@ -6,6 +6,7 @@ Channel and Mention list background in Upload Modal
 Hovering in Server Boost Selection in User Settings
 Hovering over someone who is currently live modal; background
 Popout Live modal; might not be supported by BBD yet
+Spotify invite modal; LL doesn't use Spotify. LEO PLZ FIX
 */
 
 
@@ -371,6 +372,24 @@ Popout Live modal; might not be supported by BBD yet
 }
 .lookLink-9FtZy-.colorBrand-3pXr91:hover .contents-18-Yxp {
     background-image: linear-gradient(0deg,transparent,transparent 1px,var(--main-color) 0,var(--main-color) 2px,transparent 0);
+}
+
+/* Voice badge */
+.iconBadge-2wi9r4.participating-NBGDkr {
+    background-color: var(--backdrop-overlay);
+}
+
+/* Chat Bar */
+.scrollableContainer-38zsVD {
+    background-color: transparent;
+    margin-right: -6px;
+}
+.webkit-26NYEN .buttons-205you {
+    border: none;
+    margin-right: 0px;
+}
+.webkit-26NYEN::-webkit-scrollbar {
+    display: none;
 }
 
 /* Easter Egg */

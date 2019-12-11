@@ -387,12 +387,11 @@ To use this, put the following line at the top of your custom CSS:
 .scrollableContainer-38zsVD {
     background-color: transparent;
     margin-right: -6px;
+    overflow-y: hidden;
 }
 .webkit-26NYEN .buttons-205you {
+    border: none;
     margin-right: 0px;
-}
-.webkit-26NYEN::-webkit-scrollbar {
-    display: none;
 }
 
 /* Misc chat boxes missing border */

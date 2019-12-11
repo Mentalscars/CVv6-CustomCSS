@@ -358,25 +358,6 @@ To use this, put the following line at the top of your custom CSS:
     background-color: var(--backdrop-overlay);
 }
 
-/* Chat Bar */
-.scrollableContainer-38zsVD {
-    background-color: rgba(0,0,0,0.4);
-    margin-right: -6px;
-    overflow-y: hidden;
-	border: 2px solid transparent;
-}
-.chat-3bRxxu .channelTextArea-rNsIhG {
-	margin-top: 20px
-}
-.scrollableContainer-38zsVD:focus-within {
-	border: 2px solid var(--main-color);
-	transition: all .15s ease-in-out;
-}
-.webkit-26NYEN .buttons-205you {
-    border: none;
-    margin-right: 0px;
-}
-
 /* Workaround to have borders on misc modals while not breaking new server modal */
 .theme-dark .appMount-3lHmkl .modal-yWgWj- {
 	border: 2px solid var(--main-color);
@@ -388,11 +369,6 @@ To use this, put the following line at the top of your custom CSS:
 /* hey did you know you can fuck with the upload file thing? */
 .uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .bgScale-1otPtc {
     background-color: var(--main-color);
-}
-
-/* Spotify (+) popout menu */
-.attachPopout-1n-ZKM {
-    background: var(--background-overlay);
 }
 
 /* Easter Egg */

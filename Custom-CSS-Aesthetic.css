@@ -37,3 +37,53 @@
     -webkit-transform: scale(-1, -1);
     transform: scale(-1, -1);
 }
+
+/* Better Country Names */
+.regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3 .regionSelectName-2-2FWh {
+	font-size: 0px;
+}
+.regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3:nth-child(1) .regionSelectName-2-2FWh:before {
+    content: "Rio";
+}
+.regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3:nth-child(2) .regionSelectName-2-2FWh:before {
+    content: "Danke Merkel";
+}
+.regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3:nth-child(3) .regionSelectName-2-2FWh:before {
+    content: "China";
+}
+.regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3:nth-child(4) .regionSelectName-2-2FWh:before {
+    content: "Pakistan";
+}
+.regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3:nth-child(5) .regionSelectName-2-2FWh:before {
+    content: "Hentai";
+}
+.regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3:nth-child(6) .regionSelectName-2-2FWh:before {
+    content: "Soviet Union";
+}
+.regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3:nth-child(7) .regionSelectName-2-2FWh:before {
+    content: "Singapore mah";
+}
+.regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3:nth-child(8) .regionSelectName-2-2FWh:before {
+    content: "Rich Africa";
+}
+.regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3:nth-child(9) .regionSelectName-2-2FWh:before {
+    content: "Aussie";
+}
+.regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3:nth-child(10) .regionSelectName-2-2FWh:before {
+    content: "Texas";
+}
+.regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3:nth-child(11) .regionSelectName-2-2FWh:before {
+    content: "Florida";
+}
+.regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3:nth-child(12) .regionSelectName-2-2FWh:before {
+    content: "Alabama";
+}
+.regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3:nth-child(13) .regionSelectName-2-2FWh:before {
+    content: "Hawaii";
+}
+.regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3 .regionSelectName-2-2FWh:before {
+    font-weight: 700;
+    font-size: 16px;
+    color: #99aab5;
+}
+

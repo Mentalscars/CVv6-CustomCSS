@@ -31,7 +31,9 @@
 }
 
 /* Easter Egg */
-.regionSelectModalOption-2DSIZ3:nth-child(9) .regionSelectFlag-3uwFtG:hover {
-    -webkit-animation: cv-spin 19.01s linear infinite;
-    animation: cv-spin 19.01s linear infinite;
+.regionSelectModalOption-2DSIZ3:nth-child(9) .regionSelectFlag-3uwFtG {
+    -moz-transform: scale(-1, -1);
+    -o-transform: scale(-1, -1);
+    -webkit-transform: scale(-1, -1);
+    transform: scale(-1, -1);
 }

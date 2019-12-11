@@ -692,14 +692,37 @@ To use this, put the following line at the top of your custom CSS:
 }
 
 /* Chat Bar */
+.chat-3bRxxu .channelTextArea-rNsIhG {
+    margin-top: 5px;
+    border-top: 1px solid rgba(255, 255, 255, 0.07);
+}
 .scrollableContainer-38zsVD {
     background-color: transparent;
     margin-right: -6px;
     overflow-y: hidden;
+    border-radius: 0px;
 }
 .webkit-26NYEN .buttons-205you {
-    border: none;
+    border: 2px solid transparent;
     margin-right: 0px;
+}
+.chat-3bRxxu .textArea-2Spzkt, .attachWrapper-1_D-pj {
+    border: 2px solid rgba(255, 255, 255, 0.07);
+    border-radius: 4px;
+    transition: all .15s ease-in-out;
+}
+.chat-3bRxxu .textArea-2Spzkt:focus {
+    border: 2px solid var(--main-color);
+    border-radius: 4px;
+    transition: all .15s ease-in-out;
+}
+.attachWrapper-1_D-pj:hover, .webkit-26NYEN .buttons-205you:hover, .chat-3bRxxu .textArea-2Spzkt:hover {
+    border: 2px solid var(--main-color);
+    border-radius: 4px;
+    transition: all .15s ease-in-out;
+}
+.webkit-26NYEN .buttons-205you {
+    padding-bottom: 2px;
 }
 
 /* Easter Egg */

@@ -390,6 +390,11 @@ To use this, put the following line at the top of your custom CSS:
     background-color: var(--main-color);
 }
 
+/* Spotify (+) popout menu */
+.attachPopout-1n-ZKM {
+    background: var(--background-overlay);
+}
+
 /* Easter Egg */
 .regionSelectModalOption-2DSIZ3:nth-child(9) .regionSelectFlag-3uwFtG {
     -moz-transform: scale(-1, -1);

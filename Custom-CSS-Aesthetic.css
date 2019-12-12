@@ -35,6 +35,11 @@
     animation: cv-spin 2.5s linear infinite;
 }
 
+/* Old Eyes */
+[aria-label=":eyes:"] {
+    content: url("https://cdn.discordapp.com/attachments/334930809289179137/654470734135164978/eyes_1f440.png");
+}
+
 /* Easter Egg */
 .regionSelectModalOption-2DSIZ3:nth-child(9) .regionSelectFlag-3uwFtG {
     -moz-transform: scale(-1, -1);

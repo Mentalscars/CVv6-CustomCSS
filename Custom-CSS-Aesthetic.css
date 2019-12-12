@@ -4,6 +4,11 @@
     display: none;
 }
 
+/* Remove Nitro Gift Button - DevilBro */
+.buttons-205you .buttonWrapper-1ZmCpA[tabindex="2"] {
+    display: none;
+}
+
 /* Gets rid of both Server Discovery and Add Server Button*/
 .circleButtonMask-2VNJsN .wrapper-25eVIn, .pill-3YxEhL .wrapper-sa6paO .da-pill .da-wrapper {
     display: none;

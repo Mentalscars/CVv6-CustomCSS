@@ -171,7 +171,7 @@ To use this, put the following line at the top of your custom CSS:
     background-color: transparent !important;
 }
 .theme-dark .checked-3_4uQ9[style*="border-color"] svg g polyline {
-	stroke: red;
+	stroke: var(--main-color);
 }
 .theme-dark .uploadModal-2ifh8j {
 	border: 2px solid var(--main-color);
@@ -386,10 +386,11 @@ To use this, put the following line at the top of your custom CSS:
     transition: all .15s ease-in-out;
 }
 .placeholder-P6ptfj {
-    left: 65px
+    left: 60px
 }
 .slateTextArea-1bp44y {
     position: inherit;
+    margin-left: -5px;
 }
 .webkit-26NYEN .buttons-205you {
     border: 2px solid transparent;

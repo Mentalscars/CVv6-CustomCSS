@@ -374,30 +374,31 @@ To use this, put the following line at the top of your custom CSS:
 }
 
 /* Chatbar fixes from KitKat3582 */
+.channelTextArea-1LDbYG .attachWrapper-1_D-pj {
+	z-index: 1;
+    left: 2px;
+    top: 2px;
+}
 .chat-3bRxxu .textArea-2Spzkt {
-    border: 2px solid rgba(255, 255, 255, 0.07);
-    border-radius: 8px;
-    transition: all .15s ease-in-out;
+	border: 2px solid rgba(255, 255, 255, 0.07);
+	border-radius: 5px;
+	transition: all .15s ease-in-out;
 }
 .chat-3bRxxu .textArea-2Spzkt:focus-within {
     border: 2px solid var(--main-color);
-    border-radius: 8px;
+    border-radius: 5px;
     transition: all .15s ease-in-out;
 }
 .placeholder-P6ptfj {
-    left: 60px
+	left: 54px;
 }
-.slateTextArea-1bp44y {
-    position: inherit;
-    margin-left: -5px;
+.slateTextArea-1bp44y{
+	position: inherit;
+	left: -2px;
 }
 .webkit-26NYEN .buttons-205you {
     border: 2px solid transparent;
     margin-right: 0px;
-}
-.channelTextArea-1LDbYG .attachWrapper-1_D-pj {
-    left: 2px;
-    top: 2px;
 }
 
 /* Blocked user "chat box" */

@@ -401,6 +401,11 @@ To use this, put the following line at the top of your custom CSS:
     top: 2px;
 }
 
+/* Blocked user "chat box" */
+.wrapper-39oAo3 {
+    background-color: var(--background-overlay);
+}
+
 /* Easter Egg */
 .regionSelectModalOption-2DSIZ3:nth-child(9) .regionSelectFlag-3uwFtG {
     -moz-transform: scale(-1, -1);

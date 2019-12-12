@@ -395,6 +395,10 @@ To use this, put the following line at the top of your custom CSS:
     border: 2px solid transparent;
     margin-right: 0px;
 }
+.channelTextArea-1LDbYG .attachWrapper-1_D-pj {
+    left: 2px;
+    top: 2px;
+}
 
 /* Easter Egg */
 .regionSelectModalOption-2DSIZ3:nth-child(9) .regionSelectFlag-3uwFtG {

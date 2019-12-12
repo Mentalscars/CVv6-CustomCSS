@@ -6,7 +6,6 @@ Channel and Mention list background in Upload Modal
 Hovering in Server Boost Selection in User Settings
 Hovering over someone who is currently live modal; background
 Popout Live modal; might not be supported by BBD yet
-Spotify invite modal; LL doesn't use Spotify. LEO PLZ FIX
 */
 
 /*
@@ -404,6 +403,11 @@ To use this, put the following line at the top of your custom CSS:
 /* Blocked user "chat box" */
 .wrapper-39oAo3 {
     background-color: var(--background-overlay);
+}
+
+/* Direct Messages label */
+.headerText-1-AnT0 {
+    overflow: visible;
 }
 
 /* Easter Egg */

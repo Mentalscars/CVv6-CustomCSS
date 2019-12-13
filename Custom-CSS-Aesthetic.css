@@ -41,7 +41,7 @@
 }
 
 /* Easter Egg */
-.regionSelectModalOption-2DSIZ3:nth-child(9) .regionSelectFlag-3uwFtG {
+.regionSelectModalOption-2DSIZ3:nth-child(9) .regionSelectFlag-3uwFtG, .theme-dark .quickSelectPopout-X1hvgV .quickSelectPopoutOption-opKBx9:nth-child(9) .regionSelectFlag-1htPow {
     -moz-transform: scale(-1, -1);
     -o-transform: scale(-1, -1);
     -webkit-transform: scale(-1, -1);

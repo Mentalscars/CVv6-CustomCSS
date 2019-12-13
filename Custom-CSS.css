@@ -1,4 +1,4 @@
-/* The following CSS was made in part by Leozard, LeafyLuigi*/
+/* The following CSS was made in part by Leozard, LeafyLuigi and KitKat */
 
 /*
 Things unable to be done (for now):
@@ -414,8 +414,13 @@ overflow-y: hidden;
     overflow: visible;
 }
 
+/* Dropdown voice call region changer */
+.theme-dark .quickSelectPopout-X1hvgV {
+    background: var(--backdrop-overlay);
+}
+
 /* Easter Egg */
-.regionSelectModalOption-2DSIZ3:nth-child(9) .regionSelectFlag-3uwFtG {
+.regionSelectModalOption-2DSIZ3:nth-child(9) .regionSelectFlag-3uwFtG, .theme-dark .quickSelectPopout-X1hvgV .quickSelectPopoutOption-opKBx9:nth-child(9) .regionSelectFlag-1htPow {
     -moz-transform: scale(-1, -1);
     -o-transform: scale(-1, -1);
     -webkit-transform: scale(-1, -1);

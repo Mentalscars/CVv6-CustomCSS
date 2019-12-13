@@ -400,6 +400,9 @@ To use this, put the following line at the top of your custom CSS:
     border: 2px solid transparent;
     margin-right: 0px;
 }
+.channelTextArea-1LDbYG .textArea-2Spzkt {
+overflow-y: hidden;
+}
 
 /* Blocked user "chat box" */
 .wrapper-39oAo3 {

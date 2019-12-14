@@ -1,5 +1,12 @@
 /* DO NOT USE THIS IF YOU DON'T WANT TO KEEP DISCORD LOOKING PRETTY. THESE ARE EXPERIMENTAL AND LIKELY VERY UGLY. */
 
+/* TODO: 
+
+
+
+*/
+
+/* Add the following once all buttons of var(--main-color) have a gradient, allow the gradient degrees to be easily changed */
 /* Gradient on Home Icon */
 .childWrapper-anI2G9, .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9 {
     background-image:

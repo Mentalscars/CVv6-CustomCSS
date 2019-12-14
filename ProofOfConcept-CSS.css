@@ -1,0 +1,10 @@
+/* DO NOT USE THIS IF YOU DON'T WANT TO KEEP DISCORD LOOKING PRETTY. THESE ARE EXPERIMENTAL AND LIKELY VERY UGLY. */
+
+/* Gradient on Home Icon */
+.childWrapper-anI2G9, .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9 {
+    background-image:
+        linear-gradient(-45deg,
+        var(--main-color) 40%,
+        var(--hover-color));
+    transition: all 0s ease-in-out;
+} 

@@ -175,6 +175,9 @@ To use this, put the following line at the top of your custom CSS:
 .theme-dark .uploadModal-2ifh8j {
 	border: 2px solid var(--main-color);
 } 
+.theme-dark .uploadModal-2ifh8j .checked-3_4uQ9[style*="border-color"] {
+    background-color: transparent;
+}
 
 /* Server Boost in Server Settings*/
 .theme-dark .tierHeaderLocked-1a2opw, .theme-dark .background-3xPPFc {

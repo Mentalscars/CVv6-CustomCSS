@@ -166,7 +166,7 @@ To use this, put the following line at the top of your custom CSS:
 .theme-dark .uploadModal-2ifh8j, .theme-dark .footer-3mqk7D {
     background-color: var(--background-overlay);
 }
-.theme-dark .checked-3_4uQ9[style*="border-color"] {
+.theme-dark .override-2YgiXd .checked-3_4uQ9[style*="border-color"] {
     background-color: transparent !important;
 }
 .theme-dark .checked-3_4uQ9[style*="border-color"] svg g polyline {

@@ -8,10 +8,6 @@
 .modeSelected-1zApJ_ .content-3at_AU,
 /* Selected Tab - Friends Menu */
 .container-1r6BKw .topPill-30KHOu .item-PXvHYJ.selected-3s45Ha.themed-OHr7kt,
-/* LOTS of buttons */
-.appMount-3lHmkl .lookFilled-1Gx00P.colorGreen-29iAKY,
-.appMount-3lHmkl .lookFilled-1Gx00P.colorBrand-3pXr91,
-.appMount-3lHmkl .lookFilled-1Gx00P.colorPrimary-3b3xI6,
 /* Selected Option - User Settings */
 .item-26Dhrx[style*="background-color"],
 /* Selected Position - Overlay */
@@ -37,7 +33,11 @@
 /* Selected Tab - Search */
 .tab-2Ixsn0.selected-16te-P:after,
 /* Top Bar(s) */
-.layer-v9HyYc .themedPopout-1TrfdI .header-ykumBX
+.layer-v9HyYc .themedPopout-1TrfdI .header-ykumBX,
+/* LOTS of buttons */
+.appMount-3lHmkl .lookFilled-1Gx00P.colorGreen-29iAKY,
+.appMount-3lHmkl .lookFilled-1Gx00P.colorBrand-3pXr91,
+.appMount-3lHmkl .lookFilled-1Gx00P.colorPrimary-3b3xI6
 {
     background:
     linear-gradient(-45deg,
@@ -45,3 +45,10 @@
     var(--hover-color))
     !important;
 }
+
+/* Disabled button */
+.appMount-3lHmkl .lookFilled-1Gx00P.colorGreen-29iAKY:disabled,
+.container-1YxwTf .wrapper-35wsBm .lookFilled-1Gx00P.colorGreen-29iAKY
+{
+    background: transparent !important;
+} 

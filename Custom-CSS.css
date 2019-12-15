@@ -404,6 +404,11 @@ To use this, put the following line at the top of your custom CSS:
     margin-right: 0px;
 }
 
+/* Links in textarea */
+.fakeLink-11RWCQ {
+	color: var(--main-color);
+}
+
 /* Blocked user "chat box" */
 .wrapper-39oAo3 {
     background-color: var(--background-overlay);

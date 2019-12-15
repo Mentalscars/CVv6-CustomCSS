@@ -48,7 +48,10 @@
 
 /* Disabled button */
 .appMount-3lHmkl .lookFilled-1Gx00P.colorGreen-29iAKY:disabled,
-.container-1YxwTf .wrapper-35wsBm .lookFilled-1Gx00P.colorGreen-29iAKY
+/* invite link - button */
+.container-1YxwTf .wrapper-35wsBm .lookFilled-1Gx00P.colorGreen-29iAKY,
+/* invite link - expired, [mention] button */
+.container-1YxwTf .wrapper-35wsBm .lookFilled-1Gx00P.colorBrand-3pXr91
 {
     background: transparent !important;
 } 

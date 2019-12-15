@@ -1,5 +1,3 @@
-/* DO NOT USE THIS IF YOU DON'T WANT TO KEEP DISCORD LOOKING PRETTY. THIS IS EXPERIMENTAL AND LIKELY VERY UGLY. */
-
 /* Add the following once all buttons of var(--main-color) have a gradient, allow the gradient degrees to be easily changed */
 /* -- Gradients -- */
 /* Home Icon */
@@ -39,13 +37,3 @@
     background: linear-gradient(-225deg, var(--main-color),rgba(255,255,255,0.2))!important;
 	background-color: var(--main-color) !important;
 }
-
-/* Disabled button */
-.appMount-3lHmkl .lookFilled-1Gx00P.colorGreen-29iAKY:disabled,
-/* invite link - button */
-.container-1YxwTf .wrapper-35wsBm .lookFilled-1Gx00P.colorGreen-29iAKY,
-/* invite link - expired, [mention] button */
-.container-1YxwTf .wrapper-35wsBm .lookFilled-1Gx00P.colorBrand-3pXr91
-{
-    background: transparent !important;
-} 

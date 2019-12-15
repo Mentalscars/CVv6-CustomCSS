@@ -1,0 +1,48 @@
+/* Better Country Names */
+.regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3 .regionSelectName-2-2FWh {
+	font-size: 0px;
+}
+.regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3 .regionSelectName-2-2FWh:before {
+    font-weight: 700;
+    font-size: 16px;
+    color: #99aab5;
+}
+.regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3:nth-child(1) .regionSelectName-2-2FWh:before {
+    content: "Rio"; /* Brazil */
+}
+.regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3:nth-child(2) .regionSelectName-2-2FWh:before {
+    content: "Danke Merkel"; /* Europe */
+}
+.regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3:nth-child(3) .regionSelectName-2-2FWh:before {
+    content: "China"; /* Hong Kong */
+}
+.regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3:nth-child(4) .regionSelectName-2-2FWh:before {
+    content: "Pakistan"; /* India */
+}
+.regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3:nth-child(5) .regionSelectName-2-2FWh:before {
+    content: "Hentai"; /* Japan */
+}
+.regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3:nth-child(6) .regionSelectName-2-2FWh:before {
+    content: "Soviet Union"; /* Russia */
+}
+.regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3:nth-child(7) .regionSelectName-2-2FWh:before {
+    content: "Singapore mah"; /* Singapore */
+}
+.regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3:nth-child(8) .regionSelectName-2-2FWh:before {
+    content: "Rich Africa"; /* South Africa */
+}
+.regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3:nth-child(9) .regionSelectName-2-2FWh:before {
+    content: "Aussie"; /* Australia */
+}
+.regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3:nth-child(10) .regionSelectName-2-2FWh:before {
+    content: "Texas"; /* US Central */
+}
+.regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3:nth-child(11) .regionSelectName-2-2FWh:before {
+    content: "Florida"; /* US East */
+}
+.regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3:nth-child(12) .regionSelectName-2-2FWh:before {
+    content: "Alabama"; /* US South */
+}
+.regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3:nth-child(13) .regionSelectName-2-2FWh:before {
+    content: "Hawaii"; /* US West */
+}

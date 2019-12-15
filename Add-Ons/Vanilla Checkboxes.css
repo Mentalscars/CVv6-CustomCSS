@@ -1,0 +1,64 @@
+/* Reenables vanilla checkboxes where replaced by CV's sliders */
+
+/* Add user to DM Checkbox*/
+.popout-103y-5 .checkboxWrapper-SkhIWG {
+    height: 22px !important;
+}
+.popout-103y-5 .input-3ITkQf {
+    width: 22px;
+    height: 22px !important;
+}
+.popout-103y-5 .checkbox-1ix_J3 {
+    width: 22px !important;
+    height: 22px !important;
+    background: transparent;
+    border: 1px solid #72767d;
+    border-radius: 3px;
+    box-shadow: none;
+    transition: none;
+}
+.popout-103y-5 .checkbox-1ix_J3:before, .popout-103y-5 .checkbox-1ix_J3:after {
+	display: none;
+}
+.popout-103y-5 .checkbox-1ix_J3>svg {
+	display: flex;
+}
+
+
+/* Hide Muted Channels Checkbox */
+.checkbox-3kaeSU .checkboxInner-3yjcPe {
+    width: 18px;
+    height: 18px;
+}
+.checkbox-3kaeSU .checkboxInner-3yjcPe>span:before, .checkbox-3kaeSU .checkboxInner-3yjcPe>span:after {
+	display: none;
+}
+.theme-dark .checkbox-3kaeSU .checkboxInner-3yjcPe span {
+    background: transparent;
+    border: 2px solid rgba(255,255,255,0.5);
+    border-radius: 0px;
+    box-shadow: none;
+    transition: none;
+}
+.chec kbox-3kaeSU .checkboxInner-3yjcPe .checkboxElement-1qV33p:checked+span {
+    border-color: rgba(255,255,255,0.5);
+}
+.checkbox-3kaeSU .checkboxInner-3yjcPe .checkboxElement-1qV33p:checked+span:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 4.5px;
+    display: table;
+    width: 4px;
+    height: 10px;
+    border-color: rgba(255,255,255,0.5);
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    background: transparent;
+    border-radius: 0%;
+    box-shadow: none;
+    transition: none;
+    margin-left: 0;
+}

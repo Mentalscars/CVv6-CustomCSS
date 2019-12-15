@@ -1,0 +1,38 @@
+/* DO NOT USE THIS IF YOU DON'T WANT TO KEEP DISCORD LOOKING PRETTY. THESE ARE EXPERIMENTAL AND LIKELY VERY UGLY. */
+
+:root {
+--gradient-color-default: var(--hover-color);
+--gradient-color: var(--gradient-color-default);
+--hover-color: linear-gradient(-45deg, var(--main-color), var(--gradient-color));
+} 
+
+/* TODO: 
+selected channel
+selected tab - friends menu
+selected tab - search
+scroll bar(s)
+friend request button - add friends
+add button - group dms
+create button - group dms
+recent mentions - top
+bar(s) at top:
+    recent mentions
+    pinned messages
+
+home icon: 
+    fix fade in/out without breaking it
+    when selected, needs gradient
+    when clicked, needs gradient
+    when hovered, needs gradient
+*/
+
+/* Add the following once all buttons of var(--main-color) have a gradient, allow the gradient degrees to be easily changed */
+/* -- Gradients -- */
+/* Home Icon */
+.childWrapper-anI2G9 {
+    background-image:
+        linear-gradient(-45deg,
+        var(--main-color),
+        var(--hover-color));
+    /*transition: none;*/
+} 

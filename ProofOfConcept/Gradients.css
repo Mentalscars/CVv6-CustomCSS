@@ -19,7 +19,9 @@
 /* New Messages Bar */
 .chat-3bRxxu .divider-3gKybi.dividerRed-MKoLlr:before,
 /* New Messages dropdown */
-.newMessagesBar-mujexs:before
+.newMessagesBar-mujexs:before,
+/* Upload Modal - the one that disapears */
+.uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .bgScale-1otPtc 
 {
     background-image:
         linear-gradient(-45deg,

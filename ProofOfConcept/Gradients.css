@@ -19,11 +19,8 @@
 /* Upload Modal - the one that disapears */
 .uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .bgScale-1otPtc 
 {
-    background-image:
-        linear-gradient(-45deg,
-        var(--main-color),
-        var(--hover-color))
-        !important;
+    background-image: linear-gradient(-225deg, var(--main-color),rgba(255,255,255,0.2))!important;
+	background-color: var(--main-color);
 } 
 
 /* Selected Direct Message */
@@ -39,11 +36,8 @@
 .appMount-3lHmkl .lookFilled-1Gx00P.colorBrand-3pXr91,
 .appMount-3lHmkl .lookFilled-1Gx00P.colorPrimary-3b3xI6
 {
-    background:
-    linear-gradient(-45deg,
-    var(--main-color),
-    var(--hover-color))
-    !important;
+    background: linear-gradient(-225deg, var(--main-color),rgba(255,255,255,0.2))!important;
+	background-color: var(--main-color) !important;
 }
 
 /* Disabled button */

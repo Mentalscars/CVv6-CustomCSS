@@ -37,3 +37,24 @@
     background: linear-gradient(-225deg, var(--main-color),rgba(255,255,255,0.2))!important;
 	background-color: var(--main-color) !important;
 }
+
+/* Disabled button */
+.appMount-3lHmkl .lookFilled-1Gx00P.colorGreen-29iAKY:disabled,
+/* invite link - button */
+.container-1YxwTf .wrapper-35wsBm .lookFilled-1Gx00P.colorGreen-29iAKY,
+/* invite link - expired, [mention] button */
+.container-1YxwTf .wrapper-35wsBm .lookFilled-1Gx00P.colorBrand-3pXr91
+{
+    background: transparent !important;
+} 
+
+/* invite link - expired, [mention] button, hover */
+.container-1YxwTf .wrapper-35wsBm .lookFilled-1Gx00P.colorBrand-3pXr91:hover
+{
+    background: var(--danger-color) !important;
+}
+/* invite link - button, hover */
+.container-1YxwTf .wrapper-35wsBm .lookFilled-1Gx00P.colorGreen-29iAKY:hover
+{
+    background: var(--success-color) !important;
+}

@@ -1,6 +1,6 @@
 /* Borders! */
 :root {
-    --border-thickness: 2;
+    --border-thickness: 2px;
 }
 
 /* Game Activity (also affects game activity list) */
@@ -24,12 +24,12 @@
 /* Invite Modal */
 .theme-dark .slideBody-2nMrnU, .theme-light .slideBody-2nMrnU, .slideBody-35BNbg
 {
-    border: var(--border-thickness)px solid var(--main-color) !important;
+    border: var(--border-thickness) solid var(--main-color) !important;
 }
 
 /* Workaround to have borders on misc modals while not breaking new server modal */
 .theme-dark .appMount-3lHmkl .modal-yWgWj- {
-	border: var(--border-thickness)px solid var(--main-color);
+	border: var(--border-thickness) solid var(--main-color);
 }
 .theme-dark .appMount-3lHmkl .theme-light .modal-yWgWj- {
 	border: none;

@@ -126,7 +126,6 @@ To use this, put the following line at the top of your custom CSS:
     background-color: var(--hover-color);
 }
 .theme-dark .button-2CgfFz, .theme-dark .button-2CgfFz:hover, .theme-dark .card-FDVird:before { /* also affects game activity list */
-    border: 0.1em solid var(--main-color);
     background-color: var(--background-overlay);
 }
 
@@ -136,21 +135,18 @@ To use this, put the following line at the top of your custom CSS:
 }
 
 /* Message Deletion */
-.theme-dark .message-2qRu38{
+.theme-dark .message-2qRu38 {
     background-color: var(--background-overlay);
-    border: 0.1em solid var(--main-color);
 }
 
 /* Custom Color Picker */
 .theme-dark .colorPickerCustom-2CWBn2 {
     background-color: var(--background-overlay);
-    border: 0.1em solid var(--main-color);
 }
 
 /* Region Selector */
 .theme-dark .regionSelectModal-12e-57, .theme-dark .regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3 {
     background-color: var(--background-overlay);
-    border: 0.1em solid var(--main-color);
 }
 .regionSelectModal-12e-57 {
     width: 704px;
@@ -159,7 +155,6 @@ To use this, put the following line at the top of your custom CSS:
 /* Nitro Gift box thing */
 .table-39R0Oe {
     background-color: var(--background-overlay);
-    border: 0.1em solid var(--main-color);
 }
 
 /* Upload Modal*/
@@ -172,9 +167,6 @@ To use this, put the following line at the top of your custom CSS:
 .theme-dark .checked-3_4uQ9[style*="border-color"] svg g polyline {
 	stroke: var(--main-color);
 }
-.theme-dark .uploadModal-2ifh8j {
-	border: 2px solid var(--main-color);
-} 
 .theme-dark .uploadModal-2ifh8j .checked-3_4uQ9[style*="border-color"] {
     background-color: transparent;
 }
@@ -197,7 +189,6 @@ To use this, put the following line at the top of your custom CSS:
 /* Test video */
 .theme-dark .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC {
     background-color: rgba(255,255,255,0.01);
-    border: 0.1em solid var(--main-color);
 }
 .userSettingsVoice-iwdUCU .media-engine-video {
     background-color: transparent;
@@ -233,7 +224,6 @@ To use this, put the following line at the top of your custom CSS:
 }
 .theme-dark .header-1RC2Wb {
     background-color: var(--background-overlay);
-    border: 0.1em solid var(--main-color);
 }
 
 /* Subscriptions page*/
@@ -307,9 +297,6 @@ To use this, put the following line at the top of your custom CSS:
 .option-n0icdO:hover {
     background-color: var(--hover-color);
 }
-.wrapper-3jrx9n {
-    border: 2px solid var(--main-color);
-}
 .userPopout-3XzG_A .headerSpotify-zpWxgT .content-3JfFJh a {
     color: hsla(0,0%,100%,.8);
 }
@@ -334,9 +321,6 @@ To use this, put the following line at the top of your custom CSS:
 .inviteRow-2L02ae:hover {
     background-color: rgba(255,255,255,0.4);
 }
-.theme-dark .slideBody-2nMrnU, .theme-light .slideBody-2nMrnU, .slideBody-35BNbg {
-   border: 2px solid var(--main-color);
-}
 .theme-dark .header-3ZP1MY, .theme-light .header-3ZP1MY {
     color: var(--main-color);
 }
@@ -358,14 +342,6 @@ To use this, put the following line at the top of your custom CSS:
 /* Voice badge */
 .iconBadge-2wi9r4.participating-NBGDkr {
     background-color: var(--backdrop-overlay);
-}
-
-/* Workaround to have borders on misc modals while not breaking new server modal */
-.theme-dark .appMount-3lHmkl .modal-yWgWj- {
-	border: 2px solid var(--main-color);
-}
-.theme-dark .appMount-3lHmkl .theme-light .modal-yWgWj- {
-	border: none;
 }
 
 /* hey did you know you can fuck with the upload file thing? */

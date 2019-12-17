@@ -1,0 +1,36 @@
+/* Borders! */
+:root {
+    --border-thickness: 2
+}
+
+/* Game Activity (also affects game activity list) */
+.theme-dark .button-2CgfFz, .theme-dark .button-2CgfFz:hover, .theme-dark .card-FDVird:before,
+/* Message Deletion */
+.theme-dark .message-2qRu38,
+/* Custom Color Picker */
+.theme-dark .colorPickerCustom-2CWBn2,
+/* Region Selector */
+.theme-dark .regionSelectModal-12e-57, .theme-dark .regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3,
+/* Nitro Gift box thing */
+.table-39R0Oe,
+/* Upload Modal */
+.theme-dark .uploadModal-2ifh8j,
+/* Test video */
+.theme-dark .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC,
+/* Gift Inventory */
+.theme-dark .header-1RC2Wb,
+/* Overlay */
+.wrapper-3jrx9n,
+/* Invite Modal */
+.theme-dark .slideBody-2nMrnU, .theme-light .slideBody-2nMrnU, .slideBody-35BNbg
+{
+    border: var(--border-thickness)px solid var(--main-color) !important;
+}
+
+/* Workaround to have borders on misc modals while not breaking new server modal */
+.theme-dark .appMount-3lHmkl .modal-yWgWj- {
+	border: var(--border-thickness)px solid var(--main-color);
+}
+.theme-dark .appMount-3lHmkl .theme-light .modal-yWgWj- {
+	border: none;
+}

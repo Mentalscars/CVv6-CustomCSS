@@ -151,6 +151,15 @@ To use this, put the following line at the top of your custom CSS:
 .regionSelectModal-12e-57 {
     width: 704px;
 }
+.regionSelectModal-12e-57 .regionSelectModalHeader-21khC1 {
+	color: var(--main-color);
+}
+.regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3 {
+	border: 2px solid rgba(255,255,255,0.3);
+}
+.regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3:hover {
+	border: 2px solid var(--main-color);
+}
 
 /* Nitro Gift box thing */
 .table-39R0Oe {

@@ -1,12 +1,56 @@
-.regionSelectModalOption-2DSIZ3:nth-child(2) .regionSelectFlag-3uwFtG {
+.regionSelectModalOption-2DSIZ3:nth-child(1) .regionSelectFlag-3uwFtG,
+.theme-dark .quickSelectPopout-X1hvgV .quickSelectPopoutOption-opKBx9:nth-child(1) .regionSelectFlag-1htPow{
+	background-image: url(https://leafyluigi.github.io/CVv6-CustomCSS/Add-Ons/CustomFlags/OilReserves.png) !important;
+}
+.regionSelectModalOption-2DSIZ3:nth-child(2) .regionSelectFlag-3uwFtG,
+.theme-dark .quickSelectPopout-X1hvgV .quickSelectPopoutOption-opKBx9:nth-child(2) .regionSelectFlag-1htPow{
 	background-image: url(https://leafyluigi.github.io/CVv6-CustomCSS/Add-Ons/CustomFlags/Nazi.png) !important;
 }
-.regionSelectModalOption-2DSIZ3:nth-child(5) .regionSelectFlag-3uwFtG {
+.regionSelectModalOption-2DSIZ3:nth-child(3) .regionSelectFlag-3uwFtG,
+.theme-dark .quickSelectPopout-X1hvgV .quickSelectPopoutOption-opKBx9:nth-child(3) .regionSelectFlag-1htPow{
+	background-image: url(https://leafyluigi.github.io/CVv6-CustomCSS/Add-Ons/CustomFlags/WinneTheShit.png) !important;
+	background-color: transparent !important;
+}
+.regionSelectModalOption-2DSIZ3:nth-child(4) .regionSelectFlag-3uwFtG,
+.theme-dark .quickSelectPopout-X1hvgV .quickSelectPopoutOption-opKBx9:nth-child(4) .regionSelectFlag-1htPow{
+	background-image: url(https://leafyluigi.github.io/CVv6-CustomCSS/Add-Ons/CustomFlags/Indian_Sex_Toy.png) !important;
+	background-color: transparent !important;
+}
+.regionSelectModalOption-2DSIZ3:nth-child(5) .regionSelectFlag-3uwFtG,
+.theme-dark .quickSelectPopout-X1hvgV .quickSelectPopoutOption-opKBx9:nth-child(5) .regionSelectFlag-1htPow{
 	background-image: url(https://leafyluigi.github.io/CVv6-CustomCSS/Add-Ons/CustomFlags/ImperialJapan.png) !important;
 }
-.regionSelectModalOption-2DSIZ3:nth-child(6) .regionSelectFlag-3uwFtG {
+.regionSelectModalOption-2DSIZ3:nth-child(6) .regionSelectFlag-3uwFtG,
+.theme-dark .quickSelectPopout-X1hvgV .quickSelectPopoutOption-opKBx9:nth-child(6) .regionSelectFlag-1htPow{
 	background-image: url(https://leafyluigi.github.io/CVv6-CustomCSS/Add-Ons/CustomFlags/SovietUnion.png) !important;
 }
-.regionSelectModalOption-2DSIZ3:nth-child(12) .regionSelectFlag-3uwFtG {
+.regionSelectModalOption-2DSIZ3:nth-child(7) .regionSelectFlag-3uwFtG,
+.theme-dark .quickSelectPopout-X1hvgV .quickSelectPopoutOption-opKBx9:nth-child(7) .regionSelectFlag-1htPow {
+	background-image: url(https://leafyluigi.github.io/CVv6-CustomCSS/Add-Ons/CustomFlags/5Gum.png) !important;
+}
+.regionSelectModalOption-2DSIZ3:nth-child(8) .regionSelectFlag-3uwFtG,
+.theme-dark .quickSelectPopout-X1hvgV .quickSelectPopoutOption-opKBx9:nth-child(8) .regionSelectFlag-1htPow{
+	background-image: url(https://leafyluigi.github.io/CVv6-CustomCSS/Add-Ons/CustomFlags/Afrika.png) !important;
+}
+
+.regionSelectModalOption-2DSIZ3:nth-child(9) .regionSelectFlag-3uwFtG, 
+.theme-dark .quickSelectPopout-X1hvgV .quickSelectPopoutOption-opKBx9:nth-child(9) .regionSelectFlag-1htPow {
+    transform: scale(-1, -1);
+}
+.regionSelectModalOption-2DSIZ3:nth-child(10) .regionSelectFlag-3uwFtG,
+.theme-dark .quickSelectPopout-X1hvgV .quickSelectPopoutOption-opKBx9:nth-child(10) .regionSelectFlag-1htPow{
+	background-image: url(https://leafyluigi.github.io/CVv6-CustomCSS/Add-Ons/CustomFlags/EH.png) !important;
+}
+.regionSelectModalOption-2DSIZ3:nth-child(11) .regionSelectFlag-3uwFtG,
+.theme-dark .quickSelectPopout-X1hvgV .quickSelectPopoutOption-opKBx9:nth-child(11) .regionSelectFlag-1htPow{
+	background-image: url(https://leafyluigi.github.io/CVv6-CustomCSS/Add-Ons/CustomFlags/flag_us.png) !important;
+	background-color: transparent !important;
+}
+.regionSelectModalOption-2DSIZ3:nth-child(12) .regionSelectFlag-3uwFtG,
+.theme-dark .quickSelectPopout-X1hvgV .quickSelectPopoutOption-opKBx9:nth-child(12) .regionSelectFlag-1htPow{
 	background-image: url(https://leafyluigi.github.io/CVv6-CustomCSS/Add-Ons/CustomFlags/Confederate.png) !important;
+}
+.regionSelectModalOption-2DSIZ3:nth-child(13) .regionSelectFlag-3uwFtG,
+.theme-dark .quickSelectPopout-X1hvgV .quickSelectPopoutOption-opKBx9:nth-child(13) .regionSelectFlag-1htPow{
+	background-image: url(https://leafyluigi.github.io/CVv6-CustomCSS/Add-Ons/CustomFlags/Cartels.png) !important;
 }

@@ -9,10 +9,12 @@
 .regionSelectModalOption-2DSIZ3:nth-child(3) .regionSelectFlag-3uwFtG,
 .theme-dark .quickSelectPopout-X1hvgV .quickSelectPopoutOption-opKBx9:nth-child(3) .regionSelectFlag-1htPow{
 	background-image: url(https://leafyluigi.github.io/CVv6-CustomCSS/Add-Ons/CustomFlags/WinneTheShit.png) !important;
+	background-color: transparent !important;
 }
 .regionSelectModalOption-2DSIZ3:nth-child(4) .regionSelectFlag-3uwFtG,
 .theme-dark .quickSelectPopout-X1hvgV .quickSelectPopoutOption-opKBx9:nth-child(4) .regionSelectFlag-1htPow{
 	background-image: url(https://leafyluigi.github.io/CVv6-CustomCSS/Add-Ons/CustomFlags/Indian_Sex_Toy.png) !important;
+	background-color: transparent !important;
 }
 .regionSelectModalOption-2DSIZ3:nth-child(5) .regionSelectFlag-3uwFtG,
 .theme-dark .quickSelectPopout-X1hvgV .quickSelectPopoutOption-opKBx9:nth-child(5) .regionSelectFlag-1htPow{
@@ -41,6 +43,7 @@
 .regionSelectModalOption-2DSIZ3:nth-child(11) .regionSelectFlag-3uwFtG,
 .theme-dark .quickSelectPopout-X1hvgV .quickSelectPopoutOption-opKBx9:nth-child(11) .regionSelectFlag-1htPow{
 	background-image: url(https://leafyluigi.github.io/CVv6-CustomCSS/Add-Ons/CustomFlags/flag_us.png) !important;
+	background-color: transparent !important;
 }
 .regionSelectModalOption-2DSIZ3:nth-child(12) .regionSelectFlag-3uwFtG,
 .theme-dark .quickSelectPopout-X1hvgV .quickSelectPopoutOption-opKBx9:nth-child(12) .regionSelectFlag-1htPow{
@@ -49,4 +52,5 @@
 .regionSelectModalOption-2DSIZ3:nth-child(13) .regionSelectFlag-3uwFtG,
 .theme-dark .quickSelectPopout-X1hvgV .quickSelectPopoutOption-opKBx9:nth-child(13) .regionSelectFlag-1htPow{
 	background-image: url(https://leafyluigi.github.io/CVv6-CustomCSS/Add-Ons/CustomFlags/Fire.png) !important;
+	background-color: transparent !important;
 }

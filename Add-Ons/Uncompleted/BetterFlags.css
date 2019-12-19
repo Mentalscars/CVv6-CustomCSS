@@ -53,5 +53,7 @@
 .theme-dark .quickSelectPopout-X1hvgV .quickSelectPopoutOption-opKBx9:nth-child(13) .regionSelectFlag-1htPow{
 	background-image: url(https://leafyluigi.github.io/CVv6-CustomCSS/Add-Ons/CustomFlags/Fire.png) !important;
 	background-color: transparent !important;
-	width: auto;
+	background-size: auto 30px;
+    	background-repeat-x: no-repeat;
+    	background-position: center;
 }

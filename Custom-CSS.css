@@ -416,3 +416,20 @@ To use this, put the following line at the top of your custom CSS:
 .theme-dark .quickSelectPopout-X1hvgV {
     background: var(--backdrop-overlay);
 }
+
+/* now playing modal */
+.theme-dark .emptyPlayers-dx3qig, .theme-dark .players-1zg2l8 {
+	background-color: var(--background-overlay);
+}
+.theme-dark .footer-3J5oP4 {
+	background-color: var(--backdrop-overlay);
+}
+.lookFilled-1Gx00P.colorWhite-rEQuAQ, .lookFilled-1Gx00P.colorGrey-2DXtkV {
+	background: var(--main-color);
+}
+.lookFilled-1Gx00P.colorWhite-rEQuAQ>.contents-18-Yxp, .lookFilled-1Gx00P.colorGrey-2DXtkV>.contents-18-Yxp {
+	color: white;
+}
+.lookFilled-1Gx00P.colorWhite-rEQuAQ:hover, .lookFilled-1Gx00P.colorGrey-2DXtkV:hover{
+	background: var(--hover-color) !important;
+}

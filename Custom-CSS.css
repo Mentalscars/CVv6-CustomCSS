@@ -425,9 +425,9 @@ To use this, put the following line at the top of your custom CSS:
     background: var(--hover-color);
 }
 
-/* Links in textarea */
-.fakeLink-11RWCQ {
-	color: var(--main-color);
+/* Links in textarea (legacy at first) */
+.fakeLink-11RWCQ, .fakeLink-26oLcc {
+    color: var(--main-color);
 }
 
 /* Blocked user "chat box" */

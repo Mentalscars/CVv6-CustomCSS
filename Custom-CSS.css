@@ -389,6 +389,42 @@ To use this, put the following line at the top of your custom CSS:
     margin-right: 0px;
 }
 
+/* Chat Bar - Leafy & KitKat */
+.scrollableContainer-2NUZem {
+    background-color: var(--background-overlay);
+    border: 2px solid rgba(255, 255, 255, 0.07);
+    transition: all .15s ease-in-out;
+}
+.scrollableContainer-2NUZem:focus-within {
+    border: 2px solid var(--main-color);
+    transition: all .15s ease-in-out;
+}
+.attachWrapper-2TRKBi {
+    border-right: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+/* Upload Modal - KitKat */
+.theme-dark .uploadModal-2ifh8j, .uploadModal-2ifh8j .footer-3mqk7D {
+    background-color: var(--background-overlay);
+}
+.uploadModal-2ifh8j .inner-3nWsbo {
+    border: 2px dashed var(--main-color);
+    border-radius: 3px 3px 0px 0px
+}
+.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.image-2yrs5j {
+    border: 2px solid var(--main-color);
+}
+.theme-dark .checked-3_4uQ9 {
+    background-color: var(--hover-color);
+}
+.lookInverted-2D7oAl, .lookInverted-2D7oAl.colorBrand-3pXr91, .lookInverted-2D7oAl.colorGreen-29iAKY {
+    background: var(--main-color);
+    color: white;
+}
+.lookInverted-2D7oAl:hover, .lookInverted-2D7oAl.colorBrand-3pXr91:hover, .lookInverted-2D7oAl.colorGreen-29iAKY:hover{
+    background: var(--hover-color);
+}
+
 /* Links in textarea */
 .fakeLink-11RWCQ {
 	color: var(--main-color);

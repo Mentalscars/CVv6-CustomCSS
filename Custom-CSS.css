@@ -433,3 +433,9 @@ To use this, put the following line at the top of your custom CSS:
 .lookFilled-1Gx00P.colorWhite-rEQuAQ:hover, .lookFilled-1Gx00P.colorGrey-2DXtkV:hover{
 	background: var(--hover-color) !important;
 }
+
+/* Stream Ended background */
+.theme-dark .container-2oTpPc, .root-25RxKh {
+	background: transparent;
+}
+

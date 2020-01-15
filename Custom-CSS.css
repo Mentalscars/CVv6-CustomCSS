@@ -439,3 +439,32 @@ To use this, put the following line at the top of your custom CSS:
 	background: transparent;
 }
 
+/* Remove sroll for DMs */
+.privateChannels-1nO12o .scroller-1JbKMe{
+    overflow-x: hidden;
+}
+
+/* Format Bar */
+.toolbar-2bjZV7 {
+    background-color: var(--background-overlay);
+}
+.divider-24xeUg {
+    display: none;
+}
+.lookFilled-1Gx00P .contents-18-Yxp, .lookInverted-2D7oAl .contents-18-Yxp, .lookLink-9FtZy- .contents-18-Yxp, .lookOutlined-3sRXeN .contents-18-Yxp {
+    transition: none;
+}
+
+/* Mic muted by self change */
+.strikethrough-231d_b {
+    color: var(--channels-default);
+}
+
+/* Invalid Gift | ref: https://discord.gift/1 */
+.theme-dark .tile-2OwFgW {
+    background-color: var(--background-overlay);
+}
+.theme-dark .tile-2OwFgW:hover {
+    background-color: var(--backdrop-overlay);
+}
+

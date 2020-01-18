@@ -468,3 +468,17 @@ To use this, put the following line at the top of your custom CSS:
     background-color: var(--backdrop-overlay);
 }
 
+/* server unavalible screen. bit of an easter egg. */
+.content-MLh4nU, .category-2haXBH, .channelIcon-1TvDoP, .channelName-2wrHHc {
+    background-color: var(--background-overlay);
+}
+.splashHeader-ehL7gZ:after {
+    content: "☭ WE DIED ☭";
+    color: var(--danger-color);
+}
+.splashText-3jk87t:after {
+    content: "small indie company";
+}
+.splashHeader-ehL7gZ, .splashHeader-3jk87 {
+    font-size: 0px;
+}

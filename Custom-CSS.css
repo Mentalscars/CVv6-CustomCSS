@@ -482,3 +482,8 @@ To use this, put the following line at the top of your custom CSS:
 .splashHeader-ehL7gZ, .splashHeader-3jk87 {
     font-size: 0px;
 }
+
+/* Games tab */
+.scroller-1IIF0A, .header-39GIC8, .scroller-2XE8rp {
+	background-color: var(--background-overlay);
+}

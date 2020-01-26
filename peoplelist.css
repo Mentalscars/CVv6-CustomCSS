@@ -6,7 +6,9 @@
     filter: none;
 }
 /* Allow background */
-.theme-dark .container-1D34oG {
+.theme-dark .container-1D34oG,
+/* Allow background - "Playing" list */
+.outer-2IVh5n {
     background-color: transparent;
 }
 /* Shading of left side */
@@ -27,8 +29,11 @@
 /* No friends playing games */
 .theme-dark .wrapper-3UweLa,
 /* Action Button */
-.actionButton-uPB8Fs, .actionButton-uPB8Fs.highlight-Lf97TE {
+.actionButton-uPB8Fs.highlight-Lf97TE {
     background-color: var(--background-overlay);
+}
+.actionButton-uPB8Fs {
+    background-color: var(--background-overlay) !important;
 }
 /* Person in user list; hover */
 .peopleListItem-2nzedh:hover {

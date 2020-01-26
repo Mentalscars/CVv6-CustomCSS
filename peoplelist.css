@@ -55,7 +55,7 @@
 /* Popout background */
 .theme-dark .popout-3G62UL,
 /* "Now Playing" user background, hover */
-.popoutContainer-3WC9HR:hover {
+.theme-dark .popoutContainer-3WC9HR:hover {
     background-color: var(--backdrop-overlay);
 }
 /*

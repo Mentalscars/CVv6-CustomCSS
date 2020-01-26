@@ -475,8 +475,13 @@ To use this, put the following line at the top of your custom CSS:
 .splashHeader-ehL7gZ:after {
     content: "☭ WE DIED ☭";
     color: var(--danger-color);
+    font-size: 20px;
+}
+.splashText-3jk87t {
+    font-size: 0px;
 }
 .splashText-3jk87t:after {
+    font-size: 16px
     content: "small indie company";
 }
 .splashHeader-ehL7gZ, .splashHeader-3jk87 {

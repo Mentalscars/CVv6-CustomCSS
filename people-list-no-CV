@@ -1,0 +1,43 @@
+/* Remove shadow */
+.mask-1l8v16 {
+    filter: none;
+}
+/* Allow background */
+.theme-dark .container-1D34oG {
+    background-color: transparent;
+}
+/* Shading of left side */
+.peopleList-3c4jOR {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+/* Thin and shade left side */
+.nowPlayingColumn-2sl4cE {
+    background-color: rgba(0, 0, 0, 0.5);
+    min-width: 240px;
+}
+/* "Now Playing" user background */
+.wrapper-Lii66c{
+    border: none !important;
+}
+/* "Now Playing" user background */
+.popoutContainer-3WC9HR,
+/* No friends playing games */
+.theme-dark .wrapper-3UweLa
+/* Action Button */
+.actionButton-uPB8Fs, .actionButton-uPB8Fs.highlight-Lf97TE {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+/* Remove separator from popout */
+.theme-dark .separator-2c4hi3 {
+    display: none;
+}
+/* User in Popout */
+.theme-dark .memberListItem-2ZX2pl:not(.popoutDisabled-xucru2):hover,
+/* "Message" in popout */
+.theme-dark .enabled-5QKLzu:hover,
+/* Popout background */
+.theme-dark .popout-3G62UL,
+/* "Now Playing" user background, hover */
+.popoutContainer-3WC9HR:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}

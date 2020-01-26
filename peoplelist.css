@@ -1,0 +1,58 @@
+/*
+  ==/ NEW FRIENDS LIST because discord keeps changing shit /==
+*/
+/* Remove shadow */
+.mask-1l8v16 {
+    filter: none;
+}
+/* Allow background */
+.theme-dark .container-1D34oG {
+    background-color: transparent;
+}
+/* Shading of left side */
+.peopleList-3c4jOR {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+/* Thin and shade left side */
+.nowPlayingColumn-2sl4cE {
+    background-color: var(--background-overlay);
+    min-width: 240px;
+}
+/* "Now Playing" user background */
+.wrapper-Lii66c{
+    border: none !important;
+}
+/* "Now Playing" user background */
+.popoutContainer-3WC9HR,
+/* No friends playing games */
+.theme-dark .wrapper-3UweLa
+/* Action Button */
+.actionButton-uPB8Fs, .actionButton-uPB8Fs.highlight-Lf97TE {
+    background-color: var(--background-overlay);
+}
+/* Person in user list; hover */
+.peopleListItem-2nzedh:hover {
+    background-color: var(--hover-color);
+    transition: all .1s ease-in-out;
+}
+/* Action Button, hover */
+.actionButton-uPB8Fs:hover {
+    background-color: var(--main-color);
+}
+/* Remove separator from popout */
+.theme-dark .separator-2c4hi3 {
+    display: none;
+}
+/* User in Popout */
+.theme-dark .memberListItem-2ZX2pl:not(.popoutDisabled-xucru2):hover,
+/* "Message" in popout */
+.theme-dark .enabled-5QKLzu:hover,
+/* Popout background */
+.theme-dark .popout-3G62UL,
+/* "Now Playing" user background, hover */
+.popoutContainer-3WC9HR:hover {
+    background-color: var(--backdrop-overlay);
+}
+/*
+ ==/ END NEW FRIENDS LIST /==
+*/

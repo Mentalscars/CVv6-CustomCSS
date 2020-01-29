@@ -4,9 +4,9 @@
     display: none;
 }
 
-/* Remove Nitro Gift Button - DevilBro */
-.buttons-205you .buttonWrapper-1ZmCpA[tabindex="2"] {
-    display: none;
+/* completely fucking nuke the gift button */
+.buttons-3JBrkn>.button-38aScr:nth-child(1) {
+  display:none;
 }
 
 /* Gets rid of both Server Discovery and Add Server Button*/

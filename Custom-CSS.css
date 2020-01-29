@@ -2,9 +2,6 @@
 
 /*
 Things unable to be done (for now):
-Channel and Mention list background in Upload Modal
-Hovering in Server Boost Selection in User Settings
-Hovering over someone who is currently live modal; background
 Popout Live modal; might not be supported by anything yet
 */
 
@@ -498,4 +495,25 @@ To use this, put the following line at the top of your custom CSS:
 }
 .header-39GIC8 {
 	background-color: transparent;
+}
+
+/* Live */
+.theme-dark .streamPreview-2-WUWT {
+    background-color: var(--background-overlay);
+    border: 2px solid var(--main-color);
+}
+.theme-dark .previewContainer-12UlHl,
+.theme-dark .popout-1k352f {
+    background-color: var(--backdrop-overlay);
+}
+.overflow-3zpvTV {
+    background-color: var(--main-color);
+}
+
+/* Volume slider */
+.theme-dark .bubble-3we2di {
+    background-color: var(--main-color);
+}
+.theme-dark .bubble-3we2di:before {
+    border-top-color: var(--main-color);
 }

@@ -24,7 +24,11 @@
 /* No friends playing games */
 .theme-dark .wrapper-3UweLa
 /* Action Button */
-.actionButton-uPB8Fs, .actionButton-uPB8Fs.highlight-Lf97TE {
+.actionButton-uPB8Fs, .actionButton-uPB8Fs.highlight-Lf97TE,
+/* Concent Card (bc privacy reasons we need to show you this) */
+.consentCard-1iSxB_,
+/* no friends playing? */
+.emptyCard-1RJw8n {
     background-color: rgba(0, 0, 0, 0.5);
 }
 /* Remove separator from popout */

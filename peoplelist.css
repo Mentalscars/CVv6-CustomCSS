@@ -29,7 +29,12 @@
 /* No friends playing games */
 .theme-dark .wrapper-3UweLa,
 /* Action Button */
-.actionButton-uPB8Fs.highlight-Lf97TE {
+.actionButton-uPB8Fs.highlight-Lf97TE,
+/* "This section could be better" box. Disable something in the privacy settings to see it. */
+.consentCard-1iSxB_,
+/* No friends playing games? Not sure. */
+.emptyCard-1RJw8n
+{
     background-color: var(--background-overlay);
 }
 .actionButton-uPB8Fs {

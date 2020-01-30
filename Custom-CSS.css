@@ -527,7 +527,6 @@ To use this, put the following line at the top of your custom CSS:
 /* quick react modal */
 .wrapper-2aW0bm {
     background-color: var(--backdrop-overlay);
-    display: none;
 }
 /* date */
 .content-1o0f9g {

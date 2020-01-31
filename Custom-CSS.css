@@ -12,9 +12,6 @@ To use this, put the following line at the top of your custom CSS:
 */
 
 
-/* import people list, merge once global. seperated for time being as changes might be made to it. */
-@import url(https://leafyluigi.github.io/CVv6-CustomCSS/peoplelist.css);
-
 /* Server dropdown menu server boost */
 .theme-dark .perksModal-fSYqOq, .theme-dark .tierMarkerBackground-3q29am{
     background-color: transparent;
@@ -573,3 +570,72 @@ To use this, put the following line at the top of your custom CSS:
 .guildIcon-lQ0uiM {
     background-color: rgba(255,255,255,0.04);
 }
+
+/*
+  ==/ NEW FRIENDS LIST because discord keeps changing shit /==
+*/
+/* Remove shadow */
+.mask-1l8v16 {
+    filter: none;
+}
+/* Allow background */
+.theme-dark .container-1D34oG,
+/* Allow background - "Playing" list */
+.outer-2IVh5n {
+    background-color: transparent;
+}
+/* Shading of left side */
+.peopleList-3c4jOR {
+    background-color: transparent;
+}
+/* Thin and shade left side */
+.nowPlayingColumn-2sl4cE {
+    background-color: transparent;
+    min-width: 240px;
+}
+/* "Now Playing" user background */
+.wrapper-Lii66c{
+    border: none !important;
+}
+/* "Now Playing" user background */
+.wrapper-3D2qGf,
+/* No friends playing games */
+.theme-dark .wrapper-3UweLa,
+/* Action Button */
+.actionButton-uPB8Fs.highlight-Lf97TE,
+/* "This section could be better" box. Disable something in the privacy settings to see it. */
+.consentCard-1iSxB_,
+/* No friends playing games? Not sure. */
+.emptyCard-1RJw8n
+{
+    background-color: var(--background-overlay);
+}
+.actionButton-uPB8Fs {
+    background-color: var(--background-overlay) !important;
+}
+/* Person in user list; hover */
+.peopleListItem-2nzedh:hover {
+    background-color: var(--hover-color);
+    transition: all .1s ease-in-out;
+}
+/* Action Button, hover */
+.actionButton-uPB8Fs:hover {
+    background-color: var(--main-color);
+}
+/* Remove separator from popout */
+.theme-dark .separator-2c4hi3 {
+    display: none;
+}
+/* User in Popout */
+.theme-dark .memberListItem-2ZX2pl:not(.popoutDisabled-xucru2):hover,
+/* "Message" in popout */
+.theme-dark .enabled-5QKLzu:hover,
+/* Popout background */
+.theme-dark .popout-3G62UL,
+/* "Now Playing" user background, hover */
+.theme-dark .popoutContainer-3WC9HR:hover {
+    background-color: var(--backdrop-overlay);
+}
+/*
+ ==/ END NEW FRIENDS LIST /==
+*/

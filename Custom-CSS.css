@@ -586,12 +586,12 @@ To use this, put the following line at the top of your custom CSS:
 }
 /* Shading of left side */
 .peopleList-3c4jOR {
-    background-color: transparent;
+    background-color: rgba(0, 0, 0, calc(var(--background-shading) * 0.4));
 }
 /* Thin and shade left side */
 .nowPlayingColumn-2sl4cE {
-    background-color: transparent;
-    min-width: 240px;
+    background-color: rgba(0, 0, 0, calc(var(--background-shading) * 0.6));
+    max-width: var(--members-width);
 }
 /* "Now Playing" user background */
 .wrapper-Lii66c{

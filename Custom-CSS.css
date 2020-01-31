@@ -558,7 +558,7 @@ To use this, put the following line at the top of your custom CSS:
 }
 /* this is ONLY to fix a slight clipping from chat*/
 .form-2fGMdU {
-    padding-top: 8px;
+    margin-top: 8px;
 }
 /* invite */
 .wrapper-35wsBm {

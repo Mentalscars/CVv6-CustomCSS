@@ -608,15 +608,16 @@ To use this, put the following line at the top of your custom CSS:
 /* "This section could be better" box. Disable something in the privacy settings to see it. */
 .consentCard-1iSxB_,
 /* No friends playing games? Not sure. */
-.emptyCard-1RJw8n
-{
+.emptyCard-1RJw8n {
     background-color: var(--background-overlay);
 }
 .actionButton-uPB8Fs {
     background-color: var(--background-overlay) !important;
 }
 /* Person in user list; hover */
-.peopleListItem-2nzedh:hover {
+.peopleListItem-2nzedh:hover,
+.theme-dark .enabled-1t_Gxm:hover,
+.theme-dark .memberListItem-31QoHj:not(.popoutDisabled-2RK7MF):hover {
     background-color: var(--hover-color);
     transition: all .1s ease-in-out;
 }
@@ -628,6 +629,8 @@ To use this, put the following line at the top of your custom CSS:
 .theme-dark .separator-2c4hi3 {
     display: none;
 }
+/* Popout on "Active Now" hover */
+.theme-dark .popout-13LQ_3,
 /* User in Popout */
 .theme-dark .memberListItem-2ZX2pl:not(.popoutDisabled-xucru2):hover,
 /* "Message" in popout */

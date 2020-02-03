@@ -68,6 +68,9 @@ To use this, put the following line at the top of your custom CSS:
 /* Message Deletion */
 .theme-dark .message-2qRu38 {background-color: var(--background-overlay);}
 
+/* Apperance tab */
+.cardPrimaryOutline-29Ujqw {background-color: transparent;}
+
 /* Custom Color Picker */
 .theme-dark .colorPickerCustom-2CWBn2 {background-color: var(--background-overlay);}
 

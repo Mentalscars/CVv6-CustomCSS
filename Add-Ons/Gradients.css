@@ -20,10 +20,19 @@
 /* New Messages dropdown */
 .newMessagesBar-mujexs:before,
 /* Upload Modal - the one that disapears */
-.uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .bgScale-1otPtc 
+.uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .bgScale-1otPtc,
+/* Active now popout */
+.peopleListItem-2nzedh:hover, .theme-dark .enabled-1t_Gxm:hover,
+.theme-dark .memberListItem-31QoHj:not(.popoutDisabled-2RK7MF):hover,
+/* Friends list hover */
+.peopleListItem-2nzedh:hover
+{
+    background-image: linear-gradient(var(--gradient-rotation), rgba(255,255,255,0.2),var(--main-color)) !important;
+	background-color: var(--main-color);
+} 
 {
     background-image: linear-gradient(var(--gradient-rotation), rgba(255,255,255,0.2),var(--main-color))!important;
-	background-color: var(--main-color);
+    background-color: var(--main-color);
 } 
 
 /* Selected Direct Message */

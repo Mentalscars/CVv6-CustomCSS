@@ -359,7 +359,7 @@ MUCH more can be found at: https://github.com/ClearVision/ClearVision-v6/blob/ma
 /* mention */
 .mentioned-xhSam7:before {background-color: var(--main-color);}
 .mentioned-xhSam7 {background-color: rgba(255,255,255,0.05);}
-.mouse-mode .mentioned-xhSam7:hover {background-color: rgba(255,255,255,0.08);}
+.message-2qnXI6.mentioned-xhSam7.selected-2P5D_Z, .mouse-mode .mentioned-xhSam7:hover {background-color: rgba(255,255,255,0.08);}
 
 /* edit message selectable options */
 .operations-36ENbA>a {color: var(--main-color);}

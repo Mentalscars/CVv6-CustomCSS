@@ -328,3 +328,14 @@ To use this, put the following line at the top of your custom CSS:
 	background: rgba(0, 0, 0, calc(var(--background-shading) * 0.5));
 	border: 1px solid rgba(0, 0, 0, calc(var(--background-shading) * 0.8));
 }
+
+/* link color */
+.markup-2BOw-j a {
+	color: var(--main-color);
+}
+
+/* uploaded music file player */
+.theme-dark .wrapperAudio-1jDe0Q {
+	background-color: var(--backdrop-overlay);
+	border-color: var(--background-overlay);
+}

@@ -363,3 +363,6 @@ MUCH more can be found at: https://github.com/ClearVision/ClearVision-v6/blob/ma
 
 /* edit message selectable options */
 .operations-36ENbA>a {color: var(--main-color);}
+
+/* the new message divider color broke again */
+.isUnread-3Ef-o9 {border-color: var(--main-color);}

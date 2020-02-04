@@ -1,18 +1,12 @@
 /* Cosmetic things. These are not as useful*/
 /* Hide all blocked messages*/
-.da-messageGroupBlocked {
-    display: none;
-}
+.blockedSystemMessage-2Rk1ek {display: none;}
 
 /* completely fucking nuke the gift button */
-.buttons-3JBrkn>.button-38aScr:nth-child(1) {
-  display:none;
-}
+.buttons-3JBrkn>.button-38aScr:nth-child(1) {display:none;}
 
 /* Gets rid of both Server Discovery and Add Server Button*/
-.circleButtonMask-2VNJsN .wrapper-25eVIn, .pill-3YxEhL .wrapper-sa6paO .da-pill .da-wrapper {
-    display: none;
-}
+.circleButtonMask-2VNJsN .wrapper-25eVIn, .pill-3YxEhL .wrapper-sa6paO .da-pill .da-wrapper {display: none;}
 
 /* Remove Call and Video Call buttons */
 .container-3gCOGc .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9:nth-child(1), .container-3gCOGc .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9:nth-child(2){

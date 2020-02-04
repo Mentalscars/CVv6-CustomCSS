@@ -254,7 +254,7 @@ To use this, put the following line at the top of your custom CSS:
 .content-1o0f9g {background: rgba(255,255,255,0.07);text-transform: uppercase;opacity: 0.9;color: rgba(255,255,255,0.5);}
 /* used in BOTH new message markers and date*/
 .divider-JfaTT5 {margin: 10px 6px 10px 20px;}
-/* date/new messages seperator
+/* date/new messages seperator */
 .group-spacing-16 .beforeGroup-1rH1F0 {margin-top: 20px;margin-bottom: 20px;}
 .divider-JfaTT5 {height: 30px;background-color: var(--main-color);border: none;border-radius: 5px;}
 .unreadPill-2HyYtt {top: 25%;right: 50%;color: #fff;border: none;background: transparent;font-size: 90%;}
@@ -363,6 +363,3 @@ MUCH more can be found at: https://github.com/ClearVision/ClearVision-v6/blob/ma
 
 /* edit message selectable options */
 .operations-36ENbA>a {color: var(--main-color);}
-
-/* the new message divider color broke again */
-.isUnread-3Ef-o9 {border-color: var(--main-color);}

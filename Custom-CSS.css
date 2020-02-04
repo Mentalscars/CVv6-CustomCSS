@@ -75,7 +75,7 @@ To use this, put the following line at the top of your custom CSS:
 .theme-dark .colorPickerCustom-2CWBn2 {background-color: var(--background-overlay);}
 
 /* Region Selector */
-.theme-dark .regionSelectModal-12e-57, .theme-dark .regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3 {background-color: var(--background-overlay);}
+.theme-dark .regionSelectModal-12e-57, .theme-dark .regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3 {background-color: var(--background-overlay) !important;}
 .regionSelectModal-12e-57 {width: 704px;}
 .regionSelectModal-12e-57 .regionSelectModalHeader-21khC1 {
 	color: var(--main-color);}

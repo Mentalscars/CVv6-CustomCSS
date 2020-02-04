@@ -336,3 +336,22 @@ To use this, put the following line at the top of your custom CSS:
 
 /* the quote bar thingy */
 .blockquoteDivider-2hH8H6 {background-color: rgba(255, 255, 255, 0.2);}
+
+/* remove that fucking underline */
+.headerCozy-2H1QuU .username-1A8OIy:hover {text-decoration: none;}
+
+/* Codebox, inline. (` <code> `) */
+.markup-2BOw-j code.inline { padding: 3.5px 7.5px; background: rgba(255,255,255,0.1); border-radius: 3px; color: rgba(255,255,255,0.7); font-family: var(--code-font); line-height: 22px;}
+
+/* code boxes ( ```<class> n/ <code> ``` ) */
+.markup-2BOw-j pre>.hljs {position: relative; padding: 6px; background: rgba(0,0,0,0.42);border: none; border-radius: 5px; color: rgba(255,255,255,0.7);}
+.markup-2BOw-j pre>.hljs:before {height: 10px;color: rgba(255,255,255,0.3);line-height: 10px;opacity: 1;}
+.hljs:before {display: block;float: right;text-align: right;line-height: 100%;opacity: .5;}
+/* @import: url(we need to add those code things. css used as example below.
+MUCH more can be found at: https://github.com/ClearVision/ClearVision-v6/blob/master/src/messages/codeLanguages.scss
+
+.hljs[class~="css" i]:before {
+    content: "CSS";
+}
+
+*/

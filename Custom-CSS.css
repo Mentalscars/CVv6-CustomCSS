@@ -339,3 +339,11 @@ To use this, put the following line at the top of your custom CSS:
 	background-color: var(--backdrop-overlay);
 	border-color: var(--background-overlay);
 }
+
+/* spoiler tags */
+.theme-dark .spoilerText-3p6IlD.hidden-HHr2R9 {
+    background-color: rgba(0, 0, 0, calc(var(--background-shading) * 0.6));
+}
+.theme-dark .spoilerText-3p6IlD.hidden-HHr2R9:hover {
+    background-color: rgba(0, 0, 0, calc(var(--background-shading) * 0.3));
+}

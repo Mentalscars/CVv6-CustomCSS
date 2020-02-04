@@ -317,3 +317,8 @@ To use this, put the following line at the top of your custom CSS:
 /*
  ==/ END NEW FRIENDS LIST /==
 */
+
+/* whatever that weird gradient is */
+.form-2fGMdU:before {
+	display: none;
+}

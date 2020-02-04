@@ -261,7 +261,7 @@ To use this, put the following line at the top of your custom CSS:
 /* chat bar - has the nifty side effect of being broken in 2 weeks. */
 .channelTextArea-rNsIhG {background-color: transparent;}
 /* this is ONLY to fix a slight clipping from chat*/
-.form-2fGMdU {margin-top: 8px;}
+.form-2fGMdU {margin-top: 1px;}
 /* invite */
 .wrapper-35wsBm {background-color: rgba(0,0,0,0.4);}
 .guildName-2hvnt_ {color: var(--main-color);}

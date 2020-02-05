@@ -364,3 +364,8 @@ MUCH more can be found at: https://github.com/ClearVision/ClearVision-v6/blob/ma
 
 /* edit message selectable options */
 .operations-36ENbA>a {color: var(--main-color);}
+
+/* New TimeStamps - Cruxie */
+.timestampCozyAlt-1Hs08c {width: 2.9rem !important;}
+/* FIXES TINY LITTLE SHITTY GREY AREA BY HOME ICON - Cruxie*/
+.platform-win .sidebar-2K8pFh {border-radius: 0;}

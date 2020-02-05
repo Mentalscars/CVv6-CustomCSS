@@ -1,4 +1,4 @@
-/* Here's a list of everyone who has worked with the fixes in one way or another */
+/* These fixes were made with love (and lots of swearing on Leafy's end). Special thanks at the end. */
 
 /*
 ********
@@ -67,37 +67,52 @@
 }
 
 /*
-***********
-* RANDOMS *
-***********
+**********
+* THANKS *
+**********
 */
 
-/* Zerthox */
+/* Zerthox - For making CV. */
 .message-2qnXI6 [src*='avatars/144881947557101568/'] + .username-1A8OIy::after {
     content: ' Thanks for CV ';
     color: rgb(40, 160, 220);
     border: 1px solid;
     border-radius: 6px;
     margin-left: 8px;
-    text-shadow: 0px 0px 2px var(--main-color), 0px 0px 4px var(--hover-color);
+    text-shadow: 0px 0px 2px rgb(40, 160, 220), 0px 0px 4px #09a8f7;
     background-color: rgba(255,255,255,0.05);
 }
 .message-2qnXI6 [src*='avatars/144881947557101568/'] + .username-1A8OIy:hover::after {
     color: #09a8f7;
-    text-shadow: 0px 0px 10px var(--hover-color);
+    text-shadow: 0px 0px 10px #09a8f7;
 }
 
 /* soda (cruxie) - Helped make this credits file possible. */
 .message-2qnXI6 [src*='avatars/332394843743584256/'] + .username-1A8OIy::after {
     content: ' Weirdo ';
-    color: var(--main-color);
+    color: #DEA5A4;
     border: 1px solid;
     border-radius: 6px;
     margin-left: 8px;
-    text-shadow: 0px 0px 2px var(--main-color), 0px 0px 4px var(--hover-color);
+    text-shadow: 0px 0px 2px #DEA5A4, 0px 0px 4px #ffd1dc;
     background-color: rgba(255,255,255,0.05);
 }
 .message-2qnXI6 [src*='avatars/332394843743584256/'] + .username-1A8OIy:hover::after {
-    color: var(--hover-color);
-    text-shadow: 0px 0px 10px var(--hover-color);
+    color: #ffd1dc;
+    text-shadow: 0px 0px 10px #ffd1dc;
+}
+
+/* Cawtina - Moral "support: */
+.message-2qnXI6 [src*='avatars/205683558453477376/'] + .username-1A8OIy::after {
+    content: ' men who say flat is justice are cucks ';
+    color: #DEA5A4;
+    border: 1px solid;
+    border-radius: 6px;
+    margin-left: 8px;
+    text-shadow: 0px 0px 2px #DEA5A4, 0px 0px 4px #ffd1dc;
+    background-color: rgba(255,255,255,0.05);
+}
+.message-2qnXI6 [src*='avatars/205683558453477376/'] + .username-1A8OIy:hover::after {
+    color: #ffd1dc;
+    text-shadow: 0px 0px 10px #ffd1dc;
 }

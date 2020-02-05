@@ -255,10 +255,10 @@ To use this, put the following line at the top of your custom CSS:
 /* used in BOTH new message markers and date*/
 .divider-JfaTT5 {margin: 10px 6px 10px 20px;}
 /* date/new messages seperator */
-.group-spacing-16 .beforeGroup-1rH1F0 {margin-top: 20px;margin-bottom: 20px;}
+/* .group-spacing-16 .beforeGroup-1rH1F0 {margin-top: 20px;margin-bottom: 20px;}
 .divider-JfaTT5 {height: 30px;background-color: var(--main-color);border: none;border-radius: 5px;}
 .unreadPill-2HyYtt {top: 25%;right: 50%;color: #fff;border: none;background: transparent;font-size: 90%;}
-.unreadPill-2HyYtt svg {display: none;}
+.unreadPill-2HyYtt svg {display: none;} */
 /* chat bar - has the nifty side effect of being broken in 2 weeks. */
 .channelTextArea-rNsIhG {background-color: transparent;}
 /* this is ONLY to fix a slight clipping from chat*/

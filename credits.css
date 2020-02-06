@@ -47,6 +47,17 @@
     content: ' v6 Import Fix Dev ';
 }
 
+/* soda (cruxie) - Also made the base for this file. */
+.message-2qnXI6 [src*='avatars/332394843743584256/'] + .username-1A8OIy::after {
+    content: ' v6 Import Fix Dev ';
+    color: #DEA5A4;
+    text-shadow: 0px 0px 2px #DEA5A4, 0px 0px 4px #ffd1dc;
+}
+.message-2qnXI6 [src*='avatars/332394843743584256/'] + .username-1A8OIy:hover::after {
+    color: #ffd1dc;
+    text-shadow: 0px 0px 10px #ffd1dc;
+}
+
 /*
 **********
 * THANKS *
@@ -62,17 +73,6 @@
 .message-2qnXI6 [src*='avatars/144881947557101568/'] + .username-1A8OIy:hover::after {
     color: #09a8f7;
     text-shadow: 0px 0px 10px #09a8f7;
-}
-
-/* soda (cruxie) - Helped make this credits file possible and made a few other things in the main fixes. */
-.message-2qnXI6 [src*='avatars/332394843743584256/'] + .username-1A8OIy::after {
-    content: ' Weirdo ';
-    color: #DEA5A4;
-    text-shadow: 0px 0px 2px #DEA5A4, 0px 0px 4px #ffd1dc;
-}
-.message-2qnXI6 [src*='avatars/332394843743584256/'] + .username-1A8OIy:hover::after {
-    color: #ffd1dc;
-    text-shadow: 0px 0px 10px #ffd1dc;
 }
 
 /* Cawtina - Moral "support" */

@@ -13,7 +13,9 @@ To use this, put the following line at the top of your custom CSS:
 */
 
 @import url(https://leafyluigi.github.io/CVv6-CustomCSS/credits.css);
-@import "modules/1.css";
+
+
+/* @import "modules/1.css"; */
 
 /* Server dropdown menu server boost */
 .theme-dark .perksModal-fSYqOq, .theme-dark .tierMarkerBackground-3q29am {background-color: transparent;}

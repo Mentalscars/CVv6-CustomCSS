@@ -24,5 +24,4 @@
 .regionSelectModalOption-2DSIZ3:nth-child(9) .regionSelectFlag-3uwFtG, .theme-dark .quickSelectPopout-X1hvgV .quickSelectPopoutOption-opKBx9:nth-child(9) .regionSelectFlag-1htPow {-webkit-transform: scale(-1, -1);transform: scale(-1, -1);}
 
 /*no protips*/
-.protip-YaFfgO {display: none;}
-.footer-1kmXd4 {display: none;}
+.protip-YaFfgO, .footer-1kmXd4 {display: none;}

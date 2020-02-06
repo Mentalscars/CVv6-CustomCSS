@@ -369,3 +369,13 @@ MUCH more can be found at: https://github.com/ClearVision/ClearVision-v6/blob/ma
 .timestampCozyAlt-1Hs08c {width: 2.9rem !important;}
 /* FIXES TINY LITTLE SHITTY GREY AREA BY HOME ICON - Cruxie*/
 .platform-win .sidebar-2K8pFh {border-radius: 0;}
+
+/* BD sliders were forgotten about in CV, apparently. */
+#bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch.checked {background-color: var(--main-color);}
+#bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch {background-color: rgba(255,255,255,0.3);}
+
+/* Unread thing */
+.isUnread-3Ef-o9 { border-color: var(--main-color); }
+.unreadPill-2HyYtt { background-color: var(--main-color);}
+.unreadPillCapStroke-7rkHbg { fill: var(--main-color); color: var(--main-color);}
+

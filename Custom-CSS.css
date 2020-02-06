@@ -384,3 +384,6 @@ MUCH more can be found at: https://github.com/ClearVision/ClearVision-v6/blob/ma
 
 /* Emoji Picker Nitro Ending Soon Notification - Cruxie */
 .premiumRetentionNotice-2F9O9e {background-color: var(--background-overlay);}
+
+/* "sticky" emoji thing */
+.emojiPicker-3m1S-j .stickyHeader-1SS0JU { display: none; }

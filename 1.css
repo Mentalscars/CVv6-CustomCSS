@@ -122,13 +122,10 @@
 }
 /* Server Groups */
 .expandedFolderBackground-2sPsd- {
-    background-color: var(--main-background-colour) !important;
-    border: 0.6px solid var(--main-colour);}
+    background-color: var(--main-background-colour) !important;}
 .expandedFolderIconWrapper-1xLaU- {
-    background-color: var(--main-background-colour);
-    border: 0.6px solid var(--main-colour);
-    border-top-right-radius: 16px;
-    border-top-left-radius: 16px;}  
+    background-color: var(--main-colour);
+}
 /* Embeds */
 .embedFull-2tM8-- {
     background-color: var(--main-background-colour) !important;

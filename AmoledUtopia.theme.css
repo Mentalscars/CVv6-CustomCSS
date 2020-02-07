@@ -205,7 +205,6 @@
 .role-2irmRk:hover>.roleName-32vpEy{color:#fff}
 .addButton-pcyyf6{background:rgba(255,255,255,0.1);transition:all .1s ease-in-out;cursor:pointer}
 .addButton-pcyyf6>svg{width:7px;height:7px;color:rgba(255,255,255,0.5);transition:inherit}
-
 /* View Profile */
 .body-3ND3kc, .header-QKLPzZ, .topSectionNormal-2-vo2m .tabBarContainer-1s1u-z {
     background-color: var(--main-background-color) !important;
@@ -394,8 +393,6 @@
 .circleIconButton-jET_ig.selected-ugP_am {
     background-color: var(--main-color);
     color: var(--main-background-color);}
-
-
 /* Quick Switcher */
 .quickswitcher-3JagVE, .quickswitcher-3JagVE, .input-2VB9rf {
     background-color: var(--main-background-color);
@@ -792,3 +789,9 @@ background-color: #202020 !important;}
     border-top-right-radius: 7px;
     border-bottom-left-radius: 7px;
     border-bottom-right-radius: 7px;}
+/* Support Discord!! */
+.noticePremium-12Zvj9 {
+    background-color: var(--main-background-color);
+    border-bottom: 0.6px solid var(--backup-color);
+    border-radius: 0px;
+}

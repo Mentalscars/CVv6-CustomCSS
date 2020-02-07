@@ -651,8 +651,9 @@
 }
 /* ToolTips */
 .tooltipBlack-PPG47z {
-    background-color: var(--main-colour) !important;
-    color: var(--main-alternate-colour);
+    background-color: var(--main-background-colour) !important;
+    border: 0.6px solid var(--main-colour);
+    color: var(--main-alternate-colour) !important;
     border-radius: 5px;}
 .tooltipPointer-3ZfirK {border-top-color: var(--main-colour) !important;}
 /* Add Friends to Dm */

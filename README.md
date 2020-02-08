@@ -1,1 +1,1 @@
-List of fixes for Clearvision V6 maintained by LeafyLuigi, Leozard and KitKat3582
+List of fixes for Clearvision V6 maintained by LeafyLuigi, Leozard, KitKat3582, Scars and Cruxie.

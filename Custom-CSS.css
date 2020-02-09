@@ -291,7 +291,8 @@ To use this, put the following line at the top of your custom CSS:
 /* "Now Playing" user background */
 .wrapper-Lii66c{border: none !important;}
 /* "Now Playing" user background */
-.wrapper-3D2qGf,
+.wrapper-3D2qGf {background-color: calc(var(--background-shading) * 0.5);}
+.theme-dark .outer-1AjyKL.interactive-3B9GmY:hover,
 /* No friends playing games */
 .theme-dark .wrapper-3UweLa,
 /* Action Button */

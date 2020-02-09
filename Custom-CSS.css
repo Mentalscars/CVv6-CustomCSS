@@ -364,14 +364,7 @@ To use this, put the following line at the top of your custom CSS:
 /* code boxes, block, type ( ```<class> n/ <code> ``` ) */
 .markup-2BOw-j pre>.hljs:before {height: 10px;color: rgba(255,255,255,0.3);line-height: 10px;opacity: 1;}
 .hljs:before {display: block;float: right;text-align: right;line-height: 100%;opacity: .5;}
-/* @import: url(we need to add those code things. css used as example below.
-MUCH more can be found at: https://github.com/ClearVision/ClearVision-v6/blob/master/src/messages/codeLanguages.scss
-
-.hljs[class~="css" i]:before {
-    content: "CSS";
-}
-
-*/
+@import: "code.css";
 
 /* mention */
 .mentioned-xhSam7:before {background-color: var(--main-color);}

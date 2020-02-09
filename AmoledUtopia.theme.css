@@ -840,3 +840,6 @@ background-color: #202020 !important;}
 /* CodeBlocks */ 
 .markup-2BOw-j code, .markup-2BOw-j code.inline {
     background: rgba(0,0,0,.5);}
+/* Delete Module */
+.theme-dark .message-2qRu38 {
+    background-color: var(--main-background-color);}

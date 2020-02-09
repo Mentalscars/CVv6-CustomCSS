@@ -1,9 +1,21 @@
 /* The following CSS was made in part by Leozard, LeafyLuigi and KitKat */
 
 /*
-Things unable to be done (for now):
-Popout Live modal; might not be supported by anything yet
-reactions from self
+TODO:
+Pop-out Live modal; might not be supported by anything yet
+sort this file
+learn original cvv6's code and attempt to improve it OR make own theme based around CV's concept(s)
+
+reactions
+fix up anything else that's broken
+
+broken things:
+invite modal's server icon has background
+
+potential addons:
+- transparency
+- disable tags/credits
+- addon fixer (gives things that addons have a theme)
 
 */
 
@@ -12,7 +24,7 @@ To use this, put the following line at the top of your custom CSS:
 @import url(https://leafyluigi.github.io/CVv6-CustomCSS/Custom-CSS.css);
 */
 
-@import url(https://leafyluigi.github.io/CVv6-CustomCSS/credits.css);
+@import "credits.css";
 
 
 /* @import "modules/1.css"; */
@@ -390,7 +402,5 @@ MUCH more can be found at: https://github.com/ClearVision/ClearVision-v6/blob/ma
 .emojiPicker-3m1S-j .stickyHeader-1SS0JU { display: none; }
 
 /*styles Mention Button*/
-.tabBar-2UKwcE .tabBarItem-1Cg-MI:after {background: var(--main-color);
-    border-radius: 3px;}
-.tabBar-2UKwcE .tabBarItem-1Cg-MI[style*="color: rgb(255, 255, 255)"] {
-    color: #fff !important;}
+.tabBar-2UKwcE .tabBarItem-1Cg-MI:after {background: var(--main-color); border-radius: 3px;}
+.tabBar-2UKwcE .tabBarItem-1Cg-MI[style*="color: rgb(255, 255, 255)"] {color: #fff !important;}

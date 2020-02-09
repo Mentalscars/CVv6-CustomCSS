@@ -1,7 +1,4 @@
-//META{"name":"Amoled Utopia","description":"Custom Made By Cruxie: for a state in which everything is perfect; idealistic.","author":"Cruxiex","version":"0.1"}*//{}
-
-
-
+    //META{"name":"Amoled Utopia","description":"Custom Made By Cruxie: for a state in which everything is perfect; idealistic.","author":"cruxie","version":"0.1","website": "https://github.com/LeafyLuigi/CVv6-CustomCSS", "source":"https://raw.githubusercontent.com/LeafyLuigi/CVv6-CustomCSS/master/AmoledUtopia.theme.css"}*//{}
 
 
 /* Imports Here */
@@ -14,12 +11,11 @@
     --main-alternate-color: #ad8aff;
     --toggleyes: #007500;
     --toggleno: #750000;
-    --backup-color: #5d5d5d;
+    --backup-color: #5d5d5d
 }
 
 
 /*            CSS            START            */
-
 
 
 /* CORE CSS */
@@ -63,7 +59,7 @@
 .sadImage-2ph8SI {
     width: 0px !important; 
     height: 0px !important;}scrollbar
-.scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scrollerStore-390omS::-webkit-scrollbar-track, .theme-dark .scrollerWrap-2lJEkd.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .theme-dark .scrollerWrap-2lJEkd.scrollerTrack-1ZIpsv>.scrollerStore-390omS::-webkit-scrollbar-track, .theme-light .scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .theme-light .scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scrollerStore-390omS::-webkit--track {    background-color: transparent !important;
+.scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scrollerStore-390omS::-webkit-scrollbar-track, .theme-dark .scrollerWrap-2lJEkd.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .theme-dark .scrollerWrap-2lJEkd.scrollerTrack-1ZIpsv>.scrollerStore-390omS::-webkit-scrollbar-track, .theme-light .scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .theme-light .scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scrollerStore-390omS::-webkit--track {
     background-color: transparent !important;}
 .stickyHeader-1SS0JU { display: none}
 .header-1nkwgG {border-top: 0.6px solid var(--main-color); border-left: 0.6px solid var(--main-color);border-right: 0.6px solid var(--main-color); border-top-right-radius: 5px; border-top-left-radius: 5px; }
@@ -844,5 +840,3 @@ background-color: #202020 !important;}
 /* CodeBlocks */ 
 .markup-2BOw-j code, .markup-2BOw-j code.inline {
     background: rgba(0,0,0,.5);}
-
-

@@ -23,11 +23,15 @@
 
 
 /* CORE CSS */
-.container-PNkimc, .searchBar-6Kv8R2, .members-1998pB, .privateChannels-1nO12o, .scroller-1JbKMe {
+.members-1998pB {
+    background-color: var(--main-background-color) !important;}
+.scroller-2FKFPG {
+    background-color: transparent;}
+.container-PNkimc, .searchBar-6Kv8R2, .privateChannels-1nO12o, .scroller-1JbKMe, .platform-win .scroller-2TZvBN {
     background-color: var(--main-background-color) !important;
     border-radius: 0px; }
 .container-3baos1, .typeWindows-1za-n7, .scroller-2TZvBN, .container-1r6BKw.themed-ANHk51 {
-      background-color: var(--main-background-color) !important; }
+    background-color: var(--main-background-color) !important; }
 .withFrame-haYltI {
     margin-top: 0px !important;}
 .container-3baos1 {
@@ -44,6 +48,8 @@
     border: 0.6px solid var(--main-color);}
 .attachWrapper-2TRKBi {
     border-right: 0.5px solid var(--main-background-color) !important;}
+.theme-dark .pageWrapper-1PgVDX {
+    background-color: var(--main-background-color);}
 /* Main Chat Scroller */
 .theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-track-piece {
     background-color: var(--main-background-color);
@@ -216,12 +222,12 @@
     color: var(--main-background-color) !important;}
 .body-3ND3kc {
     border-bottom: 0.6px solid var(--main-color);
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;}
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;}
 .header-QKLPzZ {
     border-top: 0.6px solid var(--main-color);
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;}
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;}
 .topSectionNormal-2-vo2m .tabBarContainer-1s1u-z {
     border-top: 0px solid var(--main-color) !important;}
 .theme-dark .attachment-33OFj0 {
@@ -238,6 +244,9 @@
 .root-SR8cQa {
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;}
+.root-SR8cQa{
+    border-bottom: 0.6px solid var(--main-color);
+}
 /* Library - Search */
 .inner-2P4tQO {
     background-color: var(--main-background-color);}
@@ -846,8 +855,6 @@ background-color: #202020 !important;}
     border-bottom: 0.6px solid var(--backup-color);
     border-radius: 0px;}
 /* Server Disconvery */
-.scroller-2FKFPG {
-    background-color: var(--main-background-color);}
 .theme-dark .searchBox-3Y2Vi7, .searchBoxInputWrapper-nKncfu {
     background-color: var(--main-background-color);
     border: 0px solid var(--main-color) !important;}

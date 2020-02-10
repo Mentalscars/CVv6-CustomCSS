@@ -371,6 +371,7 @@ To use this, put the following line at the top of your custom CSS:
 .mentioned-xhSam7:before {background-color: var(--main-color);}
 .mentioned-xhSam7 {background-color: rgba(255,255,255,0.05);}
 .message-2qnXI6.mentioned-xhSam7.selected-2P5D_Z, .mouse-mode .mentioned-xhSam7:hover {background-color: rgba(255,255,255,0.08);}
+.theme-dark .mentioned-xhSam7 .mention.interactive:hover {color: var(--hover-color); text-decoration: none;}
 
 /* edit message selectable options */
 .operations-36ENbA>a {color: var(--main-color);}

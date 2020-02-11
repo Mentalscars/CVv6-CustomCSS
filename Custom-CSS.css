@@ -284,6 +284,7 @@ To use this, put the following line at the top of your custom CSS:
 .wrapper-35wsBm {background-color: rgba(0,0,0,0.4);}
 .guildName-2hvnt_ {color: var(--main-color);}
 .statusOnline-8PnF5L {background-color: var(--online-color);}
+.statusOffline-37RKt7 {background-color: var(--offline-color);}
 .guildIcon-lQ0uiM {background-color: rgba(255,255,255,0.04);}
 
 /*

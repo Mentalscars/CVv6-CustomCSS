@@ -400,3 +400,19 @@ To use this, put the following line at the top of your custom CSS:
 /*styles Mention Button*/
 .tabBar-2UKwcE .tabBarItem-1Cg-MI:after {background: var(--main-color); border-radius: 3px;}
 .tabBar-2UKwcE .tabBarItem-1Cg-MI[style*="color: rgb(255, 255, 255)"] {color: #fff !important;}
+
+/* search member */
+.container-cMG81i,
+/* rename group */
+.input-2A_zIr:focus {background-color: var(--background-overlay);}
+/* search members by role dropdown */
+.theme-dark .popoutList-T9CKZQ {background-color: var(--backdrop-overlay);}
+/* selected role to search by */
+.selectableItem-1MP3MQ.selected-31soGA {background-color: var(--main-color) !important;}
+
+/* Date */
+.content-1o0f9g {background-color: black;color: var(--main-color);}
+.isUnread-3Ef-o9 .content-1o0f9g {color: var(--main-color);}
+
+/* jump to present bar */
+.messagesWrapper-3lZDfY .jumpToPresentBar-9P20AM { padding-bottom: 0px; }

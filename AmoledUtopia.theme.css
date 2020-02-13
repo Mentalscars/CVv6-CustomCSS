@@ -8,7 +8,7 @@
 :root {
     --main-color: #ffffff;
     --main-background-color: #000000; 
-    --main-alternate-color: #ad8aff;
+    --main-alternate-color: #4867f1;
     --toggleyes: #007500;
     --toggleno: #750000;
     --backup-color: #5d5d5d
@@ -59,7 +59,7 @@
 .sadImage-2ph8SI {
     width: 0px !important; 
     height: 0px !important;}scrollbar
-.scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scrollerStore-390omS::-webkit-scrollbar-track, .theme-dark .scrollerWrap-2lJEkd.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .theme-dark .scrollerWrap-2lJEkd.scrollerTrack-1ZIpsv>.scrollerStore-390omS::-webkit-scrollbar-track, .theme-light .scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .theme-light .scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scrollerStore-390omS::-webkit--track {
+.scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scrollerStore-390omS::-webkit-scrollbar-track, .theme-dark .scrollerWrap-2lJEkd.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .theme-dark .scrollerWrap-2lJEkd.scrollerTrack-1ZIpsv>.scrollerStore-390omS::-webkit-scrollbar-track, .theme-light .scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .theme-light .scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scrollerStore-390omS::-webkit--track {    background-color: transparent !important;
     background-color: transparent !important;}
 .stickyHeader-1SS0JU { display: none}
 .header-1nkwgG {border-top: 0.6px solid var(--main-color); border-left: 0.6px solid var(--main-color);border-right: 0.6px solid var(--main-color); border-top-right-radius: 5px; border-top-left-radius: 5px; }
@@ -94,8 +94,6 @@
 .authBox-hW6HRx {
     background-color: var(--main-background-color) !important;
     border: 0.6px solid var(--main-color) !important;}
-.input-cIJ7To.focused-1mmYsC, .input-cIJ7To:focus-within {
-    border: 0.6px solid var(--main-color) !important;}
 .lookFilled-1Gx00P.colorBrand-3pXr91 {
     background-color: var(--main-color) !important;
     border: 0.6px solid var(--main-color) !important;
@@ -115,8 +113,8 @@
     padding: 0px 0px !important; }
 /* Bot Tag */
 .botTagRegular-2HEhHi, .bot-2Fta1w {
-    background-color: var(--main-color);
-    color: var(--main-alternate-color);
+    background-color: var(--main-alternate-color);
+    color: var(--main-color);
     filter: brightness(100%)}
 /* WIERD FUCKING THING IN CHANNEL TOPIC */
 .children-19S4PO:after {
@@ -676,6 +674,8 @@
     background-color: var(--main-background-color);}
 .activityPanel-28dQGo, .body-Ogsp8i {background-color: var(--main-background-color); border-bottom: 0px;}
 /* Settings */
+.theme-dark .notches-1sAcEM.gray-3_LNYR {
+    background-image: url();}
 .contentRegionScroller-26nc1e, .sidebarRegionScroller-3MXcoP {
     background-color: var(--main-background-color);}
 .userSettingsAccount-2eMFVR .userInfoViewing-16kqK3 {
@@ -812,6 +812,8 @@ background-color: #202020 !important;}
 .theme-dark .searchBox-3Y2Vi7, .searchBoxInputWrapper-nKncfu {
     background-color: var(--main-background-color);
     border: 0px solid var(--main-color) !important;}
+.theme-dark .searchBox-3Y2Vi7:focus-within, .theme-dark .searchBox-3Y2Vi7:hover {
+    border: 0.6px solid var(--main-color) !important;}
 .css-ncjuf0-control, .css-5fjw8m-control:hover, .css-5fjw8m-control{
     background-color: var(--main-background-color) !important;
     border-radius: 0px !important;}
@@ -837,9 +839,19 @@ background-color: #202020 !important;}
     color: var(--backup-color) !important;}
 .theme-dark .tierInProgress-3mBoXq {
     background-color: var(--backup-color) !important;}
+.theme-dark .colorPickerCustom-2CWBn2 {
+    background-color: var(--main-background-color);
+    border-color: var(--backup-color);
+    border-radius: 3px;}
 /* CodeBlocks */ 
 .markup-2BOw-j code, .markup-2BOw-j code.inline {
     background: rgba(0,0,0,.5);}
 /* Delete Module */
 .theme-dark .message-2qRu38 {
     background-color: var(--main-background-color);}
+/* HypeSquad Page */
+.video-2aTfcg {
+    width: 1240px;}
+/* Links */
+.markup-2BOw-j a {
+    color: var(--main-alternate-color)}

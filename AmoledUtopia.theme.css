@@ -1026,7 +1026,7 @@ background-color: #202020 !important;}
     background-color: var(--normal-shade);
     border-radius: 5px;
     padding-right: 3px;
-    padding-left: 2px;
+    padding-left: 3px;
     padding-top: 0px !important;
     padding-bottom: 1px !important;}
 .mentioned-xhSam7:before {
@@ -1044,3 +1044,4 @@ background-color: #202020 !important;}
 .markupRtl-3M0hmN {
     color: var(--text-color);
 }
+

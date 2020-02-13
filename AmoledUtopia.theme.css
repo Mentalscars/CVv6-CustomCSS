@@ -12,6 +12,7 @@
     --toggleyes: #007500;                   /* Main Color Used Buttons that have been Toggled as yes */
     --toggleno: #750000;                    /* Main Color Used Buttons that have been Toggled as No */
     --backup-color: #5d5d5d;                /* Main Color Used in other Areas that need a spice of a different color */
+    --text-color: #dcddde;                  /* Color Used in Main Chat Text */
 }
 
 
@@ -1041,3 +1042,7 @@ background-color: #202020 !important;}
 .interactive:hover {
     color: var(--main-color);
     background-color: var(--main-alternate-color);}
+/* Main Text */
+.markupRtl-3M0hmN {
+    color: var(--text-color);
+}

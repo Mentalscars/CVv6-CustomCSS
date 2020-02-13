@@ -14,6 +14,7 @@
     --backup-color: #5d5d5d;                /* Main Color Used in other Areas that need a spice of a different color */
     --text-color: #dcddde;                  /* Color Used in Main Chat Text */
     --normal-shade: #0101014d;              /* Color Used in Areas that need a slight background */
+    --discord-green: #43b581;               /* Main Color used in some places to give the original feel */
 }
 
 
@@ -142,6 +143,23 @@
 .container-1giJp5 {
     background-color: var(--main-background-color) !important;
     border: 0px solid var(--main-color);}
+/* Mic Activation */
+:root {
+    --spacing: 10px;
+    --border-radius: 50px;}
+#app-mount .sidebar-2K8pFh .wrapper-1ucjTd + .list-2bwCXU .voiceUser-14U_Ns .avatarContainer-2inGBK.avatarSpeaking-3MqCHL {
+    box-shadow: none;}
+#app-mount .sidebar-2K8pFh .wrapper-1ucjTd + .list-2bwCXU .voiceUser-14U_Ns .usernameSpeaking-2xbKKh {
+    display: flex;
+    align-items: center;}
+#app-mount .sidebar-2K8pFh .wrapper-1ucjTd + .list-2bwCXU .voiceUser-14U_Ns .usernameSpeaking-2xbKKh:after {
+    content: "";
+    display: block;
+    width: 12px;
+    height: 12px;
+    margin-left: var(--spacing);
+    -webkit-mask: url('data:image/svg+xml; utf-8,<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="volume-up" class="svg-inline--fa fa-volume-up fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M215.03 71.05L126.06 160H24c-13.26 0-24 10.74-24 24v144c0 13.25 10.74 24 24 24h102.06l88.97 88.95c15.03 15.03 40.97 4.47 40.97-16.97V88.02c0-21.46-25.96-31.98-40.97-16.97zm233.32-51.08c-11.17-7.33-26.18-4.24-33.51 6.95-7.34 11.17-4.22 26.18 6.95 33.51 66.27 43.49 105.82 116.6 105.82 195.58 0 78.98-39.55 152.09-105.82 195.58-11.17 7.32-14.29 22.34-6.95 33.5 7.04 10.71 21.93 14.56 33.51 6.95C528.27 439.58 576 351.33 576 256S528.27 72.43 448.35 19.97zM480 256c0-63.53-32.06-121.94-85.77-156.24-11.19-7.14-26.03-3.82-33.12 7.46s-3.78 26.21 7.41 33.36C408.27 165.97 432 209.11 432 256s-23.73 90.03-63.48 115.42c-11.19 7.14-14.5 22.07-7.41 33.36 6.51 10.36 21.12 15.14 33.12 7.46C447.94 377.94 480 319.54 480 256zm-141.77-76.87c-11.58-6.33-26.19-2.16-32.61 9.45-6.39 11.61-2.16 26.2 9.45 32.61C327.98 228.28 336 241.63 336 256c0 14.38-8.02 27.72-20.92 34.81-11.61 6.41-15.84 21-9.45 32.61 6.43 11.66 21.05 15.8 32.61 9.45 28.23-15.55 45.77-45 45.77-76.88s-17.54-61.32-45.78-76.86z"></path></svg>') center/cover no-repeat;
+    background: var(--discord-green);}
 /* Jump to Present */
 .jumpToPresentBar-9P20AM {
     background-color: var(--main-background-color) !important;
@@ -1069,9 +1087,9 @@ background-color: #202020 !important;}
     background-color: transparent !important;
 }
 
-/* General Restyle POSSIBLY */
+/* General Restyle */
 :root {
-    --main-border-radius: 0px;
+    --main-border-radius:   0px;
     --main-padding: 0px;
 }
 /* Gaps */

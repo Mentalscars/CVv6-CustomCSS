@@ -74,26 +74,3 @@
     color: #09a8f7;
     text-shadow: 0px 0px 10px #09a8f7;
 }
-
-/* Cawtina - Moral "support" */
-.message-2qnXI6 [src*='avatars/205683558453477376/'] + .username-1A8OIy::after {
-    content: ' men who say flat is justice are cucks ';
-    color: #DEA5A4;
-    text-shadow: 0px 0px 2px #DEA5A4, 0px 0px 4px #ffd1dc;
-}
-.message-2qnXI6 [src*='avatars/205683558453477376/'] + .username-1A8OIy:hover::after {
-    color: #ffd1dc;
-    text-shadow: 0px 0px 10px #ffd1dc;
-}
-
-
-/* stfu gang */
-/*  {
-    content: ' "Please ignore anything I say!" ';
-    color: #333;
-    text-shadow: 0px 0px 2px #333, 0px 0px 4px #666;
-}
- {
-    color: #666;
-    text-shadow: 0px 0px 10px #666;
-} */

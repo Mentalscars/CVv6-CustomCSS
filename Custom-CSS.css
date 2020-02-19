@@ -321,7 +321,7 @@ To use this, put the following line at the top of your custom CSS:
 /* "Message" in popout */
 .theme-dark .enabled-5QKLzu:hover,
 /* Popout background */
-.theme-dark .popout-3G62UL,
+.theme-dark .popout-38lTF,
 /* "Now Playing" user background, hover */
 .theme-dark .popoutContainer-3WC9HR:hover {background-color: var(--backdrop-overlay);}
 /*

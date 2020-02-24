@@ -24,7 +24,6 @@
 /* Upload Modal - the one that disapears */
 .uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .bgScale-1otPtc,
 /* Active now popout */
-.peopleListItem-2nzedh:hover, .theme-dark .enabled-1t_Gxm:hover,
 .theme-dark .memberListItem-31QoHj:not(.popoutDisabled-2RK7MF):hover
 {
     background-image: linear-gradient(var(--gradient-rotation), var(--gradient-color),var(--main-color)) !important;

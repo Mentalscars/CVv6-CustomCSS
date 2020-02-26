@@ -1,6 +1,7 @@
 /* Cosmetic things. These are not as useful*/
-/* Hide all blocked messages*/
-.blockedSystemMessage-2Rk1ek {display: none;}
+/* Hide Blocked Message Groups - February 2020 Messages Update */
+[class="groupStart-23k01U"], [class="groupStart-23k01U da-groupStart"] {margin-top: 0!important;}
+[class="groupStart-23k01U"] .container-3FojY8,[class="groupStart-23k01U da-groupStart"] .container-3FojY8 {display: none;}
 
 /* completely fucking nuke the gift button */
 .buttons-3JBrkn>.button-38aScr:nth-child(1) {display:none;}

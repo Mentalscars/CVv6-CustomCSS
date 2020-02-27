@@ -348,7 +348,7 @@ To use this, put the following line at the top of your custom CSS:
 .blockquoteDivider-2hH8H6 {background-color: rgba(255, 255, 255, 0.2);}
 
 /* remove that fucking underline */
-.clickableHeader-2Cygs8 .username-1A8OIy:hover {text-decoration: none;}
+.username-1A8OIy.clickable-1bVtEA:hover {text-decoration: none;}
 
 /* code boxes, inline. (` <code> `) */
 .after_inlineCode-1KfVgj, .markup-2BOw-j code.inline {padding: 3.5px 7.5px; background-color: rgba(255,255,255,0.1); border-radius: 3px; color: rgba(255,255,255,0.7); font-family: var(--code-font); line-height: 22px;}

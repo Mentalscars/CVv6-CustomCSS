@@ -1,9 +1,16 @@
-//META{"name":"Amoled Utopia","description":"Custom Made By Cruxie: for a state in which everything is perfect; idealistic.","author":"cruxie","version":"0.1","website": "https://github.com/LeafyLuigi/CVv6-CustomCSS", "source":"https://raw.githubusercontent.com/LeafyLuigi/CVv6-CustomCSS/master/AmoledUtopia.theme.css"}*//{}
+/**
+ * @name Amoled Utopia
+ * @version 0.0.1 
+ * @description Custom Made By Cruxie: for a state in which everything is perfect; idealistic.
+ * @author Cruxie
+ * @source https://raw.githubusercontent.com/LeafyLuigi/CVv6-CustomCSS/master/AmoledUtopia.theme.css
+ * @website https://github.com/LeafyLuigi/CVv6-CustomCSS
+ */
 
 
 /* Imports Here */
 @import url(https://leafyluigi.github.io/CVv6-CustomCSS/credits.css);/*
-@import url(https://leafyluigi.github.io/CVv6-CustomCSS/AmoledUtopia.theme.css);*/
+@import url(https://xcruxiex.github.io/themes/AmoledUtopia.theme.css);*/
 
 :root {
     --main-color: #ffffff;                  /* Main Color Used in Most Borders */
@@ -182,8 +189,8 @@
     border-top: 0.6px solid var(--main-color);}
 .theme-dark .bodyInner-245q0L {
     background-color: var(--main-background-color) !important;
-    border-right: 0.6px solid var(--main-color);
-    border-left: 0.6px solid var(--main-color);}
+    border-right: 0px solid var(--main-color);
+    border-left: 0px solid var(--main-color);}
 .theme-dark .footer-1fjuF6 {
     background-color: var(--main-background-color) !important;
     border-right: 0.6px solid var(--main-color);
@@ -575,8 +582,11 @@
     border-right: 0.6px solid var(--main-color);}
 .messagesPopout-24nkyi {
     background-color: var(--main-background-color);
+    border-bottom: 0.6px solid var(--main-color);
     border-left: 0.6px solid var(--main-color) !important;
-    border-right: 0.6px solid var(--main-color) !important;}
+    border-right: 0.6px solid var(--main-color) !important;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;}
 .messageGroupWrapper-o-Zw7G {
     background-color: var(--main-background-color);
     border: 0px;}
@@ -780,7 +790,8 @@
     border-left: 0px solid var(--main-color);
     border-right: 0px solid var(--main-color);}
 .theme-dark .footer-3rDWdC {
-    background-color: var(--main-background-color) !important;}
+    background-color: var(--main-background-color) !important;
+    border-bottom: 0.6px solid var(--main-color) !important;}
 .inner-ZyuQk0 {
     border-bottom: 0px solid var(--main-color);}
 .theme-dark .lookFilled-1h1y05.select-1Pkeg4 {
@@ -881,7 +892,7 @@
 .card-3AyPWq:hover{background-color: var(--normal-shade);}
 .preview-2nSL_2 {background-color: var(--main-background-color);}
 .theme-dark .footer-3rDWdC {
-    border-right: 0px solid var(--main-color);}
+    border-right: 0px solid var(--main-color);} 
 .barFill-23-gu- {
     background: var(--main-alternate-color);}
 .theme-dark .bar-2Qqk5Z {
@@ -892,6 +903,7 @@
     background: var(--toggleno);
     border-color: var(--toggleno);}
 .cardPrimaryEditable-3KtE4g { background-color: transparent;}
+.theme-dark .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC{background-color: var(--normal-shade);}
 /* BD Settings */
 #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch {
     background-color: var(--toggleno);}
@@ -911,6 +923,8 @@
 .lookFilled-1Gx00P .contents-18-Yxp {
     padding-left: 3px;
     padding-right: 3px;}
+.theme-dark .bda-slist li {background-color: var(--normal-shade);}
+.theme-dark .bda-slist .bda-footer, .theme-dark .bda-slist .bda-header{border-top: 0px solid #ffffff; border-bottom: 0px solid #ffffff; padding-bottom: 0px;}
 /* Settings Window Wide */
 .contentColumn-2hrIYH, .customColumn-Rb6toI {
   max-width: 95% !important;}
@@ -946,13 +960,9 @@
 .ace_content {
     border-right: 0.6px solid var(--main-alternate-color);
     border-top: 0.6px solid var(--main-alternate-color);
-    background-color: #3d3d3d;   }
+    background-color: #3d3d3d;}
 .ace_folding-enabled > .ace_gutter-cell:nth-child(1) {
-    border-top: 0.6px solid var(--main-alternate-color);
-    border-left: 0.6px solid var(--main-alternate-color);
-    background-color: #121212;}
-.ace_folding-enabled > .ace_gutter-cell {
-border-left: 0.6px solid var(--main-alternate-color);}
+    border-top: 0.6px solid var(--main-alternate-color);}
 .ace-monokai .ace_marker-layer .ace_active-line  {
     border-right: 0.6px solid var(--main-alternate-color);   }
 .ace-monokai .ace_marker-layer .ace_selection {

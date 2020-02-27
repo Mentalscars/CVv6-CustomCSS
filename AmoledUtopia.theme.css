@@ -90,7 +90,6 @@
 /* Server Topic Popup */
 .theme-dark .root-1gCeng {
     background-color: var(--main-background-color) !important;
-    border: 0.6px solid var(--main-color) !important;
     -webkit-box-shadow: 0 0 0 1px rgba(32,34,37,.6), 0 2px 10px 0 var(--normal-shade);
     box-shadow: 0 0 0 1px rgba(32,34,37,.6), 0 2px 10px 0 var(--normal-shade);}
 /* Home Icon */
@@ -181,23 +180,23 @@
     border-left: 0.6px solid var(--main-color);}
 .headerTop-3C2Zn0 {
     background-color: var(--main-background-color) !important;
-    border-top-left-radius: 4px;
-    border-top-right-radius: 4px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
     border-right: 0.6px solid var(--main-color);
     border-left: 0.6px solid var(--main-color);
     border-top: 0.6px solid var(--main-color);}
 .theme-dark .bodyInner-245q0L {
     background-color: var(--main-background-color) !important;
-    border-right: 0px solid var(--main-color);
-    border-left: 0px solid var(--main-color);}
+    border-right: 0.6px solid var(--main-color);
+    border-left: 0.6px solid var(--main-color);}
 .theme-dark .footer-1fjuF6 {
     background-color: var(--main-background-color) !important;
     border-right: 0.6px solid var(--main-color);
     border-left: 0.6px solid var(--main-color);
     border-top: 0px solid var(--main-color);
     border-bottom: 0.6px solid var(--main-color);
-    border-bottom-left-radius: 4px;
-    border-bottom-right-radius: 4px;}
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;}
 .theme-dark .quickMessage-1yeL4E {
     background-color: var(--main-background-color);
     border: 0.6px solid var(--main-color);
@@ -790,9 +789,16 @@
     border-right: 0px solid var(--main-color);}
 .theme-dark .footer-3rDWdC {
     background-color: var(--main-background-color) !important;
+    border-right: 0.6px solid var(--main-color) !important;
+    border-left: 0.6px solid var(--main-color);
     border-bottom: 0.6px solid var(--main-color) !important;}
 .inner-ZyuQk0 {
-    border-bottom: 0px solid var(--main-color);}
+    border-left: 0.6px solid var(--main-color);
+    border-right: 0.6px solid var(--main-color);}
+.headerContainer-3N-yWX{
+    border-top: 0.6px solid var(--main-color);
+    border-left: 0.6px solid var(--main-color);
+    border-right: 0.6px solid var(--main-color);}
 .theme-dark .lookFilled-1h1y05.select-1Pkeg4 {
     border-color: var(--main-color) !important;}
 .theme-dark .select-1Pkeg4:focus-within, .theme-dark .optionNormal-12VR9V:hover, .theme-dark .popout-2sKjHu, .theme-dark .optionActive-KkAdqq:hover {
@@ -890,8 +896,6 @@
 .theme-dark .gemIndicatorContainer-2jdECl {background-color: var(--main-background-color);}
 .card-3AyPWq:hover{background-color: var(--normal-shade);}
 .preview-2nSL_2 {background-color: var(--main-background-color);}
-.theme-dark .footer-3rDWdC {
-    border-right: 0px solid var(--main-color);} 
 .barFill-23-gu- {
     background: var(--main-alternate-color);}
 .theme-dark .bar-2Qqk5Z {
@@ -903,6 +907,13 @@
     border-color: var(--toggleno);}
 .cardPrimaryEditable-3KtE4g { background-color: transparent;}
 .theme-dark .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC{background-color: var(--normal-shade);}
+.grid-69JkSM {
+    grid-gap: 2px;}
+.input-cIJ7To.focused-1mmYsC, .input-cIJ7To:focus{border-color: var(--main-color);}
+.header-2tA9Os{
+    border-top: 0.6px solid var(--main-color);
+    border-left: 0.6px solid var(--main-color);
+    border-right: 0.6px solid var(--main-color);}
 /* BD Settings */
 #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch {
     background-color: var(--toggleno);}

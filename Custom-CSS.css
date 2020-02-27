@@ -406,3 +406,6 @@ To use this, put the following line at the top of your custom CSS:
 
 /* jump to present bar */
 .messagesWrapper-3lZDfY .jumpToPresentBar-9P20AM { padding-bottom: 0px; }
+
+/*no tips*/
+.protip-YaFfgO,.footer-1kmXd4 {display: none;}

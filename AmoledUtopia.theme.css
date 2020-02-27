@@ -489,10 +489,8 @@
     filter: brightness(80%)}
 .theme-dark .theme-light .action-1lSjCi{
     background-color: var(--main-background-color);}
-.theme-dark .theme-dark .or-3THJsp, .theme-dark .theme-light .or-3THJsp {
-    background-color: var(--main-background-color);
-    border: 1px solid var(--main-color);
-    filter: brightness(80%);
+.theme-dark .theme-light .or-3THJsp{
+    background-image: url();
     color: var(--main-color);}
 .theme-dark .input-1mgnkM {
     border: 0px solid var(--main-color) !important;

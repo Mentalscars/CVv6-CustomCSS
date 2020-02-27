@@ -137,7 +137,7 @@
 /* Embeds */
 .embedFull-2tM8-- {
     border: 0.6px solid;
-    border-radius: 10px;
+    border-radius: 5px;
     background-color: var(--main-background-color);}
 /* Voice Chat */
 .total-3tKGEB, .users-i_3-kL {
@@ -206,12 +206,12 @@
 .addButton-pcyyf6>svg {
     color: rgba(255,255,255,0.7) !important;}
 /* Roles */
-.role-2irmRk{position:relative;display:flex;flex-direction:row-reverse;border-radius:3px;transition:all .1s ease-in-out;cursor:default}
+.role-2irmRk{position:relative;display:flex;flex-direction:row-reverse;border-radius: 5px;transition:all .1s ease-in-out;cursor:default}
 .role-2irmRk[style]:not(:hover){border-color:transparent !important}
 .role-2irmRk:not([style]){background:rgba(255,255,255,0.1);border-color:transparent}
 .role-2irmRk>.roleCircle-3xAZ1j{width:0;height:0}
 .role-2irmRk>.roleCircle-3xAZ1j:not(:empty){margin-left:6px}
-.role-2irmRk>.roleCircle-3xAZ1j:after{content:"";position:absolute;top:-1px;right:-1px;bottom:-1px;left:-1px;border-radius:3px;background:inherit;opacity:.15;transition:all .1s ease-in-out;pointer-events:none}
+.role-2irmRk>.roleCircle-3xAZ1j:after{content:"";position:absolute;top:-1px;right:-1px;bottom:-1px;left:-1px;border-radius: 5px;background:inherit;opacity:.15;transition:all .1s ease-in-out;pointer-events:none}
 .role-2irmRk>.roleCircle-3xAZ1j>.roleRemoveIcon-2-TeGW{position:absolute;display:block;opacity:0;transition:all .1s ease-in-out}
 .role-2irmRk>.roleCircle-3xAZ1j>.roleRemoveIcon-2-TeGW .fill{fill:#fff}
 .role-2irmRk>.roleName-32vpEy{margin-right:0;margin-left:4px;color:rgba(255,255,255,0.7);transition:all .1s ease-in-out}
@@ -234,12 +234,12 @@
     color: var(--main-background-color) !important;}
 .body-3ND3kc {
     border-bottom: 0.6px solid var(--main-color);
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;}
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;}
 .header-QKLPzZ {
     border-top: 0.6px solid var(--main-color);
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;}
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;}
 .topSectionNormal-2-vo2m .tabBarContainer-1s1u-z {
     border-top: 0px solid var(--main-color) !important;}
 .theme-dark .attachment-33OFj0 {
@@ -254,8 +254,8 @@
     border-radius: 5px;
     border: 0.6px solid var(--main-color);}
 .root-SR8cQa {
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;}
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;}
 .root-SR8cQa{
     border-bottom: 0.6px solid var(--main-color);}
 /* Library - Search */
@@ -332,11 +332,11 @@
     color: var(--main-color);
     background-color: var(--main-background-color) !important;
     border: 0.6px solid var(--main-color);
-    border-radius: 4px;}
+    border-radius: 5px;}
 .searchResult-3pzFAB:hover .jumpButton-Ia2hRJ {
     background-color: var(--main-background-color) !important;
     border: 0.6px solid var(--main-color);;
-    border-radius: 4px;}
+    border-radius: 5px;}
 .theme-dark .queryContainer-RKFJW- {
     background-color: var(--main-background-color) !important;
     border: 0.6px solid var(--main-color);}
@@ -773,8 +773,8 @@
     border-top: 0.6px solid var(--main-color);
     border-left: 0.6px solid var(--main-color);
     border-right: 0.6px solid var(--main-color);
-    border-top-right-radius: 7px;
-    border-top-left-radius: 7px;}
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;}
 .theme-dark .selectorSelected-1_M1WV {
     background-color: var(--main-background-color);
     border: 0.6px solid var(--main-color);
@@ -807,8 +807,8 @@
 .theme-dark .lookFilled-1h1y05.select-1Pkeg4 {
     border: 0.6px solid var(--main-color);}
 /* New TimeStamps */
-.timestampCozyAlt-1Hs08c {
-    width: 2.9rem !important;}
+.cozy-3raOZG .timestamp-3ZCmNB.alt-1uNpEt{
+width: 2.7rem !important;}
 /* FIXES TINY LITTLE SHITTY GREY AREA BY HOME ICON */
 .platform-win .sidebar-2K8pFh {border-radius: 0;}
 /* Gif Picker */
@@ -846,11 +846,11 @@
     color: var(--main-alternate-color);}
 .medium-2-DE5M .input-1Rv96N:focus-within,.medium-2-DE5M  .tag-2gHSR7:focus-within {
    border: 0.6px solid var(--main-color);
-   border-radius: 3px;}
+   border-radius: 5px;}
 .medium-2-DE5M .input-1Rv96N, .medium-2-DE5M .tag-2gHSR7 {
     background-color: var(--main-background-color) !important;
     border: 0.6px solid var(--main-color);
-    border-radius: 3px;  }
+    border-radius: 5px;  }
 .lookFilled-1Gx00P.colorBrand-3pXr91 {
     background-color: var(--main-background-color) !important;
     color: var(--main-alternate-color);}
@@ -989,22 +989,22 @@ background-color: #202020 !important;}
     border-top: 0.6px solid var(--main-alternate-color);
     border-right: 0.6px solid var(--main-alternate-color);
     border-left: 0.6px solid var(--main-alternate-color);
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px; }
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px; }
 .uploadModal-2ifh8j .footer-3mqk7D.hasSpoilers-1IRtQC{
     background-color: var(--main-background-color);
     border-bottom: 0.6px solid var(--main-alternate-color);
     border-right: 0.6px solid var(--main-alternate-color);
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;}
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;}
 /* Keyboard Combos */
 .theme-dark .keyboardShortcutsModal-3piNz7 {
     background-color: var(--main-background-color) !important;
     border: 0.6px solid var(--main-alternate-color);
-    border-top-left-radius: 7px;
-    border-top-right-radius: 7px;
-    border-bottom-left-radius: 7px;
-    border-bottom-right-radius: 7px;}
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;}
 /* Support Discord!! */
 .noticePremium-12Zvj9 {
     background-color: var(--main-background-color);
@@ -1044,7 +1044,7 @@ background-color: #202020 !important;}
 .theme-dark .colorPickerCustom-2CWBn2 {
     background-color: var(--main-background-color);
     border-color: var(--backup-color);
-    border-radius: 3px;}
+    border-radius: 5px;}
 /* CodeBlocks */ 
 .markup-2BOw-j code, .markup-2BOw-j code.inline {
     background: var(--normal-shade);

@@ -107,8 +107,7 @@ To use this, put the following line at the top of your custom CSS:
 /* Upload Modal*/
 .theme-dark .uploadModal-2ifh8j, .theme-dark .footer-3mqk7D {background-color: var(--background-overlay);}
 .theme-dark .override-2YgiXd .checked-3_4uQ9[style*="border-color"] {background-color: transparent !important;}
-.theme-dark .checked-3_4uQ9[style*="border-color"] svg g polyline {
-	stroke: var(--main-color);}
+.theme-dark .checked-3_4uQ9[style*="border-color"] svg g polyline {stroke: var(--main-color);}
 .theme-dark .uploadModal-2ifh8j .checked-3_4uQ9[style*="border-color"] {background-color: transparent;}
 
 /* Server Boost in Server Settings*/
@@ -348,7 +347,7 @@ To use this, put the following line at the top of your custom CSS:
 .blockquoteDivider-2hH8H6 {background-color: rgba(255, 255, 255, 0.2);}
 
 /* remove that fucking underline */
-.username-1A8OIy.clickable-1bVtEA:hover {text-decoration: none;}
+.clickableHeader-2Cygs8 .username-1A8OIy:hover {text-decoration: none;}
 
 /* code boxes, inline. (` <code> `) */
 .after_inlineCode-1KfVgj, .markup-2BOw-j code.inline {padding: 3.5px 7.5px; background-color: rgba(255,255,255,0.1); border-radius: 3px; color: rgba(255,255,255,0.7); font-family: var(--code-font); line-height: 22px;}
@@ -356,7 +355,6 @@ To use this, put the following line at the top of your custom CSS:
 /* code boxes, block, type ( ```<class> n/ <code> ``` ) */
 .markup-2BOw-j pre>.hljs:before {height: 10px;color: rgba(255,255,255,0.3);line-height: 10px;opacity: 1;}
 .hljs:before {display: block;float: right;text-align: right;line-height: 100%;opacity: .5;}
-
 
 /* mention */
 .mentioned-xhSam7:before {background-color: var(--main-color);}

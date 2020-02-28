@@ -1,12 +1,17 @@
 /* These fixes were made with love (and lots of swearing on Leafy's end). Special thanks at the end. */
 
+/* OLD WAYS TO DO THIS SHIT:
+
+.contents-2mQqc9 > img[src*="<id>"] ~ .header-23xsNx > span.username-1A8OIy:after
+
+*/
+
 /* 
 ********
 * BASE *
 ********
 */
-
-.contents-2mQqc9 > img ~ .header-23xsNx > span.username-1A8OIy:after {
+img + .username-1A8OIy::after {
     content: none;
     color: var(--main-color);
     border: 1px solid;
@@ -29,32 +34,32 @@
 */
 
 /* Leozard */
-.contents-2mQqc9 > img[src*="240437190339854337"] ~ .header-23xsNx > span.username-1A8OIy:after {
+img[src*="240437190339854337"] + .username-1A8OIy::after {
     content: ' v6 Import Fix Dev ';
 }
 
 /* LeafyLuigi */
-.contents-2mQqc9 > img[src*="206088651493343232"] ~ .header-23xsNx > span.username-1A8OIy:after {
+img[src*="206088651493343232"] + .username-1A8OIy::after {
     content: ' v6 Import Fix Dev ';
 }
 
 /* KitKat */
-.contents-2mQqc9 > img[src*="213067580531933196"] ~ .header-23xsNx > span.username-1A8OIy:after {
+img[src*="213067580531933196"] + .username-1A8OIy::after {
     content: ' v6 Import Fix Dev ';
 }
 
 /* Scars */
-.contents-2mQqc9 > img[src*="126652966265421824"] ~ .header-23xsNx > span.username-1A8OIy:after {
+img[src*="126652966265421824"] + .username-1A8OIy::after {
     content: ' v6 Import Fix Dev ';
 }
 
 /* soda (cruxie) - Also made the base for this file. */
-.contents-2mQqc9 > img[src*="332394843743584256"] ~ .header-23xsNx > span.username-1A8OIy:after {
+img[src*="332394843743584256"] + .username-1A8OIy::after {
     content: ' v6 Import Fix Dev ';
     color: #55aaff;
     text-shadow: 0px 0px 2px #55aaff, 0px 0px 4px #91c6fb;
 }
-.contents-2mQqc9 > img[src*="332394843743584256"] ~ .header-23xsNx > span.username-1A8OIy:after {
+img[src*="332394843743584256"] + .username-1A8OIy::after {
     color: #91c6fb;
     text-shadow: 0px 0px 10px #91c6fb;
 }
@@ -66,12 +71,12 @@
 */
 
 /* Zerthox - For making CV. */
-.contents-2mQqc9 > img[src*="144881947557101568"] ~ .header-23xsNx > span.username-1A8OIy:after {
+img[src*="144881947557101568"] + .username-1A8OIy::after {
     content: ' Thanks for CV ';
     color: rgb(40, 160, 220);
     text-shadow: 0px 0px 2px rgb(40, 160, 220), 0px 0px 4px #09a8f7;
 }
-.contents-2mQqc9 > img[src*="144881947557101568"] ~ .header-23xsNx > span.username-1A8OIy:after {
+img[src*="144881947557101568"] + .username-1A8OIy::after {
     color: #09a8f7;
     text-shadow: 0px 0px 10px #09a8f7;
 }

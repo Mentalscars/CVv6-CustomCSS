@@ -14,7 +14,7 @@ img[src*="id"] + .username-1A8OIy::after
 ********
 */
 img + .username-1A8OIy::after,
-.contents-2mQqc9 > img[src*="<id>"] ~ .header-23xsNx > span.username-1A8OIy:after
+.contents-2mQqc9 > img ~ .header-23xsNx > span.username-1A8OIy:after
 {
     content: none;
     color: var(--main-color);

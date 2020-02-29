@@ -10,7 +10,7 @@ reactions
 fix up anything else that's broken
 
 broken things:
-??
+first half of fake inline codeblock
 
 potential addons:
 - transparency
@@ -163,9 +163,10 @@ To use this, put the following line at the top of your custom CSS:
 .theme-dark .checked-3_4uQ9[style*="border-color"] {border-color: var(--main-color) !important;}
 
 /* Overlay */
-.selected-mKYnfr.option-n0icdO, .wrapper-3jrx9n {background-color: var(--main-color);border-color: var(--main-color);}
+.selected-mKYnfr.option-n0icdO {background-color: var(--main-color);border-color: var(--main-color);}
 .option-n0icdO:hover {background-color: var(--hover-color);}
 .userPopout-3XzG_A .headerSpotify-zpWxgT .content-3JfFJh a {color: hsla(0,0%,100%,.8);}
+.wrapper-3jrx9n {border-color: var(--main-color);}
 
 /* Notifications Settings */
 .theme-dark .override-2YgiXd:hover {border-color: var(--main-color);}

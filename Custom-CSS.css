@@ -51,8 +51,8 @@ To use this, put the following line at the top of your custom CSS:
 .theme-dark .lookFilled-1h1y05.select-1Pkeg4:focus {border-color: transparent;}
 
 /* Create DM button color */
-.clickable-3rdHwn .icon-22AiRD {color: var(--main-color); transition: all .3s ease-in-out;}
-.clickable-3rdHwn:hover .icon-22AiRD {color: var(--hover-color); transition: all .3s ease-in-out;}
+.privateChannelRecipientsInviteButtonIcon-cXLJ7f {color: var(--main-color) !important;transition: all .1s ease-in-out;}
+.privateChannelRecipientsInviteButtonIcon-cXLJ7f:hover {color: var(--hover-color) !important;transition: all .1s ease-in-out;}
 
 /* Emoji Box */
 .emojiPicker-3m1S-j .categories-1feg4n {background-color: var(--background-overlay);}

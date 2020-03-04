@@ -34,3 +34,17 @@
 .role-2irmRk {flex-direction: row;border-radius: 11px;}
 .role-2irmRk > .roleCircle-3xAZ1j {width: 12px;height: 12px;margin-left: auto !important;}
 .role-2irmRk > .roleCircle-3xAZ1j:after {border-radius: 11px;}
+
+/* Custom CSS tab - KitKat */
+.contentRegion-3nDuYy #bd-customcss-attach-controls, #bd-customcss-detach-container #bd-customcss-attach-controls, .ace_gutter-layer, .ace-monokai .ace_marker-layer .ace_active-line {background: var(--background-overlay);}
+.ace-monokai .ace_gutter {background: var(--backdrop-overlay);color: var(--offline-color);}
+.standardSidebarView-3F1I7i #bd-customcss-attach-controls button, .bd-detached-css-editor #bd-customcss-attach-controls button, .standardSidebarView-3F1I7i #editor-detached button {background: var(--main-color);transition: all .15s ease-in-out;}
+.standardSidebarView-3F1I7i #bd-customcss-attach-controls button:hover, .bd-detached-css-editor #bd-customcss-attach-controls button:hover, .standardSidebarView-3F1I7i #editor-detached button:hover {background: var(--hover-color);transition: all .15s ease-in-out;}
+.container-2XeR5Z, .inner-3ErfOT, .ace-monokai {background-color: var(--background-overlay);}
+
+/* Blur account email - Zerebos */
+.userInfoViewing-16kqK3 .flexChild-faoVW3 > div:nth-child(2) .viewBody-2Qz-jg.selectable-x8iAUj, .paymentSourceLabel-1lo4Ca, .subText-V8PTt8 {filter: blur(5px);transition: 200ms cubic-bezier(0.2, 0.11, 0, 1);}
+.userInfoViewing-16kqK3 .flexChild-faoVW3 > div:nth-child(2) .viewBody-2Qz-jg.selectable-x8iAUj:hover, .paymentSourceLabel-1lo4Ca:hover, .subText-V8PTt8:hover {filter: none;transition: 200ms cubic-bezier(0.2, 0.11, 0, 1);}
+
+/* Folder Hover - nameuser */
+.folder-21wGz3:hover {background: var(--hover-color) !important;}

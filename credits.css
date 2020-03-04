@@ -8,6 +8,11 @@ img[src*="id"] + .username-1A8OIy::after
 
 */
 
+/* These might break a few other themes. Disabled for the time being.  */
+/* .typeWindows-1za-n7>.wordmark-2iDDfm:before { content: "ClearVision with Fixes";}
+.typeMacOS-3EmCyP:before { content: "CV v6 w/Fix";}
+.container-3baos1:before { content: "CV w/ Fixes";} */
+
 /* 
 ********
 * BASE *

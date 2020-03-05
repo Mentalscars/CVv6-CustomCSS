@@ -14,9 +14,12 @@ first half of fake inline codeblock
 connection buttons
 change game name, game activity
 light theme; still exists.
+
+following might've broken after leafy got scars to push sloppy code here
 codeblocks (label misplaced, background)
 mentions
 icons related to icon-22AiRD
+new messafes bar
 
 potential addons:
 - transparency
@@ -100,12 +103,9 @@ To use this, put the following line at the top of your custom CSS:
 /* Region Selector */
 .theme-dark .regionSelectModal-12e-57, .theme-dark .regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3 {background-color: var(--background-overlay) !important;}
 .regionSelectModal-12e-57 {width: 704px;}
-.regionSelectModal-12e-57 .regionSelectModalHeader-21khC1 {
-	color: var(--main-color);}
-.regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3 {
-	border: 2px solid rgba(255,255,255,0.3);}
-.regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3:hover {
-	border: 2px solid var(--main-color);}
+.regionSelectModal-12e-57 .regionSelectModalHeader-21khC1 {color: var(--main-color);}
+.regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3 {border: 2px solid rgba(255,255,255,0.3);}
+.regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3:hover {border: 2px solid var(--main-color);}
 
 /* Nitro Gift box thing */
 .table-39R0Oe {background-color: var(--background-overlay);}
@@ -251,7 +251,7 @@ To use this, put the following line at the top of your custom CSS:
 
 /* Server unavailable screen. Slight easter egg. */
 .content-MLh4nU, .category-2haXBH, .channelIcon-1TvDoP, .channelName-2wrHHc {background-color: var(--background-overlay);}
-.splashHeader-ehL7gZ:after {content: "☭ WE DIED ☭";color: var(--danger-color);font-size: 20px;}
+.splashHeader-ehL7gZ:after {content: "WE DIED";color: var(--danger-color);font-size: 20px;}
 .splashText-3jk87t {font-size: 0px;}
 .splashText-3jk87t:after {font-size: 16px;content: "small indie company";}
 .splashHeader-ehL7gZ, .splashHeader-3jk87 {font-size: 0px;}
@@ -319,7 +319,7 @@ To use this, put the following line at the top of your custom CSS:
 .theme-dark .outer-1AjyKL.active-1xchHY, .theme-dark .outer-1AjyKL.interactive-3B9GmY:hover { background:var(--background-modifier-hover); transition: all .3s ease-in-out;}
  /*Active now submenu hover -Scars*/
 .theme-dark .enabled-1t_Gxm:hover,
-.theme-dark .memberListItem-31QoHj:not(.popoutDisabled-2RK7MF):hover{ transition: all .3s ease-in-out; background:var(--background-modifier-hover);
+.theme-dark .memberListItem-31QoHj:not(.popoutDisabled-2RK7MF):hover{ transition: all .3s ease-in-out; background:var(--background-modifier-hover);}
 /* Action Button, hover */
 .actionButton-uPB8Fs:hover {background-color: var(--main-color);}
 /* Remove separator from popout */

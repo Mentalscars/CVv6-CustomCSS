@@ -311,10 +311,12 @@ To use this, put the following line at the top of your custom CSS:
 /* No friends playing games? Not sure. */
 .emptyCard-1RJw8n {background-color: var(--background-overlay);}
 .actionButton-uPB8Fs {background-color: var(--background-overlay) !important;}
-/*Active Now sub-menu. */
+/*Active Now -Scars*/
+.theme-dark .popout-38lTFE {background: var(--background-overlay);}
+.theme-dark .outer-1AjyKL.active-1xchHY, .theme-dark .outer-1AjyKL.interactive-3B9GmY:hover { background:var(--background-modifier-hover); transition: all .3s ease-in-out;}
+ /*Active now submenu hover -Scars*/
 .theme-dark .enabled-1t_Gxm:hover,
-/* No idea what this is. */
-.theme-dark .memberListItem-31QoHj:not(.popoutDisabled-2RK7MF):hover {background-color: var(--hover-color);transition: all .1s ease-in-out;}
+.theme-dark .memberListItem-31QoHj:not(.popoutDisabled-2RK7MF):hover{ transition: all .3s ease-in-out; background:var(--background-modifier-hover);
 /* Action Button, hover */
 .actionButton-uPB8Fs:hover {background-color: var(--main-color);}
 /* Remove separator from popout */

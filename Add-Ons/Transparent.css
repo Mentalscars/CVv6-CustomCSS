@@ -1,0 +1,14 @@
+/*
+THIS ADDON SHOULD WORK WITH ALL OPERATING SYSTEMS.
+THIS ADDON WILL ONLY WORK WITH SOMETHING THAT ALLOWS DISCORD TO BE TRANSPARENT.
+USING BANDAGEDBD, ENABLE "Enable Transparency" UNDER THE BANDAGEDBD SETTINGS.
+IT IS ADVICED NOT TO CHANGE THEME/MODE (light mode/dark mode) OR OPEN THE DEV TOOLS WITH THIS ADDON ACTIVE.
+
+TO USE; PUT THE FOLLOWING LINE IN YOUR CUSTOM CSS.
+@import url(https://leafyluigi.github.io/CVv6-CustomCSS/Add-Ons/Transparent.css);
+*/
+
+body, .bg-h5JY_x, .uploadArea-3QgLtW, .userPopout-3XzG_A:before, .backdrop-1wrmKB:before, .root-SR8cQa:before { background: transparent;}
+.backdrop-1wrmKB {opacity: 0 !important;}
+.typeWindows-1za-n7 {background-color: rgba(0,0,0,0.5);}
+.theme-dark .text-GwUZgS, .image-1GzsFd {display: none;}

@@ -10,8 +10,6 @@ reactions
 fix up anything else that's broken
 
 broken things:
-first half of fake inline codeblock
-connection buttons
 change game name, game activity
 light theme; still exists.
 icons related to icon-22AiRD
@@ -61,9 +59,14 @@ To use this, put the following line at the top of your custom CSS:
 .infoBar-U6oBFk {background-color: transparent;}
 
 /* Reaction Color fix */
-.reaction-1ELvT8.reactionMe-23mbRf {background-color: var(--main-color);}
+/* .reaction-1ELvT8.reactionMe-23mbRf {background-color: var(--main-color);}
 .reactionMe-23mbRf .reactionCount-2ddRoS {color: rgba(255,255,255,0.5);}
-.reactionMe-23mbRf:hover .reactionCount-2ddRoS {color: rgb(255,255,255);}
+.reactionMe-23mbRf:hover .reactionCount-2ddRoS {color: rgb(255,255,255);} */
+.reaction-1hd86g {background-color: rgba(255,255,255,0.05);}
+.reaction-1hd86g.reactionMe-wv5HKu {background-color: rgba(255,255,255,0.1);}
+.reactionMe-wv5HKu .reactionCount-2mvXRV {color: var(--main-color);}
+.reactionMe-wv5HKu:hover .reactionCount-2mvXRV {color: var(--hover-color);}
+.reactionMe-wv5HKu:hover, .reaction-1hd86g:hover {background-color: rgba(255,255,255,0.2);}
 
 /* Reactions List  */
 .theme-dark .reactors-Blmlhw , .theme-dark .sidebar-1-SQro {background-color: transparent;}
@@ -354,7 +357,7 @@ To use this, put the following line at the top of your custom CSS:
 .blockquoteDivider-2hH8H6 {background-color: rgba(255, 255, 255, 0.2);}
 
 /* code boxes, inline. (` <code> `) */
-.after_inlineCode-1KfVgj, .markup-2BOw-j code.inline {padding: 3.5px 7.5px; background-color: rgba(255,255,255,0.1); border-radius: 3px; color: rgba(255,255,255,0.7); font-family: var(--code-font); line-height: 22px;}
+.inlineCode-2ngu6Y, .after_inlineCode-1KfVgj, .markup-2BOw-j code.inline {padding: 3.5px 7.5px; background-color: rgba(255,255,255,0.1); border-radius: 3px; color: rgba(255,255,255,0.7); font-family: var(--code-font); line-height: 22px;}
 
 /* code boxes, block, type ( ```<class> n/ <code> ``` ) */
 .markup-2BOw-j pre>.hljs:before {height: 10px;color: rgba(255,255,255,0.3);line-height: 10px;opacity: 1;}
@@ -416,6 +419,12 @@ To use this, put the following line at the top of your custom CSS:
 
 /* default text */
 .defaultValue-3gC7yw .markValue-2DwdXI {color: var(--success-color);}
+
+/* Connections - Account Button */
+.accountBtn-2Nozo3 .accountBtnInner-sj5jLs {background-color: var(--background-overlay);}
+
+/* Gear Spin on hover */
+.button-14-BFJ:nth-child(3):hover>.contents-18-Yxp {-webkit-animation: cv-spin 2.5s linear infinite;animation: cv-spin 2.5s linear infinite;}
 
 /* remove that fucking underline */
 .username-1A8OIy.clickable-1bVtEA:hover {text-decoration: none;}

@@ -419,8 +419,11 @@ To use this, put the following line at the top of your custom CSS:
 /* Connections - Account Button */
 .accountBtn-2Nozo3 .accountBtnInner-sj5jLs {background-color: var(--background-overlay);}
 
-/* Gear Spin on hover */
+/* Gear Spin on hover - also hits the disconnect button if there's something added in front of it. */
 .button-14-BFJ:nth-child(3):hover>.contents-18-Yxp {-webkit-animation: cv-spin 2.5s linear infinite;animation: cv-spin 2.5s linear infinite;}
 
 /* remove that fucking underline */
 .username-1A8OIy.clickable-1bVtEA:hover {text-decoration: none;}
+
+/* "Quick" Reactions */
+.button-1I8KM5 {background-color: var(--backdrop-overlay);}

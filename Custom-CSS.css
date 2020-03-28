@@ -431,3 +431,7 @@ To use this, put the following line at the top of your custom CSS:
 /* "Quick" Reactions */
 .button-1I8KM5 {background-color: var(--backdrop-overlay); border-radius: 4px ;}
 .button-1I8KM5:hover {background-color: var(--hover-color);}
+
+/* Call apparently broke */
+.wrapper-KXM2i0 { background-color: var(--backdrop-overlay);}
+.bottomControls-2HI3wi { background-color: var(--background-overlay);}

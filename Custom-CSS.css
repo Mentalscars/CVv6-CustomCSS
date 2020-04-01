@@ -434,4 +434,5 @@ To use this, put the following line at the top of your custom CSS:
 
 /* Calls apparently broke */
 .wrapper-KXM2i0, .incomingCallInner-2VmFiR { background-color: var(--backdrop-overlay);}
-
+.joinVideoCallButton-beESDO {background-color: var(--main-color);}
+.joinVideoCallButton-beESDO .underlay-3pibKJ {background-color: var(--hover-color);}

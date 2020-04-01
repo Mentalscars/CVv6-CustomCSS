@@ -433,6 +433,6 @@ To use this, put the following line at the top of your custom CSS:
 .button-1I8KM5:hover {background-color: var(--hover-color);}
 
 /* Calls apparently broke */
-.wrapper-KXM2i0, .incomingCallInner-2VmFiR {background-color: rgba(0,0,0,calc(var(--background-shading) * 0.6)));}
+.wrapper-KXM2i0, .incomingCallInner-2VmFiR {background-color: rgba(0,0,0,calc(var(--background-shading) * 0.6));}
 .joinVideoCallButton-beESDO {background-color: var(--main-color);}
 .joinVideoCallButton-beESDO .underlay-3pibKJ, .joinVideoCallButton-beESDO .callDivider-231Syj {background-color: var(--hover-color);}

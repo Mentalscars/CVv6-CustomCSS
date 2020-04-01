@@ -45,7 +45,9 @@
 /* LOTS of buttons */
 .appMount-3lHmkl .lookFilled-1Gx00P.colorGreen-29iAKY,
 .appMount-3lHmkl .lookFilled-1Gx00P.colorBrand-3pXr91,
-.appMount-3lHmkl .lookFilled-1Gx00P.colorPrimary-3b3xI6
+.appMount-3lHmkl .lookFilled-1Gx00P.colorPrimary-3b3xI6,
+/* Call: Video/Voice */
+.joinVideoCallButton-beESDO
 {
     background: linear-gradient(var(--gradient-rotation), var(--gradient-color),var(--main-color))!important;
 	background-color: var(--main-color) !important;

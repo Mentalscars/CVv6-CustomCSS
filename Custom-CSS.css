@@ -439,3 +439,8 @@ To use this, put the following line at the top of your custom CSS:
 .wrapper-KXM2i0, .incomingCallInner-2VmFiR {background-color: rgba(0,0,0,calc(var(--background-shading) * 0.6));}
 .joinVideoCallButton-beESDO {background-color: var(--main-color);}
 .joinVideoCallButton-beESDO .underlay-3pibKJ, .joinVideoCallButton-beESDO .callDivider-231Syj {background-color: var(--hover-color);}
+
+/* dm list header broke, leafy fixed it */
+.headerText-2F0828 {overflow: visible; color: var(--main-color);}
+.privateChannelsHeaderContainer-3NB1K1:before {content: ""; height: 2px; flex-grow: 1; transition: all .3s ease-in-out; background: linear-gradient(to left, var(--main-color) 50%, transparent); margin-right: 5px; margin-top: 7px;}
+.privateChannelsHeaderContainer-3NB1K1:after {content: ""; height: 2px; flex-grow: 1; transition: all .3s ease-in-out; background: linear-gradient(to right, var(--main-color) 50%, transparent); margin-left: 5px; margin-top: 7px;}

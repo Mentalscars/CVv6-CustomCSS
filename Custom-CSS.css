@@ -444,3 +444,7 @@ To use this, put the following line at the top of your custom CSS:
 .headerText-2F0828 {overflow: visible; color: var(--main-color);}
 .privateChannelsHeaderContainer-3NB1K1:before {content: ""; height: 2px; flex-grow: 1; transition: all .3s ease-in-out; background: linear-gradient(to left, var(--main-color) 50%, transparent); margin-right: 5px; margin-top: 7px;}
 .privateChannelsHeaderContainer-3NB1K1:after {content: ""; height: 2px; flex-grow: 1; transition: all .3s ease-in-out; background: linear-gradient(to right, var(--main-color) 50%, transparent); margin-left: 5px; margin-top: 7px;}
+
+/* selected channel fix */
+.modeSelected-1zApJ_ .content-3at_AU {border: var(--main-color) solid 1px;} .content-3at_AU:before { display: none;}
+

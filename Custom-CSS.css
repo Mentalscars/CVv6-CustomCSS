@@ -435,11 +435,6 @@ To use this, put the following line at the top of your custom CSS:
 /* Templates */
 .descriptionBox-1EKQKL {background-color: var(--background-overlay);}
 
-/* Calls apparently broke */
-.wrapper-KXM2i0, .incomingCallInner-2VmFiR {background-color: rgba(0,0,0,calc(var(--background-shading) * 0.6));}
-.joinVideoCallButton-beESDO {background-color: var(--main-color);}
-.joinVideoCallButton-beESDO .underlay-3pibKJ, .joinVideoCallButton-beESDO .callDivider-231Syj {background-color: var(--hover-color);}
-
 /* dm list header broke, leafy fixed it */
 .headerText-2F0828 {overflow: visible; color: var(--main-color);}
 .privateChannelsHeaderContainer-3NB1K1:before {content: ""; height: 2px; flex-grow: 1; transition: all .3s ease-in-out; background: linear-gradient(to left, var(--main-color) 50%, transparent); margin-right: 5px; margin-top: 7px;}
@@ -448,3 +443,12 @@ To use this, put the following line at the top of your custom CSS:
 /* selected channel fix */
 .modeSelected-1zApJ_ .content-3at_AU {border: var(--main-color) solid 1px;} .content-3at_AU:before { display: none;}
 
+/* pinned icon fix */
+.toolbar-1t6TWx .iconWrapper-2OrFZ1 [mask] {mask: none; -webkit-mask: none;}
+.toolbar-1t6TWx .iconWrapper-2OrFZ1 [mask]>.icon-22AiRD {background: transparent;}
+.iconBadge-qZ4Ksk {display: block !important; background-color: var(--main-color);}
+
+/* Calls apparently broke */
+.wrapper-KXM2i0, .incomingCallInner-2VmFiR {background-color: rgba(0,0,0,calc(var(--background-shading) * 0.6));}
+.joinVideoCallButton-beESDO {background-color: var(--main-color);}
+.joinVideoCallButton-beESDO .underlay-3pibKJ, .joinVideoCallButton-beESDO .callDivider-231Syj {background-color: var(--hover-color);}

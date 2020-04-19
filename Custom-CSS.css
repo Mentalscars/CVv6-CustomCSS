@@ -448,6 +448,12 @@ To use this, put the following line at the top of your custom CSS:
 .toolbar-1t6TWx .iconWrapper-2OrFZ1 [mask]>.icon-22AiRD {background: transparent;}
 .iconBadge-qZ4Ksk {display: block !important; background-color: var(--main-color);}
 
+/* mentions */
+.theme-dark .header-2-Imhb .tabBar-1kuXvJ .tab-ck0077.active-1MbGPa, .messageContainer-gbhlwo {background-color: var(--background-overlay);}
+.tertiary-aMXF0g:hover, .secondary-dIudih:hover {background-color: var(--hover-color);}
+.tertiary-aMXF0g, .secondary-dIudih {background-color: var(--main-color);}
+.channelHeader-3Gd2xq {background-color: var(--backdrop-overlay);}
+
 /* Calls apparently broke */
 .wrapper-2qzCYF.minimum-28Z35l, .wrapper-2qzCYF{background-color: rgba(0,0,0,calc(var(--background-shading)*0.6));}
 .controlButton-2MhVEL.leaveButton-2YnTyt,.controlButton-2MhVEL.leaveButton-2YnTyt:hover {background: var(--danger-color);}

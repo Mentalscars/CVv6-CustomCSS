@@ -449,6 +449,11 @@ To use this, put the following line at the top of your custom CSS:
 .iconBadge-qZ4Ksk {display: block !important; background-color: var(--main-color);}
 
 /* Calls apparently broke */
-.wrapper-KXM2i0, .incomingCallInner-2VmFiR {background-color: rgba(0,0,0,calc(var(--background-shading) * 0.6));}
-.joinVideoCallButton-beESDO {background-color: var(--main-color);}
-.joinVideoCallButton-beESDO .underlay-3pibKJ, .joinVideoCallButton-beESDO .callDivider-231Syj {background-color: var(--hover-color);}
+.wrapper-2qzCYF.minimum-28Z35l, .wrapper-2qzCYF{background-color: rgba(0,0,0,calc(var(--background-shading)*0.6));}
+.controlButton-2MhVEL.leaveButton-2YnTyt,.controlButton-2MhVEL.leaveButton-2YnTyt:hover {background: var(--danger-color);}
+.tile-2gi3tr, .container-2x5lvQ {background: transparent;}
+.noiseCancellationPopout-iRK2A0 {background-color: var(--backdrop-overlay);}
+.content-2Sfaij > .background-ujHpbY {background-color: transparent !important;}
+.border-3dQmSY.speaking-WDn8Wm {box-shadow: inset 0 0 0 2px var(--main-color);}
+.wrapper-3EGhDO>div>button {border-radius: 50%;}
+/* TODO: Attempt to make speaking border over one's avatar */

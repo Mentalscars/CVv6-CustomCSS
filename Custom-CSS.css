@@ -476,4 +476,5 @@ To use this, put the following line at the top of your custom CSS:
 .centerButton-3CaNcJ {background-color: rgba(0,0,0,calc(var(--background-shading)*0.6));}
 .centerButton-3CaNcJ.active-1QRrIS {background-color: var(--main-color);}
 .centerButton-3CaNcJ.active-1QRrIS:hover, .centerButton-3CaNcJ:hover {background-color: var(--hover-color);}
+.streamPreview-3YL8OQ {background-color: var(--background-color);}
 /* TODO: Attempt to make speaking border over one's avatar */

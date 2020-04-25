@@ -10,7 +10,9 @@ fix up anything else that's broken
 broken things:
   change game name, game activity
   light theme; still exists.
-  icons related to icon-22AiRD
+  blur email (aesthetics file)
+  webhooks might be broken
+  stop stream popup
 
 potential addons:
 - disable tags/credits
@@ -193,11 +195,6 @@ To use this, put the following line at the top of your custom CSS:
 /* Upload Drop Modal */
 .uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .bgScale-1otPtc {background-color: var(--main-color);}
 .attachWrapper-1_D-pj {z-index: 1;}
-
-/* Chat Bar - Leafy & KitKat */
-.scrollableContainer-2NUZem {background-color: var(--background-overlay);border: 2px solid rgba(255, 255, 255, 0.07);transition: all .15s ease-in-out;}
-.scrollableContainer-2NUZem:focus-within {border: 2px solid var(--main-color);transition: all .15s ease-in-out;}
-.attachWrapper-2TRKBi {border-right: 1px solid rgba(255, 255, 255, 0.07);}
 
 /* Upload Modal - KitKat */
 .theme-dark .uploadModal-2ifh8j, .uploadModal-2ifh8j .footer-3mqk7D {background-color: var(--background-overlay);}
@@ -454,6 +451,20 @@ To use this, put the following line at the top of your custom CSS:
 .tertiary-aMXF0g, .secondary-dIudih {background-color: var(--main-color);}
 .channelHeader-3Gd2xq {background-color: var(--backdrop-overlay);}
 
+/* Chat Bar - Leafy & KitKat */
+.scrollableContainer-2NUZem {background-color: var(--background-overlay);border: 2px solid rgba(255, 255, 255, 0.07);transition: all .15s ease-in-out;}
+.scrollableContainer-2NUZem:focus-within {border: 2px solid var(--main-color);transition: all .15s ease-in-out;}
+.attachButton-2WznTc {padding: 10px 10px;}
+.placeholder-37qJjk, .slateTextArea-1Mkdgw {padding-left: 10px;}
+
+/* change stream quality */
+.selectorButtonSelected-336oUc {background-color: var(--main-color);}
+.theme-dark .selectorButton-wjWyGe:not(.selectorButtonSelected-336oUc):hover {background-color: var(--hover-color);}
+
+/* hover tooltips */
+.theme-dark .tooltipGrey-1hnvTt .tooltipPointer-3ZfirK {border-top-color: rgba(0,0,0,0.9);}
+.theme-dark .tooltipGrey-1hnvTt {background-color: rgba(0,0,0,0.9);}
+
 /* Calls apparently broke */
 .wrapper-2qzCYF.minimum-28Z35l, .wrapper-2qzCYF{background-color: rgba(0,0,0,calc(var(--background-shading)*0.6));}
 .controlButton-2MhVEL.leaveButton-2YnTyt,.controlButton-2MhVEL.leaveButton-2YnTyt:hover {background: var(--danger-color);}
@@ -462,4 +473,7 @@ To use this, put the following line at the top of your custom CSS:
 .content-2Sfaij > .background-ujHpbY {background-color: transparent !important;}
 .border-3dQmSY.speaking-WDn8Wm {box-shadow: inset 0 0 0 2px var(--main-color);}
 .wrapper-3EGhDO>div>button {border-radius: 50%;}
+.centerButton-3CaNcJ {background-color: rgba(0,0,0,calc(var(--background-shading)*0.6));}
+.centerButton-3CaNcJ.active-1QRrIS {background-color: var(--main-color);}
+.centerButton-3CaNcJ.active-1QRrIS:hover, .centerButton-3CaNcJ:hover {background-color: var(--hover-color);}
 /* TODO: Attempt to make speaking border over one's avatar */

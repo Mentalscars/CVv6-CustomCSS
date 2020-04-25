@@ -12,7 +12,6 @@ broken things:
   light theme; still exists.
   blur email (aesthetics file)
   webhooks might be broken
-  stop stream popup
 
 potential addons:
 - disable tags/credits
@@ -456,6 +455,7 @@ To use this, put the following line at the top of your custom CSS:
 .scrollableContainer-2NUZem:focus-within {border: 2px solid var(--main-color);transition: all .15s ease-in-out;}
 .attachButton-2WznTc {padding: 10px 10px;}
 .placeholder-37qJjk, .slateTextArea-1Mkdgw {padding-left: 10px;}
+.sansAttachButton-td2irx {padding-left: 0px;}
 
 /* change stream quality */
 .selectorButtonSelected-336oUc {background-color: var(--main-color);}

@@ -477,4 +477,6 @@ To use this, put the following line at the top of your custom CSS:
 .centerButton-3CaNcJ.active-1QRrIS {background-color: var(--main-color);}
 .centerButton-3CaNcJ.active-1QRrIS:hover, .centerButton-3CaNcJ:hover {background-color: var(--hover-color);}
 .streamPreview-3YL8OQ {background-color: var(--background-color);}
+.button-1YfofB.buttonColor-7qQbGO {padding: 0px;} /* fixes some buttom */
+.icon-3BcwQu>path:nth-child(1){display: block;} /* shows cam icon */
 /* TODO: Attempt to make speaking border over one's avatar */

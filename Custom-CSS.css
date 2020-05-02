@@ -8,7 +8,6 @@ learn original cvv6's code and attempt to improve it OR make own theme based aro
 
 fix up anything else that's broken
 broken things:
-  change game name, game activity
   light theme; still exists.
   blur email (aesthetics file)
   webhooks might be broken
@@ -27,8 +26,6 @@ To use this, put the following line at the top of your custom CSS:
 @import "credits.css";
 @import "code.css";
 /* @import "tempmain.css"; */
-
-/* @import "modules/1.css"; */
 
 /* Server dropdown menu server boost */
 .theme-dark .perksModal-fSYqOq, .theme-dark .tierMarkerBackground-3q29am {background-color: transparent;}
@@ -77,12 +74,11 @@ To use this, put the following line at the top of your custom CSS:
 .theme-dark .jumpButton-3DTcS_ {background-color: var(--main-color);}
 
 /* Game activity */
-.theme-dark .notDetected-33MY4s {background-color: var(--background-overlay);}
 .lookLink-9FtZy-.colorLink-35jkBc {color: var(--main-color);}
 .lookLink-9FtZy-.colorLink-35jkBc:hover .contents-18-Yxp {background-image: linear-gradient(0deg,transparent,transparent 1px,var(--main-color) 0,var(--main-color) 2px,transparent 0);}
 .theme-dark .addGamePopout-2RY8Ju, .css-181m2lf-menu {background-color: var(--backdrop-overlay);}
 .theme-dark .css-181m2lf-menu > div > div:hover {background-color: var(--hover-color);}
-.theme-dark .button-2CgfFz, .theme-dark .button-2CgfFz:hover, .theme-dark .card-FDVird:before {background-color: var(--background-overlay);}
+.theme-dark .notDetected-33MY4s, .theme-dark .button-2CgfFz, .theme-dark .button-2CgfFz:hover, .theme-dark .card-FDVird:before, .theme-dark .gameNameInput-385LoS:focus, .theme-dark .gameNameInput-385LoS:hover {background-color: var(--background-overlay);}
 
 /* Verified game tick */
 .flowerStarContainer-3zDVtj > svg > path {fill: var(--main-color);}
@@ -480,3 +476,11 @@ To use this, put the following line at the top of your custom CSS:
 .button-1YfofB.buttonColor-7qQbGO {padding: 0px;} /* fixes some buttom */
 .icon-3BcwQu>path:nth-child(1){display: block;} /* shows cam icon */
 /* TODO: Attempt to make speaking border over one's avatar */
+
+/* Combined Emote-Gif Menu - Early May 2020 */
+.contentWrapper-2txmjs {background-color: var(--background-overlay)}
+.categoryWrapper-UZ5YNj, .inspector-sdLnLS, .navButtonActive-3RPAJy, .categoryItemDefaultCategorySelected-_HCKoz, .header-1TOWci .searchBar--fTZYa {background-color: var(--main-color);}
+.emojiItem-14v6tW.emojiItemSelected-1aLkfV, .categoryItemDefaultCategorySelected-_HCKoz:hover {background-color: var(--hover-color);}
+.theme-dark .emojiItemImageLoading-1yEIxx {background-image: url();}
+.wrapper-2N7X54 {background-color: var(--backdrop-overlay);}
+.guildIcon-3h-1IH {background-color: transparent;}

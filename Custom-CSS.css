@@ -479,8 +479,12 @@ To use this, put the following line at the top of your custom CSS:
 
 /* Combined Emote-Gif Menu - Early May 2020 */
 .contentWrapper-2txmjs {background-color: var(--background-overlay)}
-.categoryWrapper-UZ5YNj, .inspector-sdLnLS, .navButtonActive-3RPAJy, .categoryItemDefaultCategorySelected-_HCKoz, .header-1TOWci .searchBar--fTZYa {background-color: var(--main-color);}
+.categoryWrapper-UZ5YNj, .inspector-sdLnLS, .navButtonActive-3RPAJy, .categoryItemDefaultCategorySelected-_HCKoz, .header-1TOWci .searchBar--fTZYa {background-color: transparent;}
 .emojiItem-14v6tW.emojiItemSelected-1aLkfV, .categoryItemDefaultCategorySelected-_HCKoz:hover {background-color: var(--hover-color);}
 .theme-dark .emojiItemImageLoading-1yEIxx {background-image: url();}
 .wrapper-2N7X54 {background-color: var(--backdrop-overlay);}
 .guildIcon-3h-1IH {background-color: transparent;}
+
+.category-3Xkx2x, .guildName-10c_vS {
+	color: #fff;
+}

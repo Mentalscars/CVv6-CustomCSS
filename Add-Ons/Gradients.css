@@ -1,4 +1,15 @@
-/* Add the following once all buttons of var(--main-color) have a gradient, allow the gradient degrees to be easily changed */
+/*
+THIS ADDON SHOULD WORK WITH ALL OPERATING SYSTEMS.
+THIS ADDON GIVES A VERY FAINT (BY DEFAULT) BUT CUSTOMIZABLE GRADIENT COLOR AND ANGLE TO THE FOLLOWING THINGS:
+	- Home Icon
+	- Specific selected things
+	- Most --main-color buttons
+TO CUSTOMIZE: COPY LINES 13 THROUGH TO 16 AND PASTE THEM INTO YOUR CUSTOM CSS. THE ":root" PART IS REQUIRED.
+TO USE; PUT THE FOLLOWING LINE IN YOUR CUSTOM CSS.
+@import url(https://leafyluigi.github.io/CVv6-CustomCSS/Add-Ons/Gradients.css);
+*/
+
+/* Default values below. Copy the next four lines and paste them into your custom css to edit the variables. */
 :root {
 	--gradient-rotation: -45deg;
 	--gradient-color: rgba(255,255,255,0.2);

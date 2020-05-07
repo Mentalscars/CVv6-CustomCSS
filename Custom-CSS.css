@@ -501,3 +501,6 @@ To use this, put the following line at the top of your custom CSS:
 /* Server Discovery Language Drop down + Search bar */
 .css-1wqqa50-container, .css-1rckt42-menu,  .appMount-3lHmkl .searchBox-3Y2Vi7 {background-color: var(--background-overlay);}
 .css-12o7ek3-option, .css-1gnr91b-option:hover {background-color: var(--background-modifier-hover);}
+
+/* Ha fcking no nitro nerds */
+.premiumSubscriptionAccountCredit-25i0tQ{background-color: var(--background-overlay);}

@@ -482,12 +482,14 @@ To use this, put the following line at the top of your custom CSS:
 /* Combined Emote-Gif Menu - Early May 2020 */
 .contentWrapper-2txmjs {background-color: var(--background-overlay)}
 .categoryWrapper-UZ5YNj, .inspector-sdLnLS, .navButtonActive-3RPAJy, .categoryItemDefaultCategorySelected-_HCKoz, .header-1TOWci .searchBar--fTZYa {background-color: transparent;}
-.emojiItem-14v6tW.emojiItemSelected-1aLkfV, .categoryItemDefaultCategorySelected-_HCKoz:hover {background-color: var(--hover-color);}
 .theme-dark .emojiItemImageLoading-1yEIxx {background-image: url();}
 .wrapper-2N7X54, .emojiPicker-3PwZFl {background-color: var(--backdrop-overlay);}
 .guildIcon-3h-1IH {background-color: transparent;}
 .scrollerThemed-2oenus.themeHidden-2yP93k .scroller-2FKFPG::-webkit-scrollbar {display: none;}
 .category-3Xkx2x, .guildName-10c_vS {color: #fff;}
+.emojiItem-14v6tW.emojiItemSelected-1aLkfV, .categoryItemDefaultCategorySelected-_HCKoz:hover {background:var(--background-modifier-hover);}
+
+
 
 /* Add role popout */
 .container-VSDcQc .header-2bNvm4{background-color: rgba(0,0,0,0.7);}

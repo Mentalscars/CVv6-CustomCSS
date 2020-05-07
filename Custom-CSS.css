@@ -445,7 +445,7 @@ To use this, put the following line at the top of your custom CSS:
 .tertiary-aMXF0g:hover, .secondary-dIudih:hover {background-color: var(--hover-color);}
 .tertiary-aMXF0g, .secondary-dIudih {background-color: var(--main-color);}
 .channelHeader-3Gd2xq {background-color: var(--backdrop-overlay);}
-.jumpIcon-2diCoP, .tertiary-aMXF0g, .secondary-dIudih {color: #ffffff;} 
+.jumpIcon-2diCoP, .tertiary-aMXF0g, .secondary-dIudih {color: #fff;} 
 
 
 /* Chat Bar - Leafy & KitKat */

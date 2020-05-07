@@ -146,6 +146,9 @@ To use this, put the following line at the top of your custom CSS:
 .theme-dark .regionSelect-3lf4eE:hover .regionSelectInner-24f4Ce {border-color: var(--main-color);}
 .theme-dark .regionSelect-3lf4eE:hover button {background-color: var(--main-color);border-color: var(--main-color);}
 .appMount-3lHmkl .modal-yWgWj-, .theme-dark .theme-light .slide-2pHaq5, .theme-dark .theme-light .action-1lSjCi, .theme-dark .theme-light .footer-3rDWdC {background: var(--background-overlay);}
+/* So this was gay */
+.body-3AJVSA, .theme-light .input-UJ9Tr3, .theme-light .input-1mgnkM{color: rgba(255, 255, 255, 0.9); font-weight: 200;}
+
 
 /* Quickswitcher */
 .quickswitcher-3JagVE{background-color: var(--background-overlay);}
@@ -495,3 +498,6 @@ To use this, put the following line at the top of your custom CSS:
 /* Add role popout */
 .container-VSDcQc .header-2bNvm4{background-color: rgba(0,0,0,0.7);}
 
+/* Server Discovery Language Drop down + Search bar */
+.css-1wqqa50-container, .css-1rckt42-menu,  .appMount-3lHmkl .searchBox-3Y2Vi7 {background-color: var(--background-overlay);}
+.css-12o7ek3-option, .css-1gnr91b-option:hover {background-color: var(--background-modifier-hover);}

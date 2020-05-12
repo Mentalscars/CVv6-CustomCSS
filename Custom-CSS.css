@@ -517,3 +517,9 @@ To use this, put the following line at the top of your custom CSS:
 .mask-1l8v16>rect[fill='#f04747'] {fill: var(--dnd-color) !important;}
 .mask-1l8v16>rect[fill='#593695'] {fill: var(--streaming-color) !important;}
 .mask-1l8v16>rect[fill='#747f8d'] {fill: var(--offline-color) !important;}
+
+/* removes white background on upload transparent image */
+.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.image-2yrs5j {background-color:transparent;}
+
+/* a few dropdowns somewhere idk */
+.css-n57xjs-menu {background-color: var(--backdrop-overlay);}

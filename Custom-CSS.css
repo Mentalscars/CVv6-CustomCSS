@@ -571,3 +571,6 @@ To use this, put the following line at the top of your custom CSS:
 
 /* Save Changes? */
 .theme-dark .elevationHigh-1PneE4 {background-color: var(--background-overlay) !important;}
+
+/* something at the begining of any channel */
+.emptyChannelIcon-3IXV5M {display: none;}

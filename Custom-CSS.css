@@ -93,6 +93,8 @@ To use this, put the following line at the top of your custom CSS:
 .theme-dark .colorPickerCustom-2CWBn2 {background-color: var(--background-overlay);}
 
 /* Region Selector */
+.lookGhost-2Fn_0-.colorGrey-2DXtkV {color: white; background-color: var(--main-color); opacity: 0.1;}
+.lookGhost-2Fn_0-.colorBrand-3pXr91 {color: white; background-color: var(--hover-color); opacity:0.7;} /* button */
 .theme-dark .regionSelectModal-12e-57, .theme-dark .regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3 {background-color: var(--background-overlay) !important;}
 .regionSelectModal-12e-57 {width: 704px;}
 .regionSelectModal-12e-57 .regionSelectModalHeader-21khC1 {color: var(--main-color);}
@@ -142,9 +144,6 @@ To use this, put the following line at the top of your custom CSS:
 /* New Server Modal */
 .theme-light .wrapper-2ZbzR9 {background: transparent;}
 .avatarUploaderInner-3UNxY3 {background-color: var(--main-color);}
-.theme-light .sampleLink-KPFu3I, .regionSelect-3lf4eE button {color: var(--main-color);}
-.theme-dark .regionSelect-3lf4eE:hover .regionSelectInner-24f4Ce {border-color: var(--main-color);}
-.theme-dark .regionSelect-3lf4eE:hover button {background-color: var(--main-color);border-color: var(--main-color);}
 .appMount-3lHmkl .modal-yWgWj-, .theme-dark .theme-light .slide-2pHaq5, .theme-dark .theme-light .action-1lSjCi, .theme-dark .theme-light .footer-3rDWdC {background: var(--background-overlay);}
 /* So this was gay */
 .body-3AJVSA, .theme-light .input-UJ9Tr3, .theme-light .input-1mgnkM{color: rgba(255, 255, 255, 0.9); font-weight: 200;}
@@ -246,8 +245,7 @@ To use this, put the following line at the top of your custom CSS:
 .splashHeader-ehL7gZ, .splashHeader-3jk87 {font-size: 0px;}
 
 /* Games tab */
-.scroller-1IIF0A, .scroller-2XE8rp {background-color: rgba(0, 0, 0, 0.5);}
-.header-39GIC8 {background-color: transparent;}
+.scroller-1IIF0A, .scroller-2XE8rp, .header-39GIC8 {background-color: transparent;}
 
 /* Live */
 .theme-dark .streamPreview-2-WUWT {background-color: var(--background-overlay);border: 2px solid var(--main-color);}
@@ -568,3 +566,6 @@ To use this, put the following line at the top of your custom CSS:
 
 /* Message Popout Selection thing idk */
 .styleFlexible-wGDiIL {background-color: var(--background-overlay);}
+
+/* Save Changes? */
+.theme-dark .elevationHigh-1PneE4 {background-color: var(--background-overlay) !important;}

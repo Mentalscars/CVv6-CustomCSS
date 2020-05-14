@@ -549,6 +549,8 @@ To use this, put the following line at the top of your custom CSS:
     /* statuses */
 .dotOnline-8Ag7EB {background-color: var(--online-color);}
 .dotOffline-3DXoDy {background-color: var(--offline-color);}
+  /* no search results */
+ .emptyContainer-1_gwCl {background-color: var(--background-overlay);}
 
 /* Temp Joins for Public Servers*/
     /* bar at top */

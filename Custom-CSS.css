@@ -589,3 +589,8 @@ To use this, put the following line at the top of your custom CSS:
 
 /* Why Discord fucked with the tooltips, I'll never know. */
 .tooltipContent-bqVLWK {padding: 0px;}
+
+/* Watch Stream button */
+.content-2Sfaij:hover .cta-2DQ2ez {background-color: var(--background-overlay);}
+.content-2Sfaij .cta-2DQ2ez {background-color: var(--backdrop-overlay);}
+

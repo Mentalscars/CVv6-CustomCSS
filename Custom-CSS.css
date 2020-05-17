@@ -421,7 +421,7 @@ To use this, put the following line at the top of your custom CSS:
 .username-1A8OIy.clickable-1bVtEA:hover {text-decoration: none;}
 
 /* "Quick" Reactions */
-.button-1I8KM5 {background-color: var(--backdrop-overlay); border-radius: 4px ;}
+.button-1I8KM5 {background-color: var(--backdrop-overlay);}
 .button-1I8KM5:hover {background-color: var(--hover-color);}
 
 /* Templates */

@@ -584,10 +584,12 @@ To use this, put the following line at the top of your custom CSS:
 .styleFixed-sX-yHV[aria-activedescendant*="status"]>div>div>div:not(.focused-3afm-j)>.statusItem-33LqPf>svg>foreignObject[mask*="dnd"]>.status-1AY8sU {background-color: var(--dnd-color) !important;}
 .styleFixed-sX-yHV[aria-activedescendant*="status"]>div>div>div:not(.focused-3afm-j)>.statusItem-33LqPf>svg>foreignObject[mask*="offline"]>.status-1AY8sU {background-color: var(--offline-color) !important;}
 
+/*Set a custom Status colour*/
+.colorDefault-2K3EoJ.focused-3afm-j, .colorDefault-2K3EoJ:hover:not(.hideInteraction-1iHO1O) {background-color: var(--hover-color);}
+
 /* Why Discord fucked with the tooltips, I'll never know. */
 .tooltipContent-bqVLWK {padding: 0px;}
 
 /* Watch Stream button */
 .content-2Sfaij:hover .cta-2DQ2ez {background-color: var(--background-overlay);}
 .content-2Sfaij .cta-2DQ2ez {background-color: var(--backdrop-overlay);}
-

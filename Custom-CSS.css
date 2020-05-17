@@ -447,7 +447,6 @@ To use this, put the following line at the top of your custom CSS:
 .channelHeader-3Gd2xq {background-color: var(--backdrop-overlay);}
 .jumpIcon-2diCoP, .tertiary-aMXF0g, .secondary-dIudih {color: #fff;} 
 
-
 /* Chat Bar - Leafy & KitKat */
 .scrollableContainer-2NUZem {background-color: var(--background-overlay);border: 2px solid rgba(255, 255, 255, 0.07);transition: all .15s ease-in-out;}
 .scrollableContainer-2NUZem:focus-within {border: 2px solid var(--main-color);transition: all .15s ease-in-out;}
@@ -490,7 +489,6 @@ To use this, put the following line at the top of your custom CSS:
 .emojiItem-14v6tW.emojiItemSelected-1aLkfV, .categoryItemDefaultCategorySelected-_HCKoz:hover {background:var(--background-modifier-hover);}
 .diversitySelectorPopout-3FiGaM {background-color: var(--background-overlay); border-color: var(--background-overlay);}
 .diversityEmojiItem-L6_IXw:hover, .guildIcon-3h-1IH:hover {background-color: var(--background-modifier-hover);}
-
 
 /* Add role popout */
 .container-VSDcQc .header-2bNvm4{background-color: rgba(0,0,0,0.7);}
@@ -595,3 +593,6 @@ To use this, put the following line at the top of your custom CSS:
 /* Watch Stream button */
 .content-2Sfaij:hover .cta-2DQ2ez {background-color: var(--background-overlay);}
 .content-2Sfaij .cta-2DQ2ez {background-color: var(--backdrop-overlay);}
+
+/* upload modal - makes image background transparent */
+.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.image-2yrs5j {background-color: transparent;}

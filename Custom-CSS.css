@@ -548,6 +548,8 @@ To use this, put the following line at the top of your custom CSS:
 .dotOffline-3DXoDy {background-color: var(--offline-color);}
   /* no search results */
  .emptyContainer-1_gwCl {background-color: var(--background-overlay);}
+/*server Discover searchbar focus colour*/
+.searchPage-3GKAdT .search-1iTphC .searchBox-2_mAlO:focus, .searchPage-3GKAdT .search-1iTphC .searchBox-2_mAlO:focus-within {border-color: var(--main-color);}
 
 /* Temp Joins for Public Servers*/
     /* bar at top */

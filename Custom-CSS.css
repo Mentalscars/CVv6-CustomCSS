@@ -599,3 +599,7 @@ To use this, put the following line at the top of your custom CSS:
 
 /*colour inner icon of mentions buttons to be more readable*/
 .secondary-dIudih, .tertiary-aMXF0g {color:#fff;}
+
+/* Spotify Popup */
+.attachPopout-36hjtN {background-color: var(--backdrop-overlay);}
+

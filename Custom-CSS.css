@@ -627,3 +627,6 @@ To use this, put the following line at the top of your custom CSS:
 /* quick reactions */
 .button-F9qN4n.focused-3ZzkKr {box-shadow: 0 0 2px 2px var(--main-color);}
 .button-F9qN4n, .button-F9qN4n.focused-3ZzkKr, .button-F9qN4n:hover {background-color: var(--backdrop-overlay);}
+
+/* right click server icon - was hit by a different line */
+.menu-3sdvDG.styleFlexible-wGDiIL {background-color: var(--backdrop-overlay);}

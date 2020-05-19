@@ -608,3 +608,14 @@ To use this, put the following line at the top of your custom CSS:
 
 /* tickbox in role menu popout */
 .colorDefault-2K3EoJ .checkbox-3s5GYZ, .colorDefault-2K3EoJ .radioSelection-1HmrQS, .colorDefault-2K3EoJ.focused-3afm-j .check-1JyqgN {color: var(--main-color);}
+
+/* Search Menu */
+.searchResultsWrap-3-pOjs, .jumpButton-1ol35X {background-color: var(--backdrop-overlay);}
+.channelName-wvgELL {background-color: transparent;}
+.resultsBlocked-1bzMH9 {background-color: var(--background-overlay);}
+    /*gradients*/
+.searchResult-2N9RV4:before, .searchResult-2N9RV4:after {background-image: none;}
+    /*result*/
+.searchResultMessage-30QnSN.hit-1CXhXT {box-shadow: none; background-color: var(--background-overlay);}
+    /*clicked result*/
+.expanded-ovgtuV .searchResultMessage-30QnSN.hit-1CXhXT {background-color: var(--background-overlay);}

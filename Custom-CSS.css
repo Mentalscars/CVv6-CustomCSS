@@ -629,3 +629,6 @@ To use this, put the following line at the top of your custom CSS:
 
 /* right click server icon - was hit by a different line */
 .menu-3sdvDG.styleFlexible-wGDiIL {background-color: var(--backdrop-overlay);}
+
+/* volume slider hover */
+.slider-1PF9SW:focus .grabber-3mFHz2 {box-shadow: 0 0 3px 3px var(--hover-color);}

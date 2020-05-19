@@ -603,3 +603,8 @@ To use this, put the following line at the top of your custom CSS:
 /* Spotify Popup */
 .attachPopout-36hjtN {background-color: var(--backdrop-overlay);}
 
+/* Role Menu popout */
+.submenu-2-ysNh {background-color: var(--background-overlay);}
+
+/* tickbox in role menu popout */
+.colorDefault-2K3EoJ .checkbox-3s5GYZ, .colorDefault-2K3EoJ .radioSelection-1HmrQS, .colorDefault-2K3EoJ.focused-3afm-j .check-1JyqgN {color: var(--main-color);}

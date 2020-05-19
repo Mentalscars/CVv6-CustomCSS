@@ -3,8 +3,8 @@
 
 :root {
   --load1:"v5 is no longer supported";
-  --load2:"As such, you should go to the ClearVision server";
-  --load3:"and you should use v6 if you want support";
+  --load2:"go to the ClearVision server";
+  --load3:"and use v6 if you want support";
 }
 
 /* friends list - blocked hover */

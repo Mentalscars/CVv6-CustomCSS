@@ -2,9 +2,9 @@
 /* it also messes with v5 as those variables aren't found in v5, hence the file name */
 
 :root {
-  --load1:"Use v6 if you want support";
-  --load2:"Use v6 if you want support";
-  --load3:"Use v6 if you want support";
+  --load1:"v5 is no longer supported";
+  --load2:"As such, you should go to the ClearVision server";
+  --load3:"and you should use v6 if you want support";
 }
 
 /* friends list - blocked hover */

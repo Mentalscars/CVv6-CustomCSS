@@ -78,6 +78,19 @@
 requested by one of the mods there. no hover.
 */
 
+/* Zerthox - For making CV. */
+.contents-2mQqc9 > img[src*="144881947557101568"] ~ .header-23xsNx > span.username-1A8OIy:after
+{
+    content: ' CV Dev ';
+    color: rgb(40, 160, 220);
+    text-shadow: 0px 0px 2px rgb(40, 160, 220), 0px 0px 4px #09a8f7;
+}
+.contents-2mQqc9 > img[src*="144881947557101568"] ~ .header-23xsNx > span.username-1A8OIy:after:hover
+{
+    color: #09a8f7;
+    text-shadow: 0px 0px 10px #09a8f7;
+}
+
 .contents-2mQqc9 > img[src*="66043140208857088"] ~ .header-23xsNx > span.username-1A8OIy:after,
 .contents-2mQqc9 > img[src*="194151269399527425"] ~ .header-23xsNx > span.username-1A8OIy:after
 {
@@ -126,23 +139,3 @@ requested by one of the mods there. no hover.
   color: #f1c40f;
   text-shadow: 0px 0px 2px #f1c40f, 0px 0px 4px var(--hover-color);
 }
-
-/*
-**********
-* THANKS *
-**********
-*/
-
-/* Zerthox - For making CV. */
-.contents-2mQqc9 > img[src*="144881947557101568"] ~ .header-23xsNx > span.username-1A8OIy:after
-{
-    content: ' Thanks for CV ';
-    color: rgb(40, 160, 220);
-    text-shadow: 0px 0px 2px rgb(40, 160, 220), 0px 0px 4px #09a8f7;
-}
-.contents-2mQqc9 > img[src*="144881947557101568"] ~ .header-23xsNx > span.username-1A8OIy:after:hover
-{
-    color: #09a8f7;
-    text-shadow: 0px 0px 10px #09a8f7;
-}
-    

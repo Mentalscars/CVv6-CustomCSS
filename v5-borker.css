@@ -1,0 +1,14 @@
+/* for more customization, this'll use danger-color and success-color for some slight visual tweaks. */
+/* it also messes with v5 as those variables aren't found in v5, hence the file name */
+
+/* friends list - blocked hover */
+.actionButton-uPB8Fs.actionDeny-de_uKj:hover {color: var(--danger-color)!important;}
+
+/* block/leave group button - generic modal */
+.lookFilled-1Gx00P.colorRed-1TFJan, .lookFilled-1Gx00P.colorRed-1TFJan:hover {background-color: var(--danger-color);}
+
+/* friends list - accept fr hover */
+.actionButton-uPB8Fs.actionAccept-LV-szU:hover {color: var(--success-color)!important;}
+
+/* invalid invite - text */
+.inviteDestinationExpired-2_1Ava {color: var(--danger-color);}

@@ -8,13 +8,13 @@
 }
 
 /* friends list - blocked hover */
-.actionButton-uPB8Fs.actionDeny-de_uKj:hover {color: var(--danger-color)!important;}
+/* .actionButton-uPB8Fs.actionDeny-de_uKj:hover {color: var(--danger-color)!important;} */
 
 /* block/leave group button - generic modal */
-.lookFilled-1Gx00P.colorRed-1TFJan, .lookFilled-1Gx00P.colorRed-1TFJan:hover {background-color: var(--danger-color);}
+/* .lookFilled-1Gx00P.colorRed-1TFJan, .lookFilled-1Gx00P.colorRed-1TFJan:hover {background-color: var(--danger-color);} */
 
 /* friends list - accept fr hover */
-.actionButton-uPB8Fs.actionAccept-LV-szU:hover {color: var(--success-color)!important;}
+/* .actionButton-uPB8Fs.actionAccept-LV-szU:hover {color: var(--success-color)!important;} */
 
 /* invalid invite - text */
-.inviteDestinationExpired-2_1Ava {color: var(--danger-color);}
+/* .inviteDestinationExpired-2_1Ava {color: var(--danger-color);} */

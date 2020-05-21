@@ -133,7 +133,8 @@ requested by one of the mods there. no hover.
 .contents-2mQqc9 > img[src*="158311402677731328"] ~ .header-23xsNx > span.username-1A8OIy:after,
 .contents-2mQqc9 > img[src*="284122164582416385"] ~ .header-23xsNx > span.username-1A8OIy:after,
 .contents-2mQqc9 > img[src*="107965218868457472"] ~ .header-23xsNx > span.username-1A8OIy:after,
-.contents-2mQqc9 > img[src*="393900343135830016"] ~ .header-23xsNx > span.username-1A8OIy:after
+.contents-2mQqc9 > img[src*="393900343135830016"] ~ .header-23xsNx > span.username-1A8OIy:after,
+.contents-2mQqc9 > img[src*="183795147236966412"] ~ .header-23xsNx > span.username-1A8OIy:after
 {
   content: ' CV Donator ';
   color: #f1c40f;

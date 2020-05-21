@@ -537,8 +537,6 @@ To use this, put the following line at the top of your custom CSS:
 .languageSelector-LEtpHP>div>div {background-color: var(--background-overlay);}
     /* selected tab + category when searching */
 .categoryPill-34fszg.selected-1dONk0, .categoryItem-3zFJns.selectedCategoryItem-3X8ujp .itemInner-3gVXMG {background-color: var(--main-color);}
-    /* fuck yanderedev - EASTER EGG */
-.splash-3N0nhD>img[src*="411363271568785418"], .splashContainer-1rUZiJ>img[src*="411363271568785418"], .bannerImage-1jOskm[style*="411363271568785418"] {content: url(https://i.kym-cdn.com/photos/images/newsfeed/001/736/386/1f5.gif) !important;}
     /* emote bar */
 .emojiContainer-1u-_sQ {background-color: var(--backdrop-overlay);}
     /* statuses */

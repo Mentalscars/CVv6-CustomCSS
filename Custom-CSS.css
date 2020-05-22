@@ -433,7 +433,7 @@ To use this, put the following line at the top of your custom CSS:
 .privateChannelsHeaderContainer-3NB1K1:after {content: ""; height: 2px; flex-grow: 1; transition: all .3s ease-in-out; background: linear-gradient(to right, var(--main-color) 50%, transparent); margin-left: 5px; margin-top: 7px;}
 
 /* selected channel fix */
-.modeSelected-1zApJ_ .content-3at_AU {border: var(--main-color) solid 1px;} .content-3at_AU:before { display: none;}
+.content-3at_AU:after { border-radius: 4px;}
 
 /* pinned icon fix */
 .toolbar-1t6TWx .iconWrapper-2OrFZ1 [mask] {mask: none; -webkit-mask: none;}

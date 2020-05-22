@@ -522,7 +522,7 @@ To use this, put the following line at the top of your custom CSS:
 .colorBrand-ROmMP1{color: var(--main-color);}
 .colorDefault-2K3EoJ.focused-3afm-j, .colorDefault-2K3EoJ:hover:not(.hideInteraction-1iHO1O){background-color: var(--main-color);}
     /* last line of dropdown */
-.colorDanger-2qLCe1, .colorDanger-2qLCe1 .checkbox-3s5GYZ {color: var(--danger-color);}
+.colorDanger-2qLCe1, .colorDanger-2qLCe1 .checkbox-3s5GYZ {color: rgb(240, 71, 71);}
 .colorDanger-2qLCe1.focused-3afm-j, .colorDanger-2qLCe1:hover:not(.hideInteraction-1iHO1O) {background-color: var(--danger-color);}
 
 /* Discover/Explore Public Servers */

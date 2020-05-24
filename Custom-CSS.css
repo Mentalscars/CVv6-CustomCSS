@@ -636,3 +636,13 @@ To use this, put the following line at the top of your custom CSS:
 
 /*Fixes attachments*/
 .theme-dark .attachment-33OFj0 {border-color: rgba(47,49,54,.6); background-color: rgba(47,49,54,.3);}
+
+/* Corners on Selected channel */
+.wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU:before{display:none}
+
+/* Inline Code Blocks */
+.after_inlineCode-1KfVgj{border-radius: 0px 3px 3px 0px;}
+.inlineCode-2ngu6Y{border-radius: 0px;}
+.before_inlineCode-1G9rTK{border-radius: 3px 0px 0px 3px;background: rgba(255,255,255,0.1);}
+.before_inlineCode-1G9rTK,.inlineCode-2ngu6Y, .after_inlineCode-1KfVgj{padding: 3.5px 0.5px;}
+

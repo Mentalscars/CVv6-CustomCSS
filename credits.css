@@ -62,13 +62,6 @@
 .contents-2mQqc9 > img[src*="332394843743584256"] ~ .header-23xsNx > span.username-1A8OIy:after
 {
     content: ' v6 Import Fix Dev ';
-    color: #55aaff;
-    text-shadow: 0px 0px 2px #55aaff, 0px 0px 4px #91c6fb;
-}
-.contents-2mQqc9 > img[src*="332394843743584256"] ~ .header-23xsNx > span.username-1A8OIy:after:hover
-{
-    color: #91c6fb;
-    text-shadow: 0px 0px 10px #91c6fb;
 }
 
 /*

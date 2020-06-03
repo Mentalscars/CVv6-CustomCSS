@@ -654,7 +654,7 @@ To use this, put the following line at the top of your custom CSS:
 .ace-monokai .ace_gutter-active-line, .ace-monokai .ace_marker-layer .ace_active-line {background-color: rgba(0, 0, 0, 0.8);}
 .contentRegion-3nDuYy #bd-customcss-attach-controls, #bd-customcss-detach-container #bd-customcss-attach-controls {background-color: rgba(0, 0, 0, 0.65); box-shadow: none;}
 .standardSidebarView-3F1I7i #bd-customcss-attach-controls button, .bd-detached-css-editor #bd-customcss-attach-controls button {background: rgba(0, 0, 0, 0.3); border-color: rgba(0, 0, 0, 0.0) !important;}
-.standardSidebarView-3F1I7i #bd-customcss-attach-controls button:hover, .bd-detached-css-editor #bd-customcss-attach-controls button:hover {background-color: rgba(0, 0, 0, 0.8); border: 2px solid var(--main-color) !important;}
+.standardSidebarView-3F1I7i #bd-customcss-attach-controls button:hover, .bd-detached-css-editor #bd-customcss-attach-controls button:hover {background-color: rgba(0, 0, 0, 0.8); border: 2px solid var(--hover-color) !important;}
 #bd-customcss-attach-controls .help-text .inline{background: var(--background-overlay);}
 .ace_scrollbar-h{background-color: rgba(0, 0, 0, 0.3); height: 14px !important;}
 #bd-customcss-detach-container{background-color: transparent;}

@@ -665,4 +665,6 @@ To use this, put the following line at the top of your custom CSS:
 .theme-dark .allowSelected-25S_i5{background-color: #43b581;}
 .theme-dark .passthroughSelected-1Eq0Kl{background-color: rgba(0, 0, 0, 0.5);}
 
-
+/*Appearance animations checkbox*/
+.theme-dark .checked-3_4uQ9[style*="background-color"] {
+    background-color: transparent !important;}

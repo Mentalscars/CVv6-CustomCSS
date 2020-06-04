@@ -479,6 +479,8 @@ To use this, put the following line at the top of your custom CSS:
 .imageSelected-4Kl81J {border-color: var(--main-color);}
 .button-1YfofB.buttonColor-7qQbGO {padding: 0px;} /* fixes some buttom */
 .icon-3BcwQu>path:nth-child(1){display: block;} /* shows cam icon */
+.participantsButton-KYW-IW {background-color: var(--background-overlay);}
+.participantsButton-KYW-IW:hover {background-color: var(--backdrop-overlay);}
 /* TODO: Attempt to make speaking border over one's avatar */
 
 /* Combined Emote-Gif Menu - Early May 2020 */

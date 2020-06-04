@@ -538,6 +538,8 @@ To use this, put the following line at the top of your custom CSS:
 .theme-dark .card-3DjzTQ, .theme-dark .iconMask-3b8GzQ, .theme-dark .card-3DjzTQ:hover, .theme-dark .card-3DjzTQ:hover .iconMask-3b8GzQ, .loading-17PYl_ {background-color: var(--background-overlay);}
     /* lang selector */
 .languageSelector-LEtpHP>div>div {background-color: var(--background-overlay);}
+    /* spinner */
+.spinner-3lb-NU {background-color: var(--backdrop-overlay);}
     /* selected tab + category when searching */
 .categoryPill-34fszg.selected-1dONk0, .categoryItem-3zFJns.selectedCategoryItem-3X8ujp .itemInner-3gVXMG {background-color: var(--main-color);}
     /* emote bar */

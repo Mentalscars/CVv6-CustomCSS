@@ -672,3 +672,6 @@ To use this, put the following line at the top of your custom CSS:
 /*Appearance animations checkbox*/
 .theme-dark .checked-3_4uQ9[style*="background-color"] {
     background-color: transparent !important;}
+
+/* Reduce CV padding on Channel list to discord default, down from cv 20*/
+.containerDefault-3GGEv_, .containerDefault-3GGEv_ {padding-top:16px;}

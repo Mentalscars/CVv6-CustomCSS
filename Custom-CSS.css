@@ -40,7 +40,7 @@ To use this, put the following line at the top of your custom CSS:
 .subscribeTooltipWrapper-32-Ce8:after {border-bottom-color: var(--background-overlay);}
 
 /* Custom Status */
-.theme-dark .root-1gCeng, .theme-dark .footer-3rDWdC {background: var(--background-overlay);}
+.focusLock-Ns3yie {background: transparent;}
 .input-cIJ7To:focus, .theme-dark .lookFilled-1h1y05.select-1Pkeg4:hover.selectOpen-hQuR6b, .theme-dark .lookFilled-1h1y05.selectOpen-hQuR6b {border-color: var(--main-color);}
 .theme-dark .lookFilled-1h1y05.select-1Pkeg4:focus {border-color: transparent;}
 
@@ -478,7 +478,8 @@ To use this, put the following line at the top of your custom CSS:
 .streamPreview-3YL8OQ {background-color: var(--background-color);}
 .imageSelected-4Kl81J {border-color: var(--main-color);}
 .button-1YfofB.buttonColor-7qQbGO {padding: 0px;} /* fixes some buttom */
-.icon-3BcwQu>path:nth-child(1){display: block;} /* shows cam icon */
+/* .icon-3BcwQu>path:nth-child(1){display: block;} */
+/*above: shows cam icon */
 .participantsButton-KYW-IW {background-color: var(--background-overlay);}
 .participantsButton-KYW-IW:hover {background-color: var(--backdrop-overlay);}
 /* TODO: Attempt to make speaking border over one's avatar */

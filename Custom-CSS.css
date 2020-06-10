@@ -676,3 +676,8 @@ To use this, put the following line at the top of your custom CSS:
 
 /* Reduce CV padding on Channel list to discord default, down from cv 20*/
 .containerDefault-3GGEv_, .containerDefault-3GGEv_ {padding-top:16px;}
+
+/* birthday confirmation modal */
+.theme-dark .root-1gCeng {background-color: var(--background-overlay); box-shadow: none;}
+.theme-dark .footer-3rDWdC {background-color: var(--backdrop-overlay); box-shadow: none;}
+.required-7sPBq3 {color: var(--danger-color);}

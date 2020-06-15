@@ -681,3 +681,6 @@ To use this, put the following line at the top of your custom CSS:
 .theme-dark .root-1gCeng {background-color: var(--background-overlay); box-shadow: none;}
 .theme-dark .footer-3rDWdC {background-color: var(--backdrop-overlay); box-shadow: none;}
 .required-7sPBq3 {color: var(--danger-color);}
+
+/*Invite your friends*/
+.card-1yV8cG {background-color: rgba(0,0,0,0.4);}

@@ -694,3 +694,4 @@ To use this, put the following line at the top of your custom CSS:
 .messages-3G3erD, .channelHeader-3Gd2xq{padding-right: 10px;padding-left: 20px;}
 .collapseButton-2ZsEjz{padding-left: 10px;}
 .messageContainer-1ei2zM:hover .jumpButton-3vBz5U{background-color: transparent;}
+.tutorialIcon-3f1miQ {background-color: var(--main-color); color: #fff;}

@@ -688,3 +688,9 @@ To use this, put the following line at the top of your custom CSS:
 
 /*Invite your friends*/
 .card-1yV8cG {background-color: rgba(0,0,0,0.4);}
+
+/* Unread Popout p.s. hecc u discord */
+.tutorial-3w5I9h, .container-enaOkj, .messages-3G3erD, .channelHeader-3Gd2xq{background-color: var(--background-overlay);}
+.messages-3G3erD, .channelHeader-3Gd2xq{padding-right: 10px;padding-left: 20px;}
+.collapseButton-2ZsEjz{padding-left: 10px;}
+.messageContainer-1ei2zM:hover .jumpButton-3vBz5U{background-color: transparent;}

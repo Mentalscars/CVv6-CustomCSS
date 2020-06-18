@@ -68,6 +68,7 @@ To use this, put the following line at the top of your custom CSS:
 /* Reactions List  */
 .theme-dark .reactors-Blmlhw , .theme-dark .sidebar-1-SQro {background-color: transparent;}
 .theme-dark .reactionSelected-1pqISm {background-color: var(--main-color);}
+.theme-dark .scroller-1-nKid {background:transparent;}
 
 /* Pinned Messages */
 .theme-dark .messagesPopoutWrap-1MQ1bW {background-color: var(--background-overlay); border-color: var(--main-color);}

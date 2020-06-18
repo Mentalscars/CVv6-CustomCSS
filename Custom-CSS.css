@@ -704,3 +704,17 @@ To use this, put the following line at the top of your custom CSS:
 
 /* You're all caught up*/
 .icon-1Itzco{background-color: var(--background-overlay); color: #fff;}
+
+/* Announcement settings */
+.theme-dark .row-_dKwg4:nth-child(odd) {background-color: var(--background-overlay);}
+
+/* Welcome Screen - Server settings */
+.enableContainer-1ZFFhM, .previewContainer-1OoJ8M, .welcomeChannel-1wxdCJ, .descriptionInput-1C1q6Z{background-color: var(--background-overlay);}
+
+/* Boost level unlock loading */
+.theme-dark .tierHeaderUnlocked-2RhWqn {background-color: var(--background-overlay);}
+
+/* View Roles - Members Settings */
+.theme-dark .overflowRolesPopout-140n9i, .theme-dark .overflowRolesPopoutArrow-2O66oH {background-color: var(--backdrop-overlay);}
+
+

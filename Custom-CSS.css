@@ -698,3 +698,9 @@ To use this, put the following line at the top of your custom CSS:
 
 /* Discord is gay for gags and reset footers >:( */
 .theme-dark .footer-2gL1pp{background-color: var(--background-overlay);}
+
+/*inbox badge*/
+.badge-2qGa_k:after{background-color: var(--main-color);}
+
+/* You're all caught up*/
+.icon-1Itzco{background-color: var(--background-overlay); color: #fff;}

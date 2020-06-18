@@ -695,3 +695,6 @@ To use this, put the following line at the top of your custom CSS:
 .collapseButton-2ZsEjz{padding-left: 10px;}
 .messageContainer-1ei2zM:hover .jumpButton-3vBz5U{background-color: transparent;}
 .tutorialIcon-3f1miQ {background-color: var(--main-color); color: #fff;}
+
+/* Discord is gay for gags and reset footers >:( */
+.theme-dark .footer-2gL1pp{background-color: var(--background-overlay);}
